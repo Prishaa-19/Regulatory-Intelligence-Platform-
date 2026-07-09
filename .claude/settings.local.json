@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(CHATBOT_DEBUG=1 python -c ' *)",
+      "Bash(CHATBOT_DEBUG=1 bash -c 'cd \"c:/Users/prish/gdelt-news-monitor\" && printf \"hello\\\\nexit\\\\n\" | python chatbot.py')"
+    ]
+  }
+}

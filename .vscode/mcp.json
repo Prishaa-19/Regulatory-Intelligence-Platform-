@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "gdelt-cloud-api-key",
+      "description": "GDELT Cloud API Key (Bearer token)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "gdelt-cloud": {
+      "type": "http",
+      "url": "https://gdelt-cloud-mcp.fastmcp.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:gdelt-cloud-api-key}"
+      }
+    }
+  }
+}

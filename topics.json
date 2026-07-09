@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Education policy reform",
+    "query": "new education policy announcement government schools reform",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "AI in classrooms",
+    "query": "AI curriculum teacher training artificial intelligence classroom schools",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "New education policy announcements",
+    "query": "new education policy announcement",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "AI curriculum changes",
+    "query": "AI curriculum changes schools education",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "Teacher training reforms",
+    "query": "teacher training reform professional development",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "Digital learning initiatives",
+    "query": "digital learning initiative online education technology",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "Higher education reforms",
+    "query": "higher education reform university policy",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "Skills and employability trends",
+    "query": "skills employability trends workforce education",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "Funding and governance changes",
+    "query": "education funding governance policy change",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "Global benchmark signals",
+    "query": "global education benchmark international comparison policy",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  },
+  {
+    "name": "EdTech investment and funding",
+    "query": "edtech startup funding round investment acquisition education technology",
+    "days": 14,
+    "limit": 15,
+    "sort": "significance"
+  }
+]
