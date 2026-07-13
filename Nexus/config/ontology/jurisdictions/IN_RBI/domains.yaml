@@ -1,0 +1,16 @@
+# Nexus — India / Reserve Bank of India (IN_RBI) domain extension
+#
+# Domains specific to the Indian regulatory context, merged on top of
+# global/domains.yaml by token. FEMA is an Indian statute; the co-operative
+# banking tier is an India-specific supervisory structure — neither is
+# meaningful for other jurisdictions, so they do not belong in the global layer.
+
+version: 0.1.0
+
+domains:
+  - label: Foreign Exchange Management (FEMA)
+    token: FEMA
+    description: FEMA and cross-border foreign-exchange provisions (India).
+  - label: Co-operative Banking Supervision
+    token: COOP_BANKING
+    description: Supervision specific to Indian co-operative banks.

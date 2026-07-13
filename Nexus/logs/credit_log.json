@@ -1,0 +1,35 @@
+{
+  "document": "credit.pdf",
+  "started_at": "2026-07-10T06:29:25.131530+00:00",
+  "steps": [
+    {
+      "step": "acquire",
+      "status": "ok",
+      "path": "Nexus\\input\\credit.pdf"
+    },
+    {
+      "step": "pdf_load",
+      "status": "ok",
+      "pages": 1
+    },
+    {
+      "step": "markdown_write",
+      "status": "ok",
+      "path": "Nexus\\markdown\\credit.md"
+    },
+    {
+      "step": "llm_metadata_extraction",
+      "status": "ok",
+      "providers": "nvidia -> azure"
+    },
+    {
+      "step": "metadata_write",
+      "status": "ok",
+      "path": "Nexus\\metadata\\credit_metadata.json"
+    }
+  ],
+  "warnings": [
+    "Extracted text is unusually short relative to page count — this PDF may be scanned/image-based and require OCR, which this pipeline does not perform."
+  ],
+  "finished_at": "2026-07-10T06:29:30.672779+00:00"
+}

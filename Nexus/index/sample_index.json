@@ -1,0 +1,12 @@
+{
+  "document_id": "RBI/2026-27/29",
+  "backend": "tfidf",
+  "generated_at": "2026-07-12T21:18:59.308998+00:00",
+  "clause_count": 0,
+  "vocabulary_size": 0,
+  "model": {
+    "idf": {},
+    "n_docs": 0
+  },
+  "clauses": []
+}

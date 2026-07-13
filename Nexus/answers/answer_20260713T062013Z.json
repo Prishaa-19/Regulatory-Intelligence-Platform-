@@ -1,0 +1,113 @@
+{
+  "query": "What is the document about?",
+  "generated_at": "2026-07-13T06:20:13.876293+00:00",
+  "corpus": {
+    "documents_indexed": 6
+  },
+  "answer": null,
+  "evidence": [
+    {
+      "score": 0.1418,
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_id": "clause_2",
+      "clause_no": "2",
+      "title": "Based on the feedback received, the Directions have since been finalised and issued",
+      "page": 1,
+      "concept": "Document formal closing clause",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.681,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.1277,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_1",
+      "clause_no": "1",
+      "title": "These Directions shall be called the Reserve Bank of India ( Commercial Banks - Credit",
+      "page": 2,
+      "concept": "Document Title",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.1163,
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_id": "clause_4",
+      "clause_no": "4",
+      "title": "These Directions shall be applicable from immediate effect.",
+      "page": 1,
+      "concept": "Document formal closing signature",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.681,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.0984,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_13_2",
+      "clause_no": "13.2",
+      "title": "Each LFI must operate analytical tools with sophistication appropriate to the complexity of",
+      "page": 44,
+      "concept": "Model Documentation Justification",
+      "canonical_id": "CPT_CREDIT_RISK_MODEL",
+      "canonical_label": "Credit Risk Measurement and Models",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.0852,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_19",
+      "clause_no": "19",
+      "title": "Any request for closure of a credit card shall be honoured within seven working days by",
+      "page": 11,
+      "concept": "Credit Card Closure Process",
+      "canonical_id": "CPT_ACCOUNT_CLOSURE",
+      "canonical_label": "Account Closure",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Customer Protection",
+      "obligation_type": "Notification"
+    },
+    {
+      "score": 0.0842,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_36",
+      "clause_no": "36",
+      "title": "Before reporting default status of a credit cardholder to a Credit Information Company",
+      "page": 18,
+      "concept": "Credit Reporting Procedures",
+      "obligation_type": "Notification"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 3 canonical concept(s): Account Closure, Credit Risk Measurement and Models, Document Metadata.",
+    "Those concepts sit under parent concept(s): Credit Risk, Customer Protection.",
+    "5 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Low",
+    "top_score": 0.1418,
+    "mean_score": 0.1089,
+    "evidence_pending_review": 5,
+    "notes": [
+      "Weak lexical match — the corpus may not directly address this query.",
+      "5 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

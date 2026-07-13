@@ -1,0 +1,114 @@
+{
+  "query": "internal audit function responsibilities",
+  "generated_at": "2026-07-13T07:45:07.168165+00:00",
+  "corpus": {
+    "documents_indexed": 1
+  },
+  "answer": null,
+  "evidence": [
+    {
+      "score": 0.5201,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_2_15",
+      "clause_no": "2.15",
+      "title": "The Senior Management, including the CEO, the CCO and the CRO are collectively",
+      "page": 5,
+      "concept": "Internal Controls for Credit Risk",
+      "obligation_type": "Compliance Monitoring",
+      "text": "responsible for:\na. The development and implementation of sound and effective processes, policies,\nprocedures and systems designed to manage Credit Risk in accordance with the\nCredit Risk framework approved by the Board, across the LFI’s portfolios and\ngeographies.\nEnsuring that credit exposures are within levels consistent with prudential\nstandards and internal limits.\nThe establishment and enforcement of internal controls to ensure that exceptions\nto policies, procedures and limits are reported in a timely manner to the\nappropriate level of management for action.\nAdditional responsibilities and roles as included in Article 4.\nPage 6 of 44\nCBUAE Classification: Public\nControl and Oversight\n2.16 Internal Audit: The internal audit function is responsible to review and report on the suitability\nand efficiency of the implementation of the Credit Risk framework across the entire LFI, in\naccordance with the strategic direction set by the Board. At a minimum the scope must\ninclude the following:\na. Material Credit Facilities (based on thresholds as formally determined by each LFI).\nAll Wholesale Restructured Credit Facilities.\nThe Credit Facilities for which it has been determined that no SICR has occurred,\nas per Article 7 of these standards. Evidence supporting the decision must be\nreviewed in light of relevant regulations and policies/Risk Appetite of the LFI.\nMaterial Credit Facilities classified in Stage 3, as defined in Article 9 on classification\nand provisioning.\nAny breach of this regulation and these standards."
+    },
+    {
+      "score": 0.479,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_4_2",
+      "clause_no": "4.2",
+      "title": "Each LFI must have a CCO supported by a Credit Review function or equivalent to fulfil the",
+      "page": 12,
+      "concept": "Credit review function duties",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "canonical_label": "Credit Risk Assessment",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Other",
+      "text": "duties as defined below."
+    },
+    {
+      "score": 0.4671,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_4_8",
+      "clause_no": "4.8",
+      "title": "The Credit Risk Management Function has the responsibility and authority to protect the LFI",
+      "page": 13,
+      "concept": "Credit risk management framework",
+      "canonical_id": "CPT_CREDIT_RISK",
+      "canonical_label": "Credit Risk",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Compliance Monitoring",
+      "text": "from Credit Risk, while maintaining an arms -length and independent oversight of Credit\nRisk acquisition. To perform this duty, the Credit Risk Management Function must have the\nfollowing powers and responsibilities:\na. To own the LFI’s Credit Risk policies. The Credit Risk Management Function must\ndefine policies, procedures, systems and controls monitor and report Credit Risk\nupon commencement of any Credit Facility, and throughout the Credit Risk life-cycle.\nTo ensure that the Credit Risk management framework, and/or any subsequent change\nis adequate to meet the aforementioned objectives.\nTo ensure that Credit Risk is identified, measured, reported, mitigated, and remains\nwithin the LFI’s Risk Appetite. To ensure that, for material Facilities, the metrics\npertaining to Credit Risk provision and capital are accurately reflecting the Risk Profile\nof these Facilities.\nTo review material defaulted Credit Facilities and the associated rationale for\nprovisioning based on appropriate discounted future cash flows and eligible\ncollateral, in compliance with relevant regulations. For this purpose, materiality is\ndefined by each LFI.\nTo ensure that regular updates are provided to Senior Management and the Board\nor to a Board Committee as per a pre -established schedule, or more frequently\nwhen required. Such reporting must cover the portfolio Risk Pro file, exceptions\nand early warning signals.\nThe authority to attend credit committee meetings as a non-voting member. The right\nto be fully informed of all proposals, renewals, amendments to acquire or renew Credit\nFacilities."
+    },
+    {
+      "score": 0.4631,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_4_4",
+      "clause_no": "4.4",
+      "title": "The CCO’s key responsibilities are as follows:",
+      "page": 12,
+      "concept": "Credit proposal review and approval",
+      "canonical_id": "CPT_AUTHORIZATION_APPROVAL",
+      "canonical_label": "Authorization and Approval",
+      "mapping_confidence": 0.425,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Compliance Monitoring",
+      "text": "a. Heading the credit review function which will review all credit proposals.\nEnsure that all credit proposals are:\ni. Comprehensive and suitable to make a view on Credit Risk,\nii. In compliance with the underwriting principles in these standards, and\niii. In accordance with the Risk Appetite and underwriting standards of the LFI.\nFor approvals up to the authority level of the CCO, to review and approve each\nindividual transaction either directly or in accordance with the LFIs approved\ndelegation matrix.\nFor approvals required above the authority level of the CCO as per the delegation\nmatrix, the CCO must submit credit proposals to the Credit Comm ittee or its\nalternative.\nEnsure that exceptions and their justifications are referred to the CRO for review.\nThe function responsible for underwriting Credit Risk must be independent of the\nbusiness. Therefore, the CCO must not report to the head of a business line.\nCredit Risk Management Function"
+    },
+    {
+      "score": 0.4578,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_2_17",
+      "clause_no": "2.17",
+      "title": "Compliance: The compliance function must ensure that this regulation and these standards",
+      "page": 6,
+      "concept": "Compliance Review of Credit Risk Policies",
+      "canonical_id": "CPT_POLICY_FRAMEWORK",
+      "canonical_label": "Policy Framework",
+      "mapping_confidence": 0.437,
+      "review_required": true,
+      "concept_parent": "Governance",
+      "obligation_type": "Compliance Monitoring",
+      "text": "are understood, communicated and correctly followed for Credit Risk underwriting and\nmanagement throughout the LFI. For this purpose, it must implement a process to review the\ncompliance of all the internal parties involved in Credit Risk acquisition and management."
+    },
+    {
+      "score": 0.4565,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_12_7",
+      "clause_no": "12.7",
+      "title": "Insolvency process: Where a court appoints an administrator/expert to control the business,",
+      "page": 43,
+      "concept": "Non-Performing Exposures Recovery",
+      "obligation_type": "Compliance Monitoring",
+      "text": "the LFI must assist in facilitating the recovery of any profitable business component, where\napplicable. This component may be ring-fenced as a viable business into a new entity to\nfacilitate the recovery of the debt. Such matters must be handled by the function responsible\nfor account remediation and recovery within the LFI.\nRecovery of Non-Performing Exposures Post Write-off"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 4 canonical concept(s): Authorization and Approval, Credit Risk, Credit Risk Assessment, Policy Framework.",
+    "Those concepts sit under parent concept(s): Credit Risk, Governance.",
+    "4 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "High",
+    "top_score": 0.5201,
+    "mean_score": 0.4739,
+    "retrieval_mode": "embedding",
+    "evidence_pending_review": 4,
+    "notes": [
+      "4 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

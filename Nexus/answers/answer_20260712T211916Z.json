@@ -1,0 +1,126 @@
+{
+  "query": "What must an LFI do when a borrower's credit risk increases significantly since origination?",
+  "generated_at": "2026-07-12T21:19:16.587148+00:00",
+  "corpus": {
+    "documents_indexed": 5
+  },
+  "answer": "When a borrower's credit risk increases significantly since origination, the LFI must assess and document regularly whether the credit risk is a Significant Increase in Credit Risk (SICR) [<CBUAE_EN_5996_VER1 7.1>]. The Credit Risk Management Function is responsible for this assessment [<CBUAE_EN_5996_VER1 4.8>][<CBUAE_EN_5996_VER1 4.7>]. Senior Management ensures the implementation of such processes [<CBUAE_EN_5996_VER1 2.14>].\n\nUncertainty: Steps after SICR identification (e.g., staging, impairment measurement) are not specified in the provided clauses.",
+  "evidence": [
+    {
+      "score": 0.1768,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_7_1",
+      "clause_no": "7.1",
+      "title": "The LFI must assess and document regularly whether the Credit Risk of a financial",
+      "page": 22,
+      "concept": "SICR Identification",
+      "canonical_id": "CPT_SICR",
+      "canonical_label": "Significant Increase in Credit Risk (SICR)",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1396,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_4_8",
+      "clause_no": "4.8",
+      "title": "The Credit Risk Management Function has the responsibility and authority to protect the LFI",
+      "page": 13,
+      "concept": "Credit Risk Policy Ownership",
+      "canonical_id": "CPT_POLICY_FRAMEWORK",
+      "canonical_label": "Policy Framework",
+      "mapping_confidence": 0.75,
+      "review_required": true,
+      "concept_parent": "Governance",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1153,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_4_7",
+      "clause_no": "4.7",
+      "title": "The Credit Risk Management Function is responsible to safeguard the LFI from acquiring",
+      "page": 12,
+      "concept": "Risk Appetite Compliance",
+      "canonical_id": "CPT_CREDIT_RISK_APPETITE",
+      "canonical_label": "Credit Risk Appetite and Limits",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1137,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_2_14",
+      "clause_no": "2.14",
+      "title": "The Senior Management team is responsible and accountable for the implementation of the",
+      "page": 5,
+      "concept": "Senior Management Responsibilities",
+      "canonical_id": "CPT_GOVERNANCE",
+      "canonical_label": "Governance",
+      "mapping_confidence": 0.75,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1105,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_3_7",
+      "clause_no": "3.7",
+      "title": "Country Risk: LFIs that provide Credit Facilities susceptible to Country Risk  must",
+      "page": 7,
+      "concept": "Country Risk Management",
+      "canonical_id": "CPT_COUNTRY_RISK",
+      "canonical_label": "Country Risk",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1088,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_2_19",
+      "clause_no": "2.19",
+      "title": "The LFI must at all times provide full access to all information in th e credit and investment",
+      "page": 6,
+      "concept": "Credit Risk Management Structure",
+      "canonical_id": "CPT_GOVERNANCE",
+      "canonical_label": "Governance",
+      "mapping_confidence": 0.75,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Compliance Monitoring"
+    }
+  ],
+  "impact_candidates": [
+    {
+      "concept": "Policy Framework",
+      "canonical_id": "CPT_POLICY_FRAMEWORK",
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_no": "9",
+      "page": 6
+    }
+  ],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 5 canonical concept(s): Country Risk, Credit Risk Appetite and Limits, Governance, Policy Framework, Significant Increase in Credit Risk (SICR).",
+    "Those concepts sit under parent concept(s): Credit Risk, Governance.",
+    "Found 1 related clause(s) in other documents sharing these concepts (cross-reference candidates).",
+    "6 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.1768,
+    "mean_score": 0.1275,
+    "evidence_pending_review": 6,
+    "notes": [
+      "6 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

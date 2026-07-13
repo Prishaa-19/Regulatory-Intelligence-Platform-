@@ -1,0 +1,173 @@
+{
+  "query": "What must banks do when a borrower's credit risk increases significantly?",
+  "generated_at": "2026-07-12T21:17:19.237275+00:00",
+  "corpus": {
+    "documents_indexed": 5
+  },
+  "answer": null,
+  "evidence": [
+    {
+      "score": 0.2658,
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_id": "clause_4_2_1",
+      "clause_no": "4.2.1",
+      "title": "Market-makers",
+      "page": 6,
+      "concept": "Market-maker eligibility",
+      "obligation_type": "Permission / Authorization"
+    },
+    {
+      "score": 0.2331,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_3",
+      "clause_no": "3",
+      "title": "These Directions shall be applicable to  Commercial Banks (hereinafter collectively",
+      "page": 2,
+      "concept": "Commercial Banks Definition",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.75,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.1759,
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_id": "clause_6_3",
+      "clause_no": "6.3",
+      "title": "Other Directions",
+      "page": 16,
+      "concept": "Credit derivative participant risk awareness",
+      "obligation_type": "Customer Protection / Redressal"
+    },
+    {
+      "score": 0.1549,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_54",
+      "clause_no": "54",
+      "title": "Prior approval of the Reserve Bank is not necessary for the issuance of co-branded debit",
+      "page": 23,
+      "concept": "Co-branding Risk Policy",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1533,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_12",
+      "clause_no": "12",
+      "title": "Underwriting Standards:",
+      "page": 9,
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "canonical_label": "Credit Risk Assessment",
+      "mapping_confidence": 1.0,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    }
+  ],
+  "impact_candidates": [
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "2",
+      "page": 3
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "3.20",
+      "page": 11
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "4.2",
+      "page": 12
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "4.3",
+      "page": 12
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "4.4",
+      "page": 12
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "5.2",
+      "page": 14
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "5.3",
+      "page": 14
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "6.6",
+      "page": 19
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "9.3",
+      "page": 27
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "9.4",
+      "page": 28
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "11.3",
+      "page": 40
+    },
+    {
+      "concept": "Credit Risk Assessment",
+      "canonical_id": "CPT_CREDIT_RISK_ASSESSMENT",
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_no": "13.4",
+      "page": 44
+    }
+  ],
+  "reasoning_path": [
+    "Retrieved 5 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 2 canonical concept(s): Credit Risk Assessment, Document Metadata.",
+    "Those concepts sit under parent concept(s): Credit Risk.",
+    "Found 12 related clause(s) in other documents sharing these concepts (cross-reference candidates).",
+    "2 of 5 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.2658,
+    "mean_score": 0.1966,
+    "evidence_pending_review": 2,
+    "notes": [
+      "2 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

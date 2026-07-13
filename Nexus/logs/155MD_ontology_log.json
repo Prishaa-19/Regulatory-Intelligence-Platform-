@@ -1,0 +1,18 @@
+{
+  "document": "155MD",
+  "generated_at": "2026-07-13T05:48:06.150848+00:00",
+  "jurisdiction": "IN_RBI",
+  "catalog_version": "global=0.1.0;IN_RBI=0.1.0",
+  "coverage": {
+    "total": 93,
+    "mapped": 52,
+    "unmapped": 41,
+    "coverage_pct": 55.9,
+    "review_required": 93,
+    "suggested": 0
+  },
+  "skipped_no_concept": 4,
+  "suggestion": null,
+  "artifact_valid": true,
+  "artifact_errors": []
+}

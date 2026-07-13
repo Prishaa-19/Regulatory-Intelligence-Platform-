@@ -1,0 +1,38 @@
+{
+  "document_id": null,
+  "clause_count": 2,
+  "clauses": [
+    {
+      "clause_id": "clause_2",
+      "clause_no": "2",
+      "title": "Authorised Persons may bring the contents of this circular to the notice of their",
+      "text": "constituents concerned.",
+      "page_reference": 1,
+      "semantic": {
+        "domain": "FEMA",
+        "concept": "Annulment of Inoperative Circulars",
+        "action": "PROHIBIT",
+        "object": "Operative Circulars",
+        "obligation_type": "Prohibition",
+        "mandatory_flag": "Mandatory",
+        "confidence_score": 0.85
+      }
+    },
+    {
+      "clause_id": "clause_3",
+      "clause_no": "3",
+      "title": "The directions contained in this circular have been issued under Section 10(4) and",
+      "text": null,
+      "page_reference": 1,
+      "semantic": {
+        "domain": null,
+        "concept": null,
+        "action": null,
+        "object": null,
+        "obligation_type": null,
+        "mandatory_flag": null,
+        "confidence_score": null
+      }
+    }
+  ]
+}

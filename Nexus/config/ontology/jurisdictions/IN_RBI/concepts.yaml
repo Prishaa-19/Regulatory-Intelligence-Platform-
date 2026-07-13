@@ -1,0 +1,19 @@
+# Nexus — India / RBI (IN_RBI) concept extension
+#
+# Canonical concepts specific to the Indian context, merged on top of
+# global/concepts.yaml by canonical_id. Keep genuinely India-specific concepts
+# here; anything reusable across regulators belongs in the global layer.
+
+version: 0.1.0
+
+concepts:
+  - canonical_id: CPT_FEMA_COMPLIANCE
+    label: FEMA Compliance
+    definition: Compliance with Foreign Exchange Management Act provisions.
+    domain: Foreign Exchange Management (FEMA)
+    parent: null
+    status: draft
+    synonyms:
+      - FEMA Compliance
+      - Foreign Exchange Compliance
+      - FEMA Reporting

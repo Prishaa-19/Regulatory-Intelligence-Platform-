@@ -1,0 +1,495 @@
+# Nexus - GLOBAL canonical concept catalog (jurisdiction-neutral)
+#
+# Reusable banking ontology. canonical_id is CPT_<SLUG>, stable forever.
+# `parent` is another canonical_id (hierarchy) or null for a top family.
+# `synonyms` are real free-text concept strings that resolve here.
+# `status: approved` satisfies the Step-4 gate; `draft` flags for review.
+# This file is DRAFT until a compliance expert signs off.
+
+version: 0.2.0
+status: draft
+
+concepts:
+  - canonical_id: CPT_GOVERNANCE
+    label: Governance
+    definition: "Board- and management-level oversight, policy and control duties."
+    domain: Corporate Governance
+    parent: null
+    status: draft
+    synonyms:
+      - Board Responsibilities
+      - Senior Management Responsibilities
+      - Credit Risk Accountability
+      - Risk Management Function
+      - Role Delegation
+      - Credit Risk Management Structure
+      - Credit Risk Management Components
+      - Credit Risk Components
+      - Resource Allocation for Credit Risk
+  - canonical_id: CPT_BOARD_OVERSIGHT
+    label: Board Oversight
+    definition: "Duties reserved to the board or its committees, including review."
+    domain: Corporate Governance
+    parent: CPT_GOVERNANCE
+    status: draft
+    synonyms:
+      - Board Audit Review
+      - Board Approved Policy
+      - Board Review
+      - Board Credit Committee
+      - Board Reporting on Risk Profile
+  - canonical_id: CPT_POLICY_FRAMEWORK
+    label: Policy Framework
+    definition: Requirement to establish and maintain a documented policy.
+    domain: "Banking Regulation & Supervision"
+    parent: CPT_GOVERNANCE
+    status: draft
+    synonyms:
+      - Policy Content Requirements
+      - Documented Policy
+      - Credit Risk Policy Ownership
+      - Policy Compliance
+      - Compliance Standards
+      - Credit Review Function Requirements
+  - canonical_id: CPT_CREDIT_RISK
+    label: Credit Risk
+    definition: "Assessment, management and limitation of credit exposure risk."
+    domain: Prudential Norms / Capital Adequacy
+    parent: null
+    status: draft
+    synonyms:
+      - Credit Risk Management
+      - Credit Risk Framework
+      - Credit Risk Management Framework
+      - Credit Risk Management Objective
+      - Credit Risk Coverage Framework
+      - Climate-Related Credit Risk
+      - Audit of Credit Procedures
+  - canonical_id: CPT_CREDIT_RISK_ASSESSMENT
+    label: Credit Risk Assessment
+    definition: "Independent assessment of an applicant's creditworthiness."
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Credit Assessment
+      - Creditworthiness Assessment
+      - Credit Facility Assessment
+      - Creditworthiness Review Process
+      - Holistic Creditworthiness Evaluation
+      - Credit Rating Reviews
+      - Credit Risk Rating Assignment
+      - Obligor Risk Rating
+      - Obligor Risk Assessment Criteria
+      - Internal Risk Rating Systems
+      - Credit Exception Review
+      - Credit Review Duties
+      - Credit Review Function Duties
+  - canonical_id: CPT_EXPOSURE_NORMS
+    label: Exposure Norms Compliance
+    definition: Compliance with prudential exposure and provisioning norms.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Exposure Norms Compliance
+      - Prudential Norms Compliance
+      - Material Credit Facilities
+      - Materiality Thresholds
+      - Off-Balance Sheet Conversion
+  - canonical_id: CPT_CREDIT_RISK_MONITORING
+    label: Credit Risk Monitoring
+    definition: Ongoing monitoring of credit exposures and early-warning triggers.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Credit Risk Monitoring
+      - Credit Monitoring Frameworks
+      - Obligor Credit Monitoring
+      - Credit Deterioration Triggers
+      - Risk Monitoring Systems
+      - Risk Mitigation Actions
+      - Restructured Credit Facility Monitoring
+  - canonical_id: CPT_CREDIT_RISK_CONCENTRATION
+    label: Credit Risk Concentration
+    definition: Identification and control of concentrated or aggregated credit exposure.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Credit Risk Concentration
+      - Acceptable Risk Concentrations
+      - Credit Risk Aggregation
+      - Group-Wide Credit Risk View
+  - canonical_id: CPT_CREDIT_RISK_APPETITE
+    label: Credit Risk Appetite and Limits
+    definition: "Setting credit risk appetite, tolerance and exposure limits."
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - "Credit Risk Appetite & Profile"
+      - Risk Appetite Alignment
+      - Risk Appetite Compliance
+      - Credit Risk Limits
+      - Risk Limits Setting
+      - Targeted Risk Criteria
+  - canonical_id: CPT_CREDIT_RISK_MODEL
+    label: Credit Risk Measurement and Models
+    definition: "Credit-risk measurement methodology, models and their governance."
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Credit Risk Measurement Methodology
+      - Credit Risk Measurement Tools
+      - Credit Risk Modelling Granularity
+      - Credit Risk Model Governance
+      - Model Usage Controls
+      - Model Override Discretion
+      - Model Documentation Justification
+  - canonical_id: CPT_CREDIT_STRESS_TESTING
+    label: Credit Risk Stress Testing
+    definition: Stress testing of credit portfolios against adverse scenarios.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Credit Risk Stress Testing
+  - canonical_id: CPT_COLLATERAL_MANAGEMENT
+    label: Collateral Management
+    definition: "Acceptance, valuation, perfection and haircutting of collateral."
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Collateral Management
+      - Collateral Management Processes
+      - Collateral Acceptance Rules
+      - Collateral Eligibility Matrix
+      - Collateral Perfection
+      - Collateral Valuation Conditions
+      - Collateral Valuation Practices
+      - Credit Facility Collateral
+      - Haircut Retention Rules
+  - canonical_id: CPT_COUNTRY_RISK
+    label: Country Risk
+    definition: Management of cross-border and country-transfer credit risk.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Country Risk Management
+  - canonical_id: CPT_COUNTERPARTY_CREDIT_RISK
+    label: Counterparty Credit Risk
+    definition: Classification and management of counterparty and cross-default risk.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Counterparty Credit Risk Management
+      - Counterparty Credit Risk Classification
+      - Cross-Default Assessment
+      - Cross-Default Conditions
+  - canonical_id: CPT_CREDIT_UNDERWRITING
+    label: Credit Underwriting
+    definition: "Origination, underwriting decisioning and facility structuring."
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Credit Underwriting
+      - Credit Underwriting Policy
+      - Underwriting Process
+      - Underwriting Authority Structure
+      - Underwriting Decision Documentation
+      - Amortization Structure
+      - Bullet Repayment Classification
+      - Repayment Schedule Compliance
+      - Facility Re-Aging Policies
+      - Credit Facility Operational Requirements
+  - canonical_id: CPT_RELATED_PARTY
+    label: Related Party Exposure
+    definition: Control of exposures to related and connected parties.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Related Party Transactions
+      - Cross-Entity Obligations
+  - canonical_id: CPT_FUND_UTILIZATION
+    label: Fund Utilization Monitoring
+    definition: Monitoring end-use of funds and preventing diversion.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Fund Usage Monitoring
+      - Fund Diversion Prevention
+      - Risk Acquisition Processes
+  - canonical_id: CPT_ECL
+    label: Expected Credit Loss
+    definition: "Estimation of expected credit loss, including forward-looking cash flows."
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Expected Credit Loss Calculation
+      - Expected Cash Flow Assessment
+      - Forward-Looking Credit Analysis
+      - Risk Mitigation Cash Flows
+  - canonical_id: CPT_SICR
+    label: Significant Increase in Credit Risk (SICR)
+    definition: Assessment of a significant increase in credit risk since origination.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - SICR Identification
+      - SICR Indicators
+      - SICR Criteria Threshold
+      - SICR Assessment Scope
+      - SICR Deterioration Criteria
+      - SICR Financial Deterioration Elements
+      - SICR Forward-looking Review
+      - SICR Macroeconomic Assessment
+      - SICR Presumption Rebuttal
+      - SICR Probation Period
+      - SICR Application Principles
+      - SICR Credit Worthiness Analysis
+  - canonical_id: CPT_CREDIT_STAGING
+    label: Credit Staging
+    definition: Classification and migration of exposures across impairment stages.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Credit Staging Framework
+      - Credit Facility Staging Rules
+      - Staging Criteria Formulation
+      - Stage Migration Criteria
+      - Stage Migration for Difficulties
+      - Stage Reclassification Conditions
+      - Stage Reclassification Requirements
+      - Stage Reevaluation Rules
+      - Stage Transition Documentation
+      - Stage Upgrade Restrictions
+      - Stage 2 Review Process
+      - Credit Impairment Classification
+  - canonical_id: CPT_DEFAULT_DEFINITION
+    label: Definition of Default
+    definition: Criteria for recognising default and unlikeliness to pay.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Default Definition
+      - Default Recognition Criteria
+      - Definition of Default Events
+      - Unlikeliness to Pay Indicators
+      - Obligor-Specific Unlikeliness Indicators
+      - Standstill Default Definition
+  - canonical_id: CPT_CREDIT_RESTRUCTURING
+    label: Credit Restructuring
+    definition: Classification and terms of restructured and forborne credit facilities.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_CREDIT_RISK
+    status: draft
+    synonyms:
+      - Credit Facility Restructuring
+      - Restructuring Classification
+      - Restructured Facility Classification
+      - Post-Restructuring Classification
+      - Distressed Restructuring Classification
+      - Distressed Restructuring Criteria
+      - Non-Distress Restructuring Scope
+      - Non-Distressed Restructuring Classification
+      - Restructuring Terms Amendments
+      - Restructuring Durations
+      - Restructuring Viability Assessment
+      - Restructuring Policy Design
+      - Standstill Restructuring Timelines
+  - canonical_id: CPT_PROVISIONING
+    label: Provisioning
+    definition: "Adequacy, estimation and floors for credit-loss provisions."
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_EXPOSURE_NORMS
+    status: draft
+    synonyms:
+      - Provisioning Rules
+      - General Provisioning Standards
+      - Minimum Provisioning Floor
+      - Proactive Provisioning Framework
+      - Provision Adequacy Review
+      - "Provision Estimation & Reporting"
+      - Provision Shortfall Adjustment
+      - Credit Provisions
+      - Credit Provisions Accuracy
+      - Distressed Asset Provision Independence
+      - Risk Mitigation in Provisioning
+      - Impairment Reserve Transition
+      - Stage 3 Minimum Provisioning
+      - Stage 3 Provision Calculation
+  - canonical_id: CPT_NPA_MANAGEMENT
+    label: Non-Performing Asset Management
+    definition: "Identification, management and recovery of non-performing assets."
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_EXPOSURE_NORMS
+    status: draft
+    synonyms:
+      - Non-Performing Asset Management
+      - Non-Performing Asset Management Policy
+      - Debt Recovery Rights
+  - canonical_id: CPT_WRITE_OFF
+    label: Write-off
+    definition: Write-off of unrecoverable exposures and recovery thereafter.
+    domain: Prudential Norms / Capital Adequacy
+    parent: CPT_EXPOSURE_NORMS
+    status: draft
+    synonyms:
+      - Non-Performing Asset Write-off
+      - Write-off Policy Drivers
+      - Write-off Timelines
+      - Recovery of Written-off Exposures
+      - Recovery Tracking Records
+  - canonical_id: CPT_CUSTOMER_PROTECTION
+    label: Customer Protection
+    definition: Fair-conduct safeguards owed to customers.
+    domain: Consumer Protection
+    parent: null
+    status: draft
+    synonyms: []
+  - canonical_id: CPT_CUSTOMER_DISCLOSURE
+    label: Customer Disclosure
+    definition: "Mandatory disclosure of terms, rates and charges to customers."
+    domain: Consumer Protection
+    parent: CPT_CUSTOMER_PROTECTION
+    status: draft
+    synonyms:
+      - Credit Card Disclosures
+      - Truth-in-Lending Disclosures
+      - Key Fact Statement Disclosure
+      - Key Fact Statement
+  - canonical_id: CPT_GRIEVANCE_REDRESSAL
+    label: Grievance Redressal
+    definition: Complaint handling and dispute-resolution obligations.
+    domain: Consumer Protection
+    parent: CPT_CUSTOMER_PROTECTION
+    status: draft
+    synonyms:
+      - Dispute Resolution
+      - Billing Dispute Resolution
+      - Complaint Handling
+      - Grievance Redressal
+  - canonical_id: CPT_BILLING_STATEMENT
+    label: Billing and Statements
+    definition: "Billing cycle, statement issuance and delivery obligations."
+    domain: Consumer Protection
+    parent: CPT_CUSTOMER_PROTECTION
+    status: draft
+    synonyms:
+      - Billing Statement Delivery
+      - Billing Cycle Modification
+      - Statement Delivery
+  - canonical_id: CPT_ACCOUNT_CLOSURE
+    label: Account Closure
+    definition: Procedures and notifications for closing a customer account.
+    domain: Consumer Protection
+    parent: CPT_CUSTOMER_PROTECTION
+    status: draft
+    synonyms:
+      - Account Closure Procedure
+      - Credit Card Closure Process
+      - Card Closure
+  - canonical_id: CPT_INTEREST_AND_CHARGES
+    label: Interest and Charges
+    definition: "Setting and disclosure of interest rates, fees and charges."
+    domain: Consumer Protection
+    parent: CPT_CUSTOMER_PROTECTION
+    status: draft
+    synonyms:
+      - Interest Rate Setting
+      - Interest Rate Ceiling
+      - Charges Disclosure
+  - canonical_id: CPT_PAYMENTS
+    label: Payments and Settlement
+    definition: Authorization and processing of payment instruments and channels.
+    domain: Payment and Settlement Systems
+    parent: null
+    status: draft
+    synonyms:
+      - Funds Transfer Provisions
+  - canonical_id: CPT_PAYMENT_AUTHORIZATION
+    label: Payment Authorization
+    definition: Authorization of payment instruments and permitted channels.
+    domain: Payment and Settlement Systems
+    parent: CPT_PAYMENTS
+    status: draft
+    synonyms:
+      - Payment Instrument Authorization
+      - Authorized Payment Channels
+  - canonical_id: CPT_AML_KYC
+    label: AML / KYC
+    definition: Anti-money-laundering and customer due-diligence obligations.
+    domain: Anti-Money Laundering / KYC
+    parent: null
+    status: draft
+    synonyms:
+      - Customer Due Diligence
+      - Know Your Customer
+  - canonical_id: CPT_RECORD_RETENTION
+    label: Record Retention
+    definition: Obligation to retain records for a stated period.
+    domain: Anti-Money Laundering / KYC
+    parent: CPT_AML_KYC
+    status: draft
+    synonyms:
+      - Record Keeping
+      - Records Preservation
+      - Credit File Documentation
+  - canonical_id: CPT_REGULATORY_REPORTING
+    label: Regulatory Reporting
+    definition: Periodic or event-based reporting to the regulator.
+    domain: "Banking Regulation & Supervision"
+    parent: null
+    status: draft
+    synonyms:
+      - Reporting to Regulator
+      - Regulatory Returns
+      - Credit Risk Data Reporting
+      - Days-Past-Due Reporting
+      - Risk Reporting
+      - Portfolio Credit Risk Data Collection
+      - Stage 3 Exposure Reporting
+  - canonical_id: CPT_AUTHORIZATION_APPROVAL
+    label: Authorization and Approval
+    definition: Acts permitted only with prior regulatory or board approval.
+    domain: "Banking Regulation & Supervision"
+    parent: null
+    status: draft
+    synonyms:
+      - Credit Card Business Approval
+      - Prior Approval Requirement
+      - Board Approval Framework
+      - Delegated Approval Authority
+      - Delegation Framework
+      - Senior Management Approval
+      - Provisioning Policy Approval
+      - SICR Exception Approval
+      - Exceptions Handling
+      - Restructuring Authority Delegation
+  - canonical_id: CPT_DOCUMENT_META
+    label: Document Metadata
+    definition: "Title, scope, applicability, definitions and interpretation text."
+    domain: Other
+    parent: null
+    status: draft
+    synonyms:
+      - Document Title
+      - Applicability Scope
+      - Term Definitions
+      - Interpretation Rules
+      - Commercial Banks Definition
+      - Related Directions Reference
+      - Regulatory Definitions

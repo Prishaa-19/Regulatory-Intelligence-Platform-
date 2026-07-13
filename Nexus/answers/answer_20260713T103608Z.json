@@ -1,0 +1,177 @@
+{
+  "query": "What sanctions can the Central Bank impose?",
+  "generated_at": "2026-07-13T10:36:08.028610+00:00",
+  "corpus": {
+    "documents_indexed": 6
+  },
+  "answer": "The Central Bank may impose the following sanction: cancellation of authorization for taking deposits as a bank, where it has open high-risk observations on expected credit loss models or insufficient assurance of their reliability/accuracy due to deficiencies in compliance with CBUAE Model Management standards or accounting standards [2 9.22].\n\nUncertainty: No other sanction types—such as fines or remedial directives—are identified in the provided clauses.",
+  "evidence": [
+    {
+      "score": 0.3896,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_1__4",
+      "clause_no": "1",
+      "title": "The Regulatory Development Division of '-ifi yJI A.,HI.! )1 ufo .1",
+      "page": 12,
+      "concept": "Regulation interpretation power",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.586,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other",
+      "text": "the Central Bank shall be the reference for\ninterpretation of the provisions of this\nRegulation.\nARTICLE (10): CANCELLATION OF"
+    },
+    {
+      "score": 0.3801,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_9_22",
+      "clause_no": "9.22",
+      "title": "The CBUAE may impose a floor higher than that of 1.50% of Credit Risk weighted assets",
+      "page": 32,
+      "concept": "Regulatory Discretion on Provisions",
+      "obligation_type": "Other",
+      "text": "mentioned above at its discretion, for reasons including but not limited to:\na. Open high-risk observations from CBUAE regarding the models used in the estimation\nof expected credit loss (ECL); or\nInsufficient assurance regarding the reliability or accuracy of relevant expected credit\nloss (ECL) models, such as due to shortcomings in compliance with the CBUAE Model\nManagement standards or accounting standards."
+    },
+    {
+      "score": 0.379,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_1",
+      "clause_no": "1",
+      "title": "Ensuring the soundness of Banks; and",
+      "page": 4,
+      "concept": "Financial stability role",
+      "obligation_type": "Other",
+      "text": "II. Contributing to financial stability.\nThe accompanying Standards supplement the\nRegulation to elaborate on the supervisory\nexpectations of the Central Bank with respect to\ninternal controls, compliance and internal audit."
+    },
+    {
+      "score": 0.3721,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_2",
+      "clause_no": "2",
+      "title": "Bank: A financial entity, which is .2",
+      "page": 4,
+      "concept": "Bank definition reference",
+      "obligation_type": "Other",
+      "text": "authorized by the Central Bank to accept\ndeposits as a bank."
+    },
+    {
+      "score": 0.3686,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_4",
+      "clause_no": "4",
+      "title": "Central Bank: The Central Bank of the .4",
+      "page": 4,
+      "concept": "Legal reference",
+      "obligation_type": "Other",
+      "text": "5.\nUnited Arab Emirates.\nCentral Bank Law: Union Law No 10) of"
+    },
+    {
+      "score": 0.3627,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_9_15",
+      "clause_no": "9.15",
+      "title": "Determining provisions in the context of Islamic Financial Services may impact the",
+      "page": 30,
+      "concept": "Islamic Financial Services Provisioning",
+      "obligation_type": "Compliance Monitoring",
+      "text": "Investment Account holders’ profit as provisions are deducted from profit. Consequently, LFIs\nperforming Islamic Financial Services must ensure that the Internal Shari’ah Supervision\nCommittee approves the provisioning policies. In addition, the determination of provisions\nmust be approved by the committee responsible for profit and loss allocation in accordance\nwith the Central Bank’s standard regarding profit equalization for Islamic Banks."
+    }
+  ],
+  "impact_candidates": [
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_no": "1",
+      "page": 2
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_no": "2",
+      "page": 2
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_no": "3",
+      "page": 2
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_no": "4",
+      "page": 2
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_no": "5",
+      "page": 2
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_no": "6",
+      "page": 5
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_no": "32",
+      "page": 18
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_no": "2",
+      "page": 1
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_no": "4",
+      "page": 1
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_no": "9",
+      "page": 5
+    },
+    {
+      "concept": "Document Metadata",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_no": "4.5.3",
+      "page": 12
+    }
+  ],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 1 canonical concept(s): Document Metadata.",
+    "Found 11 related clause(s) in other documents sharing these concepts (cross-reference candidates).",
+    "1 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.3896,
+    "mean_score": 0.3754,
+    "retrieval_mode": "embedding",
+    "evidence_pending_review": 1,
+    "notes": [
+      "1 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

@@ -1,0 +1,46 @@
+{
+  "document_id": "RBI/2026-27/29",
+  "regulator": "Reserve Bank of India",
+  "jurisdiction": null,
+  "concept_catalog_version": "global=0.1.0",
+  "generated_at": "2026-07-12T21:12:50.981526+00:00",
+  "directed": true,
+  "stats": {
+    "nodes": 2,
+    "edges": 1,
+    "nodes_by_type": {
+      "Document": 1,
+      "Regulator": 1
+    },
+    "edges_by_type": {
+      "ISSUED_BY": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "Document:RBI/2026-27/29",
+      "type": "Document",
+      "properties": {
+        "title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) - Amendment Directions, 2026",
+        "source_type": "circular",
+        "stem": "sample",
+        "regulator": "Reserve Bank of India"
+      }
+    },
+    {
+      "id": "Regulator:Reserve Bank of India",
+      "type": "Regulator",
+      "properties": {
+        "name": "Reserve Bank of India",
+        "country": "India"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Document:RBI/2026-27/29",
+      "target": "Regulator:Reserve Bank of India",
+      "type": "ISSUED_BY"
+    }
+  ]
+}

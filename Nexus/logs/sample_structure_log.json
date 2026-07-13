@@ -1,0 +1,24 @@
+{
+  "document": "sample",
+  "started_at": "2026-07-10T06:50:42.270821+00:00",
+  "steps": [
+    {
+      "step": "parse_markdown",
+      "status": "ok",
+      "heading_count": 0
+    },
+    {
+      "step": "build_tree",
+      "status": "ok",
+      "top_level_nodes": 0
+    },
+    {
+      "step": "structure_write",
+      "status": "ok",
+      "path": "Nexus\\structure\\sample_structure.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-10T06:50:42.320722+00:00",
+  "duration_seconds": 0.06
+}

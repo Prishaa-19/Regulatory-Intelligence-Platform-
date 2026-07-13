@@ -1,0 +1,23 @@
+{
+  "document": "NOTI175F6B054B1ED504FC9884DC0F4460A7934",
+  "document_id": "NOTI175F6B054B1ED504FC9884DC0F4460A7934",
+  "jurisdiction": "IN_RBI",
+  "generated_at": "2026-07-12T21:12:50.572870+00:00",
+  "stats": {
+    "nodes": 6,
+    "edges": 5,
+    "nodes_by_type": {
+      "Document": 1,
+      "Regulator": 1,
+      "Clause": 2,
+      "Domain": 1,
+      "ObligationType": 1
+    },
+    "edges_by_type": {
+      "ISSUED_BY": 1,
+      "HAS_CLAUSE": 2,
+      "IN_DOMAIN": 1,
+      "HAS_OBLIGATION": 1
+    }
+  }
+}

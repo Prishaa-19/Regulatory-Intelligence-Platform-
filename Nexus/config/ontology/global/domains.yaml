@@ -1,0 +1,43 @@
+# Nexus — GLOBAL domain taxonomy (jurisdiction-neutral)
+#
+# Domains that apply under essentially any banking regulator. Jurisdiction-
+# specific domains (e.g. India's FEMA, UAE's Shariah governance) are added by
+# the matching jurisdiction pack under ontology/jurisdictions/<CODE>/domains.yaml
+# and merged at runtime by token.
+#
+# `label` is stored in the Step-3 semantics; `token` is the compact ID used by
+# the Step-3.5 flat export and Step-4 ontology objects.
+
+version: 0.1.0
+
+domains:
+  - label: Anti-Money Laundering / KYC
+    token: AML_KYC
+    description: AML, CFT, customer due diligence and KYC obligations.
+  - label: Banking Regulation & Supervision
+    token: BANKING_REGULATION
+    description: Licensing, conduct of banking business, supervisory powers.
+  - label: Financial Markets Regulation
+    token: FINANCIAL_MARKETS
+    description: Money, government-securities, derivative and forex markets.
+  - label: Payment and Settlement Systems
+    token: PAYMENT_SETTLEMENT
+    description: Payment systems, settlement, clearing and instruments.
+  - label: Consumer Protection
+    token: CONSUMER_PROTECTION
+    description: Fair conduct, disclosures, grievance redressal for customers.
+  - label: Prudential Norms / Capital Adequacy
+    token: PRUDENTIAL_NORMS
+    description: Capital, exposure, provisioning and prudential limits.
+  - label: Digital Lending / Fintech
+    token: DIGITAL_LENDING
+    description: Digital lending, fintech partnerships, outsourced tech lending.
+  - label: Cyber Security & IT Governance
+    token: CYBER_SECURITY
+    description: Information security, IT risk and cyber-resilience controls.
+  - label: Corporate Governance
+    token: CORPORATE_GOVERNANCE
+    description: Board, audit committee, management and governance duties.
+  - label: Other
+    token: OTHER
+    description: No listed domain clearly fits the clause text.

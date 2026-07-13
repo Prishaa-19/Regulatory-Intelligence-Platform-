@@ -1,0 +1,41 @@
+{
+  "document": "CBUAE_EN_5996_VER1.pdf",
+  "started_at": "2026-07-13T07:25:01.919872+00:00",
+  "steps": [
+    {
+      "step": "acquire",
+      "status": "ok",
+      "path": "Nexus\\input\\CBUAE_EN_5996_VER1.pdf"
+    },
+    {
+      "step": "pdf_load",
+      "status": "ok",
+      "pages": 44
+    },
+    {
+      "step": "denoise",
+      "status": "ok",
+      "lines_in": 1797,
+      "lines_dropped": 3,
+      "tokens_in": 18372,
+      "tokens_dropped": 250
+    },
+    {
+      "step": "markdown_write",
+      "status": "ok",
+      "path": "Nexus\\markdown\\CBUAE_EN_5996_VER1.md"
+    },
+    {
+      "step": "llm_metadata_extraction",
+      "status": "ok",
+      "providers": "nvidia -> azure"
+    },
+    {
+      "step": "metadata_write",
+      "status": "ok",
+      "path": "Nexus\\metadata\\CBUAE_EN_5996_VER1_metadata.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-13T07:25:12.955211+00:00"
+}

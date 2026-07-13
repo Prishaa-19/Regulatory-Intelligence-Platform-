@@ -1,0 +1,51 @@
+{
+  "document": "CBUAE_EN_5996_VER1",
+  "started_at": "2026-07-13T07:25:15.771399+00:00",
+  "jurisdiction": null,
+  "ontology_versions": {
+    "global": "0.1.0"
+  },
+  "steps": [
+    {
+      "step": "collect_operative_units",
+      "status": "ok",
+      "count": 183
+    },
+    {
+      "step": "llm_semantic_classification",
+      "status": "ok",
+      "classified": 183,
+      "total": 183,
+      "failed_batches": 0,
+      "providers": "nvidia -> azure",
+      "jurisdiction": null,
+      "ontology_versions": {
+        "global": "0.1.0"
+      }
+    },
+    {
+      "step": "validate_artifact",
+      "status": "ok",
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "step": "semantics_write",
+      "status": "ok",
+      "path": "Nexus\\semantics\\CBUAE_EN_5996_VER1_semantics.json"
+    }
+  ],
+  "warnings": [
+    "Batch at offset 0: 3 response-schema violation(s), coerced to allowed values. First: 6/action: 'PROVIDE' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']",
+    "Batch at offset 20: 1 response-schema violation(s), coerced to allowed values. First: 10/action: 'FOLLOW' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']",
+    "Batch at offset 40: 2 response-schema violation(s), coerced to allowed values. First: 14/action: 'ASSESS' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']",
+    "Batch at offset 60: 11 response-schema violation(s), coerced to allowed values. First: 9/action: 'APPLY' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']",
+    "Batch at offset 80: 12 response-schema violation(s), coerced to allowed values. First: 5/action: 'DOCUMENT' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']",
+    "Batch at offset 100: 10 response-schema violation(s), coerced to allowed values. First: 3/action: 'DESIGN' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']",
+    "Batch at offset 120: 6 response-schema violation(s), coerced to allowed values. First: 8/action: ' MAINTAIN' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']",
+    "Batch at offset 160: 8 response-schema violation(s), coerced to allowed values. First: 5/action: 'IDENTIFY' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']",
+    "Batch at offset 180: 5 response-schema violation(s), coerced to allowed values. First: 0/action: 'DOCUMENT' is not one of ['RETAIN', 'REPORT', 'DISCLOSE', 'MAINTAIN', 'VERIFY', 'SUBMIT', 'NOTIFY', 'PROHIBIT', 'PERMIT', 'RESTRICT', 'MONITOR', 'REGISTER', 'REVIEW', 'ESTABLISH', 'IMPLEMENT', 'OTHER']"
+  ],
+  "finished_at": "2026-07-13T07:27:24.941247+00:00",
+  "duration_seconds": 129.22
+}

@@ -1,0 +1,1798 @@
+{
+  "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+  "regulator": "RBI",
+  "jurisdiction": "IN_RBI",
+  "concept_catalog_version": "global=0.1.0;IN_RBI=0.1.0",
+  "generated_at": "2026-07-13T05:52:46.052018+00:00",
+  "directed": true,
+  "stats": {
+    "nodes": 60,
+    "edges": 124,
+    "nodes_by_type": {
+      "Document": 1,
+      "Regulator": 1,
+      "Clause": 33,
+      "Domain": 5,
+      "ObligationType": 8,
+      "Concept": 12
+    },
+    "edges_by_type": {
+      "ISSUED_BY": 1,
+      "HAS_CLAUSE": 33,
+      "IN_DOMAIN": 39,
+      "HAS_OBLIGATION": 28,
+      "MAPS_TO_CONCEPT": 16,
+      "CHILD_OF": 7
+    }
+  },
+  "nodes": [
+    {
+      "id": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "type": "Document",
+      "properties": {
+        "title": "Master Direction – Reserve Bank of India (Credit Derivatives) Directions, 2026",
+        "source_type": "Master Direction",
+        "version": "2026",
+        "jurisdiction": "IN_RBI",
+        "stem": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "regulator": "RBI"
+      }
+    },
+    {
+      "id": "Regulator:RBI",
+      "type": "Regulator",
+      "properties": {
+        "name": "RBI",
+        "country": "India"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "2",
+        "title": "Based on the feedback received, the Directions have since been finalised and issued",
+        "text": "herewith.",
+        "page": 1,
+        "mandatory_flag": "Not Applicable",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Domain:Other",
+      "type": "Domain",
+      "properties": {
+        "label": "Other"
+      }
+    },
+    {
+      "id": "ObligationType:Other",
+      "type": "ObligationType",
+      "properties": {
+        "label": "Other"
+      }
+    },
+    {
+      "id": "Concept:CPT_DOCUMENT_META",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_DOCUMENT_META",
+        "label": "Document Metadata",
+        "domain": "Other",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_3",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "3",
+        "title": "These Directions have been issued by the Reserve Bank in exercise of the powers",
+        "text": "conferred under section 45W of the Reserve Bank of India Act, 1934, and of all the\npowers enabling it in this behalf.",
+        "page": 1,
+        "mandatory_flag": "Not Applicable",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4",
+        "title": "These Directions shall be applicable from immediate effect.",
+        "text": "Yours faithfully\n(Dimple Bhandia)\nChief General Manager\n1",
+        "page": 1,
+        "mandatory_flag": "Not Applicable",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_1",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "1",
+        "title": "Short title, scope, and commencement",
+        "text": "(i) These Directions shall be called the Master Direction –  Reserve Bank of India\n(Credit Derivatives) Directions, 2026.\n(ii) These Directions shall apply to credit derivatives transactions undertaken in Over -\nthe-Counter (OTC) markets and on recognised stock exchanges in India.\n(iii) These Directions shall come into force on June 25, 2026.",
+        "page": 2,
+        "mandatory_flag": "Mandatory",
+        "action": "ESTABLISH"
+      }
+    },
+    {
+      "id": "Domain:Financial Markets Regulation",
+      "type": "Domain",
+      "properties": {
+        "label": "Financial Markets Regulation"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2__2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "2",
+        "title": "Definitions",
+        "text": "(i) In these Directions, unless the context otherwise requires:\n(a) ‘Auction settlement’ of CDS means a settlement process in which the price of\nthe reference/deliverable obligation at which the settlement will happen is\ndetermined through an auction mechanism.\n(b) ‘Cash settlement’ of CDS means a settlement process in which the protection\nseller pays to the protection buyer, the notional amount of the CDS contract less\nthe expected recovery value of the reference obligation.\n(c) ‘Central counterparty ’ means an entity that interposes itself between\ncounterparties to contracts traded in one or more financial markets, becoming\n2\nthe buyer to every seller and the seller to every buyer and thereby ensuring the\nperformance of open contracts.\n(d) ‘Company’ shall have the same meaning as assigned to it in Section 2(20) of the\nCompanies Act, 2013 (18 of 2013).\n(e) ‘Corporate bonds and debentures ’ mean non-convertible debt securities which\ncreate or acknowledge indebtedness and include debentures, bonds and such\nother securities issued by a body corporate or a trust or any statutory body\nconstituted by virtue of a legislation, whether constituting a charge on the assets\nof the issuer or not, but excludes money market debt instruments, security\nreceipts, securiti sed debt instruments and bonds issued by the Central\nGovernment or a State Government, or such other persons as may be specified\nby the Reserve Bank.\n(f) ‘Credit Default Swap (CDS) ’ means a credit derivative contract in which one\ncounterparty (protection seller) commits to pay to the other counterparty\n(protection buyer) in the case of a credit event with respect to a reference entity\nand in retur n, the protection buyer makes periodic payments (premium) to the\nprotection seller until the maturity of the contract or the credit event, whichever\nis earlier.\n(g) ‘Credit derivative’ means a derivative contract whose value is derived from the\ncredit risk of an underlying debt instrument  or from an index of underlying debt\ninstruments.\n(h) ‘Credit event’ means a pre- defined event in a credit derivative contract, which\ntriggers a settlement under the contract.\n(i) ‘Deliverable obligation’ means a debt instrument issued by the reference entity\nthat the protection buyer can deliver to the protection seller in a physically settled\nCDS contract, in case of occurrence of a credit event.\n(j) ‘Electronic Trading Platform (ETP)’ shall have the same meaning as assigned to\nit in Paragraph 2 (iii) of Master Direction – Reserve Bank of India (Electronic\nTrading Platforms) Directions, 2025 dated January 16, 2025, as amended from\ntime to time.\n(k) ‘Exchange’ shall mean ‘recognised stock exchange’ and shall have the same\nmeaning as assigned to it in Section 2(f) of the Securities Contract Regulation\nAct, 1956 (42 of 1956).\n3\n(l) ‘Future on credit indices’ means a standardised derivative contract, traded on a\nrecognised stock exchange, to buy or sell an index of underlying debt\ninstruments at a specified future date, at a price determined at the time of the\ncontract.\n(m) ‘Government-related entity’ shall have the same meaning as assigned to it in\nParagraph 9 of Indian Accounting Standard (Ind AS) 24: Related Party\nDisclosures.\n(n) ‘Hedging’ means the activity of undertaking a credit derivative transaction to\nreduce credit risk of a particular debt instr ument or a portfolio of debt\ninstruments.\n(o) ‘Infrastructure company ’ means a company engaged primarily in activities\nrelated to specific infrastructure sub-sectors listed under the Harmonized Master\nList of Infrastructure Sub- sectors notified by Department of Economic Affairs,\nMinistry of Finance, Government of India, via gazette notification no.\nF.No.13/6/2009-INF dated April 08, 2016, as amended from time to time.\n(p) ‘Market-maker’ means an entity which provides prices to users and other market-\nmakers.\n(q) ‘Money market debt instruments’ mean commercial papers and non-convertible\ndebentures of original or initial maturity up to one year as defined under the\nMaster Direction – Reserve Bank of India (Commercial  Paper and Non-\nConvertible Debentures of original or initial maturity up to one year) Directions,\n2024, issued vide  Notification No. FMRD.DIRD.09/14.02.001/2023- 24 dated\nJanuary 03, 2024 as amended from time to time and certificates of deposit as\ndefined under the Master Direction –  Reserve Bank of India (Certificate of\nDeposit) Directions, 2021, issued vide  Notification No. FMRD.\nDIRD.03/14.01.003/2021-22 dated June 04, 2021,  as amended from time to\ntime.\n(r) ‘Net worth’ shall have the same meaning as assigned to it in Section 2(57) of the\nCompanies Act, 2013 (18 of 2013).\n(s) ‘Over-the-Counter (OTC) markets ’ mean the markets where transactions are\nundertaken in any manner other than on exchanges and shall include electronic\ntrading platforms (ETPs).\n(t) ‘Person resident outside India’ shall have the same meaning as assigned to it in",
+        "page": 2,
+        "mandatory_flag": "Not Applicable",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "9",
+        "title": "of Indian Accounting Standard (Ind AS) 24 – Related Party Disclosures.",
+        "text": "(z) ‘Resident’ shall mean a ‘person resident in India’ and shall have the same\nmeaning as assigned to it in section 2(v) of the Foreign Exchange Management\nAct, 1999 (42 of 1999).\n(aa) ‘Single-name CDS’ means a CDS contract in which the underlying is a single\nreference entity.\n(bb) ‘Substitution event ’ means any event that results in the reference obligation\nbeing replaced by another obligation issued by the reference entity.\n(cc) ‘Succession event’ means any event that results in the reference entity no longer\nbeing the primary obligor for the reference obligation.\n(dd) ‘Total Return Swap (TRS)’ means a credit derivative contract under which one\ncounterparty ( total return payer) commits to transfer the entire economic\nperformance of a reference asset to the other counterparty (total return receiver),\nand, in return,  receives a pre- determined fixed or floating rate linked to a\nbenchmark.\n(ee) ‘User’ means a person that undertakes derivative transactions other than as a\nmarket-maker.\n(ii) Words and expressions, used but not defined in these Directions, shall have the\nsame meaning as assigned to them in the Act or in FEMA, 1999.",
+        "page": 5,
+        "mandatory_flag": "Not Applicable",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_3__2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "3",
+        "title": "Eligible participants",
+        "text": "(i) The following persons shall be eligible to participate in credit derivatives market:\n5\n(a) Residents; and\n(b) Person resident outside India, to the extent specified in these directions.",
+        "page": 5,
+        "mandatory_flag": "Mandatory",
+        "action": "PERMIT"
+      }
+    },
+    {
+      "id": "ObligationType:Permission / Authorization",
+      "type": "ObligationType",
+      "properties": {
+        "label": "Permission / Authorization"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4__2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4",
+        "title": "Directions on credit derivatives in the OTC market",
+        "page": 6
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_1",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.1",
+        "title": "Permitted products",
+        "text": "Market-makers and users may undertake transactions in CDS and TRS contracts, subject\nto the directions specified hereinafter.",
+        "page": 6,
+        "mandatory_flag": "Conditional",
+        "action": "PERMIT"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.2",
+        "title": "Market-makers and users",
+        "page": 6
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_1",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.2.1",
+        "title": "Market-makers",
+        "text": "(i) The following entities shall be eligible to act as market-makers in credit derivatives:\n(a) Scheduled Commercial Banks, except Small Finance Banks, Payment Banks,\nLocal Area Banks and Regional Rural Banks;\n(b) Standalone Primary Dealers;\n(c) NBFCs – Upper Layer and NBFCs – Middle Layer (including Housing Financial\nCompanies); and\n(d) Export Import Bank of India, National Bank of Agriculture and Rural\nDevelopment, National Housing Bank , Small Industries Development Bank of\nIndia and National Bank for Financing Infrastructure and Development.\n(ii) In case a n NBFC fails to meet the eligibility criteria  for acting as a market -maker, it\nshall cease to act as a market -maker. The NBFC shall continu e to meet all its\nobligations under the existing contracts till the maturity/termination of such contracts.\n(iii) At least one of the parties to a credit derivative transaction shall be a market -maker\nor a central counterparty authorised by the Reserve Bank for the purpose.",
+        "page": 6,
+        "mandatory_flag": "Conditional",
+        "action": "ESTABLISH"
+      }
+    },
+    {
+      "id": "Concept:CPT_COLLATERAL_MANAGEMENT",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_COLLATERAL_MANAGEMENT",
+        "label": "Collateral Management",
+        "domain": "Prudential Norms / Capital Adequacy",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.2.2",
+        "title": "User Classification Framework",
+        "text": "(i) Users shall be classified by market-makers either as retail or non-retail for the purpose\nof offering credit derivative contracts.\n(ii) The following users shall be eligible to be classified as non-retail users:\n(a) NBFCs other than market-makers;\n(b) Insurance Companies regulated by Insurance Regulatory and Development\nAuthority of India (IRDAI);\n(c) Pension Funds regulated by Pension Fund Regulatory and Development\nAuthority (PFRDA);\n6\n(d) Mutual Funds regulated by Securities and Exchange Board of India (SEBI);\n(e) Alternative Investment Funds regulated by Securities and Exchange Board of\nIndia (SEBI);\n(f) Resident companies with (a) minimum net worth of ₹500 crore; or (b) minimum\nturnover of ₹1,000 crore, as per the latest audited financial statements;\n(g) Foreign Portfolio Investors (FPIs) registered with SEBI; and\n(h) Any entity otherwise eligible to be a market-maker in terms of Paragraph 4.2.1\nof these Directions.\n(iii) Any user who is not eligible to be classified as a non-retail user shall be classified as\na retail user.\n(iv) Any user who is otherwise eligible to be classified as a non- retail user shall have the\noption to get classified as a retail user.",
+        "page": 6,
+        "mandatory_flag": "Mandatory",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Concept:CPT_CREDIT_RESTRUCTURING",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_CREDIT_RESTRUCTURING",
+        "label": "Credit Restructuring",
+        "domain": "Prudential Norms / Capital Adequacy",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.3",
+        "title": "Participants in credit derivatives in the OTC market",
+        "page": 7
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3_1",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.3.1",
+        "title": "Protection buyers and sellers for Credit Default Swaps",
+        "text": "(i) A resident retail user, other than an individual, shall be allowed to buy protection only\nfor the purpose of hedging.\n(ii) A non-retail user shall be allowed to buy protection without any restriction in terms of\npurpose.\n(iii) The following non-retail users shall be eligible to act as protection sellers:\n(a) An Insurance Company regulated by IRDAI;\n(b) A Pension Fund regulated by PFRDA;\n(c) A Mutual Fund regulated by SEBI;\n(d) An Alternative Investment Fund regulated by SEBI; and\n(e) An FPI registered with SEBI.\n(iv) Insurance Companies, Pension Funds, Mutual Funds and Alternat ive Investment\nFunds mentioned under Paragraph 4.3.1(iii) shall be permitted to act as protection\nsellers subject to approval of their respective regulator.\n(v) Participation by FPIs in CDS contracts shall be subject to the following,\n(a) The notional amount of CDS protection sold by all FPIs shall be subject to a limit\nof 5 per cent of the outstanding stock of corporate bonds. Clearing Corporation\nof India Ltd. (CCIL) shall disseminate the utilisation of the  limit based on the\nreporting by the market makers in terms of P aragraph 4.5.5 of these directions\n7\nand reporting by stock exchanges in terms of Paragraph 6.1 (vii) of these\ndirections. FPIs shall not sell any further CDS protection once the limit is utilised.\n(b) Debt instruments received by FPIs as deliverable obligation and debt instruments\npurchased by FPIs for meeting deliverable obligation in physical settlement o f\nCDS contracts shall be reckoned under the investment limits for corporate bonds\nas specified in  in A.P. (DIR Series) Circular No. 05 dated April 6, 2026 , as\namended from time to time.  In case of non-availability of investment limit at the\ntime of physical settlement, such debt instruments shall be adjusted against the\nrevised limit in the subsequent review of investment limit.\n(c) The notional amount of protection sold by FPIs, and the debt instruments\nreceived as deliverable obligation as well as debt instruments purchased for\nmeeting deliverable obligation by FPIs in physical settlement of CDS contracts\nshall not be subject to the minimum residual maturity requirement or issue-wise\nlimit applicable to FPI investment in corporate bonds as specified in Master\nDirection – Reserve Bank of India (Non-resident Investment in Debt Instruments)\nDirections, 2025, dated January 7, 2025, as amended from time to time.\n(d) A market maker shall not offer a CDS contract to an FPI where the reference\nobligation or the index includes a money market debt instrument or a debt\ninstrument with residual maturity less than one year  or a bond with call / put\noptions exercisable within one year from the date of the undertaking the CDS\ncontract.\n(vi)  A market-maker shall not offer CDS contracts to an individual.",
+        "page": 7,
+        "mandatory_flag": "Conditional",
+        "action": "PERMIT"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3_2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.3.2",
+        "title": "Participants in total return swaps",
+        "text": "(i) A market-maker may offer a TRS contract to a resident retail user , other than an\nindividual, only for the purpose of hedging.\n(ii) A market-maker may offer a TRS contract to a resident non-retail user without any\nrestriction in terms of purpose.\n(iii) A market-maker may offer a TRS contract to a person outside India subject to the\nfollowing:\n(a) A market-maker may offer a TRS contract to a person resident outside India,\nincluding an FPI, for the purpose of hedging;\n(b) A market maker may also offer a TRS contract to a person resident outside\nIndia, including an FPI , wherein the person resident outside India is the total\n8\nreturn receiver provide d that the TRS is offered as a fully funded structure in\nwhich the person resident outside India provides to the market -maker in India\nthe full notional amount of the reference asset.\nProvided that no offshore derivative instrument with the TRS contract as\nunderlying shall be written by the person resident outside India.\n(c) A market maker may offer a TRS contract to a person resident outside India,\nincluding an FPI, directly or on a back -to-back basis through overseas entities\n(including overseas branches, IFSC Banking Units, wholly owned subsidiaries\nand joint ventures of market-makers) subject to the following conditions:\ni. The overseas entity is eligible to deal with the product concerned in the\ncapacity of a dealer / market-maker as per the host jurisdiction’s laws and\nregulations;\nii. The wholly owned subsidiary / joint venture of the market -maker\nincorporated in India can undertake such transactions provided the wholly\nowned subsidiary / joint venture is a banking entity; and\niii. The market-maker shall provide information, data or any other particulars\nrequired by the Reserve Bank of India in respect of the aforesaid\ntransactions in the manner and time prescribed.\n(d) The notional amount of the TRS contract offered to a person resident outside\nIndia through a fully  funded structure shall be reckoned under the investment\nlimits for corporate bonds as specified in Master Direction  – Reserve Bank of\nIndia (Non- resident Investment in Debt Instruments) Directions, 2025,  dated\nJanuary 7, 2025, as amended from time to time;\n(e) Where the reference asset specified in a TRS contract includes an unlisted\ncorporate bond or debenture, the same shall comply wit h the end use\nrestrictions set out in Paragraph 4.4 (vi) of the Master Direction – Reserve Bank\nof India (Non-resident Investment in Debt Instruments) Directions, 2025, dated\nJanuary 7, 2025;\n(f) A market maker shall not offer a TRS contract to a person resident outside India\nwhere the reference asset or the index includes a money market debt\ninstrument or a debt instrument with residual maturity less than one year  or a\nbond with call / put options exercisable within one year from the date of the\ncontract; and\n(iv) A market-maker shall not offer a TRS contract to an individual.\n9",
+        "page": 8,
+        "mandatory_flag": "Conditional",
+        "action": "RESTRICT"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_4",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.4",
+        "title": "Reference Entities, Obligations and Assets",
+        "text": "(i) The reference entity in a credit derivative contract shall be a resident entity who is\neligible to issue any of the debt instruments mentioned under Paragraph 4.4 (ii).\n(ii) The following debt instruments issued in India shall be eligible to be a reference\nobligation in a CDS contract or a reference asset in a TRS contract:\n(a) Money market debt instruments;\n(b) Rated INR corporate bonds and debentures; and\n(c) Unrated INR corporate bonds and debentures  issued by the S pecial Purpose\nVehicles set up by infrastructure companies.\n(iii) Bonds with call/put options shall be eligible to be reference obligations /reference\nassets.\n(iv) Asset-backed securities/mortgage-backed securities and structured obligations such\nas credit enhanced/guaranteed bonds, convertible bonds, etc. shall not be permitted\nas reference obligations/reference assets.\n(v) The reference obligation /deliverable obligation /reference asset  shall be in\ndematerialised form.\n(vi) The underlying reference obligation for a CDS  or a reference asset for a TRS  may\nbe an index comprising solely of eligible debt instruments as set out in Paragraph 4.4\n(ii) of these Directions , subject to the condition that the index is published by a\nfinancial benchmark administrator which is duly authorised by the Reserve Bank\nunder the Reserve Bank of India (Financial Benchmark Administrators) Directions,",
+        "page": 10,
+        "mandatory_flag": "Mandatory",
+        "action": "RESTRICT"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.5",
+        "title": "Other operational Directions for credit derivatives",
+        "page": 11
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_1",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.5.1",
+        "title": "Buying, Unwinding and Settlement",
+        "text": "(i) Market participants shall not enter into CDS or TRS transactions if the reference entity\nis a related party to either counterparty. However, two (or more) government-related\nentities shall not be deemed as related parties for the purpose of these Directions.\n(ii) Unless specifically permitted  in these directions , market participants shall not\nundertake credit derivative transactions involving reference entities /reference\nobligations//reference assets, if there are regulatory restrictions on such participants\nassuming similar exposures in the cash market or in violation of any other regulatory\nrestriction, as may be applicable.\n(iii) Market participants can exit their credit derivative contracts by unwinding the contract\nwith the original counterparty or assigning the contract to any other eligible market\nparticipant through novation 1 subject to the provisions of the circular on Novation of\nOTC Derivative Contracts dated December 9, 2013  issued vide Notification No.\nDBOD.No.BP.BC.76/21.04.157/2013-14. However, provisions under Paragraph  2,\nParagraph 5.1 and Paragraph 5.2 of the above circular shall not apply to credit\nderivative transactions undertaken in terms of these Directions.\n(iv) Market participants shall settle their credit derivative contracts bilaterally or through\nany clearing and settlement arrangement approved by the Reserve Bank.  A credit\nderivative contract undertaken with a non-resident by a market-maker, which is a bank\nhaving an Authorised Dealer Category-I (AD Cat-I) license under FEMA, 1999, or an\nSPD authorize d under section 10(1) of FEMA,1999, can be settled in INR or in a\nforeign currency.\n(v) Credit derivative contracts can be cash settled or physically settled. CDS contracts\ncan also be settled through auction. The procedure for cash settlement and auction\nsettlement of CDS contracts shall be determined by the Credit Derivatives\nDeterminations Committee, as specified under Paragraph 5 of these Directions. TRS\ncontracts undertaken by a person resident outside India, who is not an FPI, shall be\ncash settled.\n1 Novation is the replacement of a contract between two counterparties to an OTC derivative transaction (the\ntransferor, who steps out of the existing contract, and the remaining party) with a new contract between the remaining\nparty and a third party (the transferee). The transferee becomes the new counterparty to the remaining party.\n11\n(vi) Any floating interest rate used in a TRS shall be a benchmark published by a financial\nbenchmark administrator which is duly authorised by the Reserve Bank under the\nReserve Bank of India (Financial Benchmark Administrators) Directions, 2023 dated\nDecember 28, 2023, as amended from time to time.",
+        "page": 11,
+        "mandatory_flag": "Mandatory",
+        "action": "PROHIBIT"
+      }
+    },
+    {
+      "id": "ObligationType:Prohibition",
+      "type": "ObligationType",
+      "properties": {
+        "label": "Prohibition"
+      }
+    },
+    {
+      "id": "Concept:CPT_RELATED_PARTY",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_RELATED_PARTY",
+        "label": "Related Party Exposure",
+        "domain": "Prudential Norms / Capital Adequacy",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.5.2",
+        "title": "Credit derivative transactions with users for purposes of hedging",
+        "text": "(i) While offering a credit derivative contract for the purpose of hedging, the market\nmaker shall ensure that the user:\n(a) shall have exposure to the reference asset / any of the eligible reference\nobligations/ any one or more of the debt instruments comprising the index in the\ncase of a credit derivative contract on an index\n(b) shall not buy a credit derivative contract(s) with notional amount higher than the\nface value of the reference obligation / reference asset held by them; and\n(c) shall not buy a credit derivative contract with a tenor later than the maturity of\nthe reference obligation / reference asset held by them or the standard CDS /\nTRS maturity date immediately after the maturity of the reference obligation or\nreference asset.\n(ii) To ensure compliance with the above, market -makers may call for any relevant\ninformation/documents from the user, who, in turn, shall be obliged to provide such\ninformation.\n(iii) Users undertaking credit derivative transactions for the purpose of hedging shall exit\ntheir credit derivative position within one month from the date they cease to have the\nunderlying exposure.",
+        "page": 12,
+        "mandatory_flag": "Mandatory",
+        "action": "VERIFY"
+      }
+    },
+    {
+      "id": "ObligationType:Compliance Monitoring",
+      "type": "ObligationType",
+      "properties": {
+        "label": "Compliance Monitoring"
+      }
+    },
+    {
+      "id": "Concept:CPT_POLICY_FRAMEWORK",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_POLICY_FRAMEWORK",
+        "label": "Policy Framework",
+        "domain": "Banking Regulation & Supervision",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_3",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.5.3",
+        "title": "Standardisation",
+        "text": "(i) The settlement basis and market conventions for credit derivative contracts shall be\nspecified by the Fixed Income Money Market and Derivatives Association of India\n(FIMMDA), in consultation with market participants and based on international best\npractices. FIMMDA may also prescribe standard doc umentation procedures for credit\nderivative transactions. Market participants may, alternatively, use a standard master\nagreement for credit derivative contracts.\n(ii) Market participants shall ensure that t he CDS contract represent s a direct claim on\nthe protection seller. The contract shall not have any clause that may:\n12\n(a) allow the protection seller to unilaterally cancel the contract, except in case of a\ndefault by the protection buyer under the terms of the contract;\n(b) prevent the protection seller from making the credit event payment in a timely\nmanner, after occurrence of the credit event and completion of necessary\nconditions and requirements under the terms of contract; or\n(c) provide the protection seller any recourse to the protection buyer for credit event\nlosses.",
+        "page": 12,
+        "mandatory_flag": "Conditional",
+        "action": "ESTABLISH"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_4",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.5.4",
+        "title": "Customer protection",
+        "text": "(i) Market-makers in OTC markets shall comply with the Master Direction –  Reserve\nBank of India (Market-makers in OTC Derivatives) Directions, 2021 issued vide RBI\nCircular No. FMRD.FMD.07/02.03.247/2021 -22 dated September 16, 2021, as\namended from time to time and the Reserve Bank of India ( Prevention of Market\nAbuse) Directions, 2019 issued vide RBI Circular No.\nFMRD.FMSD.11/11.01.012/2018-19 dated March 15, 2019, as amended from time\nto time.",
+        "page": 13,
+        "mandatory_flag": "Mandatory",
+        "action": "IMPLEMENT"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_5",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "4.5.5",
+        "title": "Reporting",
+        "text": "(i) Market-makers shall report all OTC credit derivative transactions within 30 minutes\nof the transaction, to the trade repository of Clearing Corporation of India Ltd. (CCIL).\n(ii) Market-makers shall report all amendments, unwinding, novation, settlement\ntransactions, and any credit, substitution or succession event to the trade repository\nof CCIL.\n(iii) The reporting formats shall be as indicated by CCIL with the prior approval of the\nReserve Bank.",
+        "page": 13,
+        "mandatory_flag": "Mandatory",
+        "action": "REPORT"
+      }
+    },
+    {
+      "id": "ObligationType:Reporting",
+      "type": "ObligationType",
+      "properties": {
+        "label": "Reporting"
+      }
+    },
+    {
+      "id": "Concept:CPT_REGULATORY_REPORTING",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_REGULATORY_REPORTING",
+        "label": "Regulatory Reporting",
+        "domain": "Banking Regulation & Supervision",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_5",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "5",
+        "title": "Credit Derivatives Determinations Committee",
+        "text": "(i) FIMMDA shall set up a Credit Derivatives Determinations Committee, consisting of\nmarket-makers and users in credit derivatives as voting members. FIMMDA shall\nensure that users are adequately represented in the Committee. The Committee may\nalso include central counterparties as observer members and legal/audit/consultancy\nfirms as consultative members.\n(ii) FIMMDA shall establish rules for governing the activities of the Credit Derivatives\nDeterminations Committee in line with international best practices.\n13\n(iii) The Credit Derivatives  Determinations Committee, when approached by market\nparticipants, shall make factual deter minations regarding key provisions of credit\nderivative contracts including, but not limited to, the occurrence of a credit event,\nsubstitution event, succession event, determining the identity of successor reference\nentity, etc.\n(iv) The Credit Derivatives Determinations Committee shall, in consultation with market\nparticipants, develop a standard procedure for cash and auction settlement of CDS\ncontracts.\n(v) The Credit Derivatives  Determinations Committee, when approached by market\nparticipants, may conduct an auction to determine the reference price for settlement\nof CDS contracts. The Credit Derivatives  Determinations Committee shall put in\nplace procedures/safeguards to ensure that the reference price is determined in a\nfair and transparent manner.\n(vi) The decisions of the Credit Derivatives  Determinations Committee shall be binding\non the market participants.",
+        "page": 13,
+        "mandatory_flag": "Mandatory",
+        "action": "ESTABLISH"
+      }
+    },
+    {
+      "id": "Concept:CPT_BOARD_OVERSIGHT",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_BOARD_OVERSIGHT",
+        "label": "Board Oversight",
+        "domain": "Corporate Governance",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "6",
+        "title": "Directions for exchange traded credit derivatives",
+        "page": 14
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_1",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "6.1",
+        "title": "Credit default swaps",
+        "text": "(i) Exchanges may offer standardised single- name CDS contracts and CDS contracts\non credit indices with guaranteed settlement.\n(ii) Exchanges shall obtain prior approval of the Reserve Bank for product design,\nchanges in product design, eligible participants and other details of CDS contracts.\nThe operational guidelines on the procedure for execution and settlement of trades\non stock exchanges shall be prescribed by SEBI.\n(iii) The reference entities and reference obligations for exchange- traded CDS shall be\nas specified under Paragraph 4.4 of these Directions.\n(iv) The credit index for an exchange-traded CDS contract shall be an index comprising\nsolely of eligible debt instruments as  set out in para  4.4 (ii) of these Directions,\nsubject to the condition that the index is published by a financial benchmark\nadministrator which is duly authorised by the Reserve Bank under the Reserve Bank\nof India (Financial Benchmark Administrators) Directions, 2023 dated December 28,\n2023, as amended from time to time, or that the index is composed / administered\nas per the directions issued by SEBI from time to time.\n14\nNote: An index which is based wholly or partially on money market debt instruments\nshall be published by a financial benchmark administrator which is duly authorised\nby the Reserve Bank under the Reserve Bank of India (Financial Benchmark\nAdministrators) Directions, 2023 dated December 28, 2023, as amended from time\nto time.\n(v) Participants, who are retail users, as defined under P aragraph 4.2.2 of these\nDirections, shall undertake transactions in exchange- traded CDS only for hedging\nand such users\n(a) shall have exposure to any of the eligible reference obligations  or any one or\nmore of the debt instruments comprising the index in the case of a CDS contract\non an index;\n(b) shall not buy a CDS contract(s) for notional amount higher than the face value\nof the reference obligation held by them; and\n(c) shall not buy a CDS contract with a tenor later than the maturity of the reference\nobligation held by them or the standard CDS maturity date immediately after the\nmaturity of the reference obligation.\n(vi) The determinations made by Credit Derivatives  Determinations Committee shall be\napplicable to exchange-traded CDS contracts.\n(vii) FPIs may transact in exchange- traded CDS as protection sellers and/or protection\nbuyers. Participation by FPIs shall be subject to the provisions of Paragraph 4.3(1)(v)\nof these Directions. Exchanges shall report the gross notional amount of protection\nsold by FPIs to CCIL on a daily basis by the end of the day, or on an intra-day basis\nif required by the Reserve Bank.\n(viii) FPI shall not sell protection through CDS contracts  where reference obligation is a\nmoney market debt instrument , a debt instrument with residual maturity less than\none year, or a bond with call / put options exercisable within one year from the date\nof the contract, or an index referencing money market instruments or debt\ninstruments with residual maturity less than one year or bonds with call / put options\nexercisable within one year from the date of the contract.",
+        "page": 14,
+        "mandatory_flag": "Mandatory",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "6.2",
+        "title": "Futures on credit indices",
+        "text": "(i) Exchanges may offer futures contracts on credit indices with guaranteed settlement,\nprovided that:\n15\n(a) The credit index used as underlying for futures contracts shall be composed\nsolely of eligible debt instruments as set out in para 4.4 (ii) of these directions ;\nand\n(b) The composition / administration of the index shall be as per the directions\nissued by SEBI.\nNote: A credit index which is  based wholly or partially on money market debt\ninstruments shall be published by a financial benchmark administrator which is duly\nauthorised by the Reserve Bank under the Reserve Bank of India (Financial\nBenchmark Administrators) Directions, 2023 dated December 28, 2023, as amended\nfrom time to time.\n(ii) Exchanges shall obtain prior approval of the Reserve Bank for product design,\nchanges in product design, eligible participants , and other details of the futures\ncontracts. The operational guidelines on the procedure for execution and settlement\nof trades on stock exchanges shall be prescribed by SEBI.\n(iii) Participation of Foreign Portfolio Investors (FPIs) in futures on credit indices shall be\nsubject to the following:\n(a) The aggregate long position assumed by FPIs in future  contracts on credit\nindices shall be reckoned under the investment limits for corporate debt\nsecurities as specified in Master Direction – Reserve Bank of India (Non-resident\nInvestment in Debt Instruments) Directions, 2025 dated January 07, 20 25, as\namended from time to time;\n(b) The total gross short (sold) position of any FPI shall not exceed its consolidated\nlong position in corporate bonds and debentures and in future contracts on credit\nindices, at any point in time; and\n(c) FPIs shall not participate in future contracts on credit indices where the\nunderlying credit index includes a money market debt instrument or a debt\ninstrument with residual maturity less than one year or a bond with call / put\noptions exercisable within one year from the date of the contract.",
+        "page": 15,
+        "mandatory_flag": "Mandatory",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Concept:CPT_CREDIT_RISK",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_CREDIT_RISK",
+        "label": "Credit Risk",
+        "domain": "Prudential Norms / Capital Adequacy",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_3",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "6.3",
+        "title": "Other Directions",
+        "text": "(i) Exchanges shall ensure that the participants on exchanges are made adequately\naware of the risks associated with credit derivative contracts.\n16\n(ii) Participants shall not undertake credit derivative transactions involving reference\nentities if there are regulatory restrictions on assuming similar exposures in the cash\nmarket or in violation of any other regulatory restriction, as may be applicable.\n(iii) Exchanges shall furnish any information relating to credit derivative transactions to\nthe Reserve Bank or any other agency as may be specified by the Reserve Bank in\nthe manner and format and within the time frame as may be specified by the Reserve\nBank.",
+        "page": 16,
+        "mandatory_flag": "Mandatory",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "ObligationType:Customer Protection / Redressal",
+      "type": "ObligationType",
+      "properties": {
+        "label": "Customer Protection / Redressal"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_7",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "7",
+        "title": "Valuation methodology",
+        "text": "Market-makers shall put in place robust methodologies for marking to market credit\nderivative contracts. The valuation methodology adopted shall be applied consistently\nand shall be appropriately documented and disclosed.",
+        "page": 17,
+        "mandatory_flag": "Mandatory",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "ObligationType:Record Retention",
+      "type": "ObligationType",
+      "properties": {
+        "label": "Record Retention"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_8",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "8",
+        "title": "Prudential norms, accounting and capital requirements",
+        "text": "(i) Market participants shall follow the applicable prudential norms and capital adequacy\nrequirements for credit derivatives issued by their respective regulators.\n(ii) The accounting of credit derivative  contracts by market participants shall be as per\nnotified and applicable accounting standards read with regulatory\nguidelines/instructions issued by the respective regulators.  In case the notified\napplicable accounting standards or the respective regulator have not prescribed the\naccounting treatment for credit derivative contracts, guidance, if any, issued by the\nInstitute of Chartered Accountants of India shall be followed in this regard.",
+        "page": 17,
+        "mandatory_flag": "Mandatory",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Concept:CPT_EXPOSURE_NORMS",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_EXPOSURE_NORMS",
+        "label": "Exposure Norms Compliance",
+        "domain": "Prudential Norms / Capital Adequacy",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9__2",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "9",
+        "title": "Obligation to provide information sought by the Reserve Bank",
+        "text": "The Reserve Bank may call for any information or statement or seek any clarification,\nwhich in the opinion of the Reserve Bank is relevant, from persons or agencies dealing\nin credit derivatives contracts, including eligible participants, and such persons, agencies\nand participants shall furnish such information, statement or clarification in the manner\nand format and within the time frame as may be specified by the Reserve Bank.",
+        "page": 17,
+        "mandatory_flag": "Mandatory",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Concept:CPT_AUTHORIZATION_APPROVAL",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_AUTHORIZATION_APPROVAL",
+        "label": "Authorization and Approval",
+        "domain": "Banking Regulation & Supervision",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_10",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "10",
+        "title": "Dissemination of data",
+        "text": "(i) The Reserve Bank, or any other person or agency authorised by the Reserve Bank,\nmay in public interest, publish any anonymised data related to transactions in credit\nderivatives market.\n17\n(ii) CCIL shall publish the notional value of credit derivative contracts outstanding for\neach debt instrument on a daily basis.",
+        "page": 17,
+        "mandatory_flag": "Discretionary",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_11",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "11",
+        "title": "Violation of Directions",
+        "text": "In the event of any person or agency violating any provision of these Directions or the\nprovisions of any other applicable law, the Reserve Bank may, in addition to taking any\npenal or regulatory action in accordance with law, disallow that person or agency from\ndealing in the credit derivatives market for a period not exceeding one month at a time,\nafter providing reasonable opportunity to the person or agency to defend its actions, and\nsuch action will be made public by the Reserve Bank.",
+        "page": 18,
+        "mandatory_flag": "Mandatory",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "ObligationType:Penalty / Enforcement",
+      "type": "ObligationType",
+      "properties": {
+        "label": "Penalty / Enforcement"
+      }
+    },
+    {
+      "id": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_12",
+      "type": "Clause",
+      "properties": {
+        "clause_no": "12",
+        "title": "These Directions shall apply to all credit derivative transactions entered into from the",
+        "text": "date the Directions come into effect. Existing Directions will continue to be applicable to\nthe credit derivatives transactions undertaken in accordance with the said Directions till\nthe expiry of those contracts.",
+        "page": 18,
+        "mandatory_flag": "Not Applicable",
+        "action": "OTHER"
+      }
+    },
+    {
+      "id": "Concept:CPT_PROVISIONING",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_PROVISIONING",
+        "label": "Provisioning",
+        "domain": "Prudential Norms / Capital Adequacy",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Domain:Prudential Norms / Capital Adequacy",
+      "type": "Domain",
+      "properties": {
+        "label": "Prudential Norms / Capital Adequacy"
+      }
+    },
+    {
+      "id": "Concept:CPT_GOVERNANCE",
+      "type": "Concept",
+      "properties": {
+        "canonical_id": "CPT_GOVERNANCE",
+        "label": "Governance",
+        "domain": "Corporate Governance",
+        "status": "draft"
+      }
+    },
+    {
+      "id": "Domain:Banking Regulation & Supervision",
+      "type": "Domain",
+      "properties": {
+        "label": "Banking Regulation & Supervision"
+      }
+    },
+    {
+      "id": "Domain:Corporate Governance",
+      "type": "Domain",
+      "properties": {
+        "label": "Corporate Governance"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Regulator:RBI",
+      "type": "ISSUED_BY"
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2",
+      "target": "Domain:Other",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_2",
+        "clause_no": "2",
+        "page": 1
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_2",
+        "clause_no": "2",
+        "page": 1
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2",
+      "target": "Concept:CPT_DOCUMENT_META",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_2",
+        "clause_no": "2",
+        "page": 1,
+        "match_type": "fuzzy",
+        "match_confidence": 0.681,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_3",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_3",
+      "target": "Domain:Other",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_3",
+        "clause_no": "3",
+        "page": 1
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_3",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_3",
+        "clause_no": "3",
+        "page": 1
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4",
+      "target": "Domain:Other",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4",
+        "clause_no": "4",
+        "page": 1
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4",
+        "clause_no": "4",
+        "page": 1
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4",
+      "target": "Concept:CPT_DOCUMENT_META",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4",
+        "clause_no": "4",
+        "page": 1,
+        "match_type": "fuzzy",
+        "match_confidence": 0.681,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_1",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_1",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_1",
+        "clause_no": "1",
+        "page": 2
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_1",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_1",
+        "clause_no": "1",
+        "page": 2
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2__2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2__2",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_2__2",
+        "clause_no": "2",
+        "page": 2
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_2__2",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_2__2",
+        "clause_no": "2",
+        "page": 2
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_9",
+        "clause_no": "9",
+        "page": 5
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_9",
+        "clause_no": "9",
+        "page": 5
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9",
+      "target": "Concept:CPT_DOCUMENT_META",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_9",
+        "clause_no": "9",
+        "page": 5,
+        "match_type": "fuzzy",
+        "match_confidence": 0.514,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_3__2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_3__2",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_3__2",
+        "clause_no": "3",
+        "page": 5
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_3__2",
+      "target": "ObligationType:Permission / Authorization",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_3__2",
+        "clause_no": "3",
+        "page": 5
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4__2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_1",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_1",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_1",
+        "clause_no": "4.1",
+        "page": 6
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_1",
+      "target": "ObligationType:Permission / Authorization",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_1",
+        "clause_no": "4.1",
+        "page": 6
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_1",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_1",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_2_1",
+        "clause_no": "4.2.1",
+        "page": 6
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_1",
+      "target": "ObligationType:Permission / Authorization",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_2_1",
+        "clause_no": "4.2.1",
+        "page": 6
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_1",
+      "target": "Concept:CPT_COLLATERAL_MANAGEMENT",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_2_1",
+        "clause_no": "4.2.1",
+        "page": 6,
+        "match_type": "fuzzy",
+        "match_confidence": 0.429,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_2",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_2_2",
+        "clause_no": "4.2.2",
+        "page": 6
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_2",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_2_2",
+        "clause_no": "4.2.2",
+        "page": 6
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_2_2",
+      "target": "Concept:CPT_CREDIT_RESTRUCTURING",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_2_2",
+        "clause_no": "4.2.2",
+        "page": 6,
+        "match_type": "fuzzy",
+        "match_confidence": 0.511,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3_1",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3_1",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_3_1",
+        "clause_no": "4.3.1",
+        "page": 7
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3_1",
+      "target": "ObligationType:Permission / Authorization",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_3_1",
+        "clause_no": "4.3.1",
+        "page": 7
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3_2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3_2",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_3_2",
+        "clause_no": "4.3.2",
+        "page": 8
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_3_2",
+      "target": "ObligationType:Permission / Authorization",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_3_2",
+        "clause_no": "4.3.2",
+        "page": 8
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_4",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_4",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_4",
+        "clause_no": "4.4",
+        "page": 10
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_4",
+      "target": "ObligationType:Permission / Authorization",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_4",
+        "clause_no": "4.4",
+        "page": 10
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_1",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_1",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_1",
+        "clause_no": "4.5.1",
+        "page": 11
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_1",
+      "target": "ObligationType:Prohibition",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_1",
+        "clause_no": "4.5.1",
+        "page": 11
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_1",
+      "target": "Concept:CPT_RELATED_PARTY",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_1",
+        "clause_no": "4.5.1",
+        "page": 11,
+        "match_type": "fuzzy",
+        "match_confidence": 0.65,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_2",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_2",
+        "clause_no": "4.5.2",
+        "page": 12
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_2",
+      "target": "ObligationType:Compliance Monitoring",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_2",
+        "clause_no": "4.5.2",
+        "page": 12
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_2",
+      "target": "Concept:CPT_POLICY_FRAMEWORK",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_2",
+        "clause_no": "4.5.2",
+        "page": 12,
+        "match_type": "fuzzy",
+        "match_confidence": 0.521,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_3",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_3",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_3",
+        "clause_no": "4.5.3",
+        "page": 12
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_3",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_3",
+        "clause_no": "4.5.3",
+        "page": 12
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_3",
+      "target": "Concept:CPT_DOCUMENT_META",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_3",
+        "clause_no": "4.5.3",
+        "page": 12,
+        "match_type": "fuzzy",
+        "match_confidence": 0.514,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_4",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_4",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_4",
+        "clause_no": "4.5.4",
+        "page": 13
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_4",
+      "target": "ObligationType:Compliance Monitoring",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_4",
+        "clause_no": "4.5.4",
+        "page": 13
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_4",
+      "target": "Concept:CPT_POLICY_FRAMEWORK",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_4",
+        "clause_no": "4.5.4",
+        "page": 13,
+        "match_type": "fuzzy",
+        "match_confidence": 0.521,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_5",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_5",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_5",
+        "clause_no": "4.5.5",
+        "page": 13
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_5",
+      "target": "ObligationType:Reporting",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_5",
+        "clause_no": "4.5.5",
+        "page": 13
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_4_5_5",
+      "target": "Concept:CPT_REGULATORY_REPORTING",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_4_5_5",
+        "clause_no": "4.5.5",
+        "page": 13,
+        "match_type": "fuzzy",
+        "match_confidence": 0.558,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_5",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_5",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_5",
+        "clause_no": "5",
+        "page": 13
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_5",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_5",
+        "clause_no": "5",
+        "page": 13
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_5",
+      "target": "Concept:CPT_BOARD_OVERSIGHT",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_5",
+        "clause_no": "5",
+        "page": 13,
+        "match_type": "fuzzy",
+        "match_confidence": 0.622,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_1",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_1",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_6_1",
+        "clause_no": "6.1",
+        "page": 14
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_1",
+      "target": "ObligationType:Permission / Authorization",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_6_1",
+        "clause_no": "6.1",
+        "page": 14
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_2",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_6_2",
+        "clause_no": "6.2",
+        "page": 15
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_2",
+      "target": "ObligationType:Permission / Authorization",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_6_2",
+        "clause_no": "6.2",
+        "page": 15
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_2",
+      "target": "Concept:CPT_CREDIT_RISK",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_6_2",
+        "clause_no": "6.2",
+        "page": 15,
+        "match_type": "fuzzy",
+        "match_confidence": 0.467,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_3",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_3",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_6_3",
+        "clause_no": "6.3",
+        "page": 16
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_3",
+      "target": "ObligationType:Customer Protection / Redressal",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_6_3",
+        "clause_no": "6.3",
+        "page": 16
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_6_3",
+      "target": "Concept:CPT_CREDIT_RISK",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_6_3",
+        "clause_no": "6.3",
+        "page": 16,
+        "match_type": "fuzzy",
+        "match_confidence": 0.65,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_7",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_7",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_7",
+        "clause_no": "7",
+        "page": 17
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_7",
+      "target": "ObligationType:Record Retention",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_7",
+        "clause_no": "7",
+        "page": 17
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_8",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_8",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_8",
+        "clause_no": "8",
+        "page": 17
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_8",
+      "target": "ObligationType:Compliance Monitoring",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_8",
+        "clause_no": "8",
+        "page": 17
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_8",
+      "target": "Concept:CPT_EXPOSURE_NORMS",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_8",
+        "clause_no": "8",
+        "page": 17,
+        "match_type": "fuzzy",
+        "match_confidence": 0.648,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9__2",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9__2",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_9__2",
+        "clause_no": "9",
+        "page": 17
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9__2",
+      "target": "ObligationType:Reporting",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_9__2",
+        "clause_no": "9",
+        "page": 17
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_9__2",
+      "target": "Concept:CPT_AUTHORIZATION_APPROVAL",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_9__2",
+        "clause_no": "9",
+        "page": 17,
+        "match_type": "fuzzy",
+        "match_confidence": 0.426,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_10",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_10",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_10",
+        "clause_no": "10",
+        "page": 17
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_10",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_10",
+        "clause_no": "10",
+        "page": 17
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_11",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_11",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_11",
+        "clause_no": "11",
+        "page": 18
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_11",
+      "target": "ObligationType:Penalty / Enforcement",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_11",
+        "clause_no": "11",
+        "page": 18
+      }
+    },
+    {
+      "source": "Document:407MD23637C77AC6742318BC8906ED8B98BEC",
+      "target": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_12",
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_12",
+      "target": "Domain:Financial Markets Regulation",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_12",
+        "clause_no": "12",
+        "page": 18
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_12",
+      "target": "ObligationType:Other",
+      "type": "HAS_OBLIGATION",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_12",
+        "clause_no": "12",
+        "page": 18
+      }
+    },
+    {
+      "source": "Clause:407MD23637C77AC6742318BC8906ED8B98BEC/clause_12",
+      "target": "Concept:CPT_PROVISIONING",
+      "type": "MAPS_TO_CONCEPT",
+      "provenance": {
+        "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+        "clause_id": "clause_12",
+        "clause_no": "12",
+        "page": 18,
+        "match_type": "fuzzy",
+        "match_confidence": 0.428,
+        "review_required": true
+      }
+    },
+    {
+      "source": "Concept:CPT_DOCUMENT_META",
+      "target": "Domain:Other",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_COLLATERAL_MANAGEMENT",
+      "target": "Concept:CPT_CREDIT_RISK",
+      "type": "CHILD_OF",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_COLLATERAL_MANAGEMENT",
+      "target": "Domain:Prudential Norms / Capital Adequacy",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_CREDIT_RESTRUCTURING",
+      "target": "Concept:CPT_CREDIT_RISK",
+      "type": "CHILD_OF",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_CREDIT_RESTRUCTURING",
+      "target": "Domain:Prudential Norms / Capital Adequacy",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_RELATED_PARTY",
+      "target": "Concept:CPT_CREDIT_RISK",
+      "type": "CHILD_OF",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_RELATED_PARTY",
+      "target": "Domain:Prudential Norms / Capital Adequacy",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_POLICY_FRAMEWORK",
+      "target": "Concept:CPT_GOVERNANCE",
+      "type": "CHILD_OF",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_POLICY_FRAMEWORK",
+      "target": "Domain:Banking Regulation & Supervision",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_REGULATORY_REPORTING",
+      "target": "Domain:Banking Regulation & Supervision",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_BOARD_OVERSIGHT",
+      "target": "Concept:CPT_GOVERNANCE",
+      "type": "CHILD_OF",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_BOARD_OVERSIGHT",
+      "target": "Domain:Corporate Governance",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_CREDIT_RISK",
+      "target": "Domain:Prudential Norms / Capital Adequacy",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_EXPOSURE_NORMS",
+      "target": "Concept:CPT_CREDIT_RISK",
+      "type": "CHILD_OF",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_EXPOSURE_NORMS",
+      "target": "Domain:Prudential Norms / Capital Adequacy",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_AUTHORIZATION_APPROVAL",
+      "target": "Domain:Banking Regulation & Supervision",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_PROVISIONING",
+      "target": "Concept:CPT_EXPOSURE_NORMS",
+      "type": "CHILD_OF",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    },
+    {
+      "source": "Concept:CPT_PROVISIONING",
+      "target": "Domain:Prudential Norms / Capital Adequacy",
+      "type": "IN_DOMAIN",
+      "provenance": {
+        "catalog_version": "global=0.1.0;IN_RBI=0.1.0"
+      }
+    }
+  ]
+}

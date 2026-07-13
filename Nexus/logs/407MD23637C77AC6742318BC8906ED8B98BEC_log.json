@@ -1,0 +1,33 @@
+{
+  "document": "407MD23637C77AC6742318BC8906ED8B98BEC.PDF",
+  "started_at": "2026-07-09T11:43:35.307695+00:00",
+  "steps": [
+    {
+      "step": "acquire",
+      "status": "ok",
+      "path": "Nexus\\input\\407MD23637C77AC6742318BC8906ED8B98BEC.PDF"
+    },
+    {
+      "step": "pdf_load",
+      "status": "ok",
+      "pages": 18
+    },
+    {
+      "step": "markdown_write",
+      "status": "ok",
+      "path": "Nexus\\markdown\\407MD23637C77AC6742318BC8906ED8B98BEC.md"
+    },
+    {
+      "step": "llm_metadata_extraction",
+      "status": "ok",
+      "providers": "nvidia -> azure"
+    },
+    {
+      "step": "metadata_write",
+      "status": "ok",
+      "path": "Nexus\\metadata\\407MD23637C77AC6742318BC8906ED8B98BEC_metadata.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-09T11:43:47.934611+00:00"
+}

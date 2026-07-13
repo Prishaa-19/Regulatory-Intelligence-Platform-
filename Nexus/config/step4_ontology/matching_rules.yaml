@@ -1,0 +1,64 @@
+# Nexus Step 4 — Matching rules and confidence policy
+#
+# Developer-owned. Controls how a free-text Step-3 concept is resolved to a
+# canonical_id. Changing these does not change what a concept *means*, only how
+# strings are matched and routed for review.
+
+version: 0.1.0
+
+# Text normalization applied to both the clause concept and catalog entries
+# before comparison. Applied in this order.
+normalization:
+  casefold: true            # lowercase
+  strip: true               # trim leading/trailing whitespace
+  collapse_whitespace: true # internal runs of whitespace -> single space
+  strip_trailing_punct: true # drop the trailing_punctuation characters below
+  trailing_punctuation: ".,;:'\"" # characters stripped from the end when strip_trailing_punct is on
+
+# Match precedence. First match wins; if none match, the concept is `unmapped`.
+# Each match type is stamped with a fixed confidence.
+match_precedence:
+  - type: exact_label   # normalized concept == a canonical label
+    confidence: 1.0
+  - type: synonym       # normalized concept == a listed synonym
+    confidence: 0.95
+  - type: normalized    # match only after normalization differences
+    confidence: 0.85
+
+unmapped_confidence: 0.0
+
+# Deterministic fuzzy fallback, tried only after exact/synonym/normalized miss.
+# Compares the concept against every catalog surface form (label + synonyms) by
+# idf-weighted token cosine similarity: generic tokens shared across the catalog
+# ("credit", "risk", "management") carry little weight, distinctive tokens
+# ("collateral", "staging", "sicr") carry most, so phrasing variants like
+# "Credit Risk Framework Approval" ~ "Credit Risk Framework" resolve WITHOUT an
+# LLM. Light stemming folds monitoring/monitor, provisions/provisioning, etc.
+# A fuzzy match scores below auto_accept by design, so it is always routed to
+# human review (never silently trusted). Matches below min_similarity stay
+# unmapped rather than risk a wrong mapping.
+fuzzy:
+  enabled: true
+  min_similarity: 0.62   # cosine floor to accept a fuzzy match
+  max_confidence: 0.85   # a fuzzy match never scores above the normalized tier
+  light_stem: true       # fold common suffixes (ing/ment/tion/s) before compare
+
+# Confidence at/above which a mapping is accepted without review.
+auto_accept: 0.90
+
+# Force review regardless of confidence.
+review_when:
+  unmapped: true              # no canonical match
+  matched_concept_is_draft: true  # matched a concept whose status == draft
+  domain_mismatch: true       # clause domain != matched concept domain
+# When domain_mismatch is true, subtract this from match_confidence.
+domain_mismatch_penalty: 0.2
+
+# Optional LLM-suggest layer (only used when build_ontology.py is run with
+# --suggest). For each UNMAPPED concept, an LLM proposes the best-matching
+# canonical_id from the catalog, or null. Suggestions are NEVER auto-accepted:
+# canonical_id stays null and review_required stays true until a human approves.
+suggestion:
+  batch_size: 40           # distinct unmapped concepts per LLM call
+  min_confidence: 0.5      # drop suggestions the model is less sure about than this
+

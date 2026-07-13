@@ -1,0 +1,101 @@
+{
+  "query": "What sanctions can the Central Bank impose?",
+  "generated_at": "2026-07-13T10:39:15.304424+00:00",
+  "corpus": {
+    "documents_indexed": 1
+  },
+  "answer": "Based on the provided evidence clauses, there are **no direct statements specifying the sanctions the Central Bank can impose**. The clauses mention:\n\n- The Central Bank’s role in interpretation and supervisory expectations regarding internal controls, compliance, and internal audit [1][2].\n - The legal context under UAE Central Bank Law (Union Law No 10) [4].\n- Publication and effectiveness of standards [5], and repeal or replacement of previous circulars [6, 7].\n\nHowever, the clauses do **not describe any enforcement measures, sanctions, penalties, or administrative actions** available to the Central Bank. Therefore, no obligation or actionable requirement regarding sanctions can be identified from the provided evidence.\n\nUncertainty: No evidence provided describing sanctions, penalties, or enforcement actions available to the Central Bank.",
+  "evidence": [
+    {
+      "score": 0.3896,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_1__4",
+      "clause_no": "1",
+      "title": "The Regulatory Development Division of '-ifi yJI A.,HI.! )1 ufo .1",
+      "page": 12,
+      "concept": "Regulation interpretation power",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.586,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other",
+      "text": "the Central Bank shall be the reference for\ninterpretation of the provisions of this\nRegulation.\nARTICLE (10): CANCELLATION OF"
+    },
+    {
+      "score": 0.379,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_1",
+      "clause_no": "1",
+      "title": "Ensuring the soundness of Banks; and",
+      "page": 4,
+      "concept": "Financial stability role",
+      "obligation_type": "Other",
+      "text": "II. Contributing to financial stability.\nThe accompanying Standards supplement the\nRegulation to elaborate on the supervisory\nexpectations of the Central Bank with respect to\ninternal controls, compliance and internal audit."
+    },
+    {
+      "score": 0.3721,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_2",
+      "clause_no": "2",
+      "title": "Bank: A financial entity, which is .2",
+      "page": 4,
+      "concept": "Bank definition reference",
+      "obligation_type": "Other",
+      "text": "authorized by the Central Bank to accept\ndeposits as a bank."
+    },
+    {
+      "score": 0.3686,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_4",
+      "clause_no": "4",
+      "title": "Central Bank: The Central Bank of the .4",
+      "page": 4,
+      "concept": "Legal reference",
+      "obligation_type": "Other",
+      "text": "5.\nUnited Arab Emirates.\nCentral Bank Law: Union Law No 10) of"
+    },
+    {
+      "score": 0.3478,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_1__6",
+      "clause_no": "1",
+      "title": "This Regulation and the accompanying",
+      "page": 12,
+      "concept": "Standard publication requirement",
+      "obligation_type": "Other",
+      "text": "Standards shall be published in the Official\nGazette in both Arabic and English and shall\ncome into effect one month from the date of\npublication.\n'-ifi yJI u,o 3-1\n¥Jill 2000 22 00/23\nKhalifa Mohammed Al Kindi\nChairman of the Board Central Bank of the UAE\n.1\n1"
+    },
+    {
+      "score": 0.3137,
+      "document_id": "CIRCULAR_161_2018",
+      "clause_id": "clause_1__5",
+      "clause_no": "1",
+      "title": "This Regulation replaces Article of the",
+      "page": 12,
+      "concept": "Previous regulation cancellation",
+      "obligation_type": "Other",
+      "text": "previous Central Bank Circular No 23/00\ndated 22 July 2000, Required\nAdministrative Structure in Banks.\nARTICLE (11): PUBLICATION AND"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 1 canonical concept(s): Document Metadata.",
+    "1 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.3896,
+    "mean_score": 0.3618,
+    "retrieval_mode": "embedding",
+    "evidence_pending_review": 1,
+    "notes": [
+      "1 evidence clause(s) use draft concept mappings not yet compliance-approved.",
+      "LLM cited 1 clause(s) not in the evidence set: [6, 7] — treat as ungrounded."
+    ]
+  },
+  "ungrounded_citations": [
+    "[6, 7]"
+  ]
+}

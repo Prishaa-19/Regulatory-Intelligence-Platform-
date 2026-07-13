@@ -1,0 +1,29 @@
+{
+  "document": "CBUAE_EN_1953_VER1",
+  "started_at": "2026-07-13T10:34:52.519726+00:00",
+  "steps": [
+    {
+      "step": "parse_markdown",
+      "status": "ok",
+      "heading_count": 35
+    },
+    {
+      "step": "llm_structure_classification",
+      "status": "ok",
+      "count": 17
+    },
+    {
+      "step": "build_tree",
+      "status": "ok",
+      "top_level_nodes": 4
+    },
+    {
+      "step": "structure_write",
+      "status": "ok",
+      "path": "Nexus\\structure\\CBUAE_EN_1953_VER1_structure.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-13T10:34:56.119509+00:00",
+  "duration_seconds": 3.59
+}

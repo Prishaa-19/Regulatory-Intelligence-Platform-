@@ -1,0 +1,18 @@
+{
+  "document": "CBUAE_EN_1953_VER1",
+  "generated_at": "2026-07-13T10:35:28.442149+00:00",
+  "jurisdiction": null,
+  "catalog_version": "global=0.1.0",
+  "coverage": {
+    "total": 11,
+    "mapped": 3,
+    "unmapped": 8,
+    "coverage_pct": 27.3,
+    "review_required": 11,
+    "suggested": 0
+  },
+  "skipped_no_concept": 6,
+  "suggestion": null,
+  "artifact_valid": true,
+  "artifact_errors": []
+}

@@ -1,0 +1,363 @@
+{
+  "document_id": null,
+  "structure": [
+    {
+      "type": "section",
+      "number": null,
+      "heading": null,
+      "text": "www.rbi.org.in\nRBI/FMRD/2026-27/407\nFMRD.DIRD.No.02/14.03.046/2026-27\nJune 25, 2026\nTo\nAll participants in credit derivatives markets\nDear Sir/Madam,\nMaster Direction – Reserve Bank of India (Credit Derivatives) Directions, 2026\nPlease refer to Paragraph 1 3 of the Statement on Developmental and Regulatory\nPolicies announced  as a part of the  Bi-monthly Monetary Policy Statement for 2025- 26\ndated February 06, 2026, regarding the introduction of derivatives on credit indices and\ntotal return swaps on corporate bonds . Accordingly, draft directions were released for\npublic comments on February 06, 2026.",
+      "page_start": 1,
+      "page_end": 1,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "2",
+      "heading": "Based on the feedback received, the Directions have since been finalised and issued",
+      "text": "herewith.",
+      "page_start": 1,
+      "page_end": 1,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "3",
+      "heading": "These Directions have been issued by the Reserve Bank in exercise of the powers",
+      "text": "conferred under section 45W of the Reserve Bank of India Act, 1934, and of all the\npowers enabling it in this behalf.",
+      "page_start": 1,
+      "page_end": 1,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "4",
+      "heading": "These Directions shall be applicable from immediate effect.",
+      "text": "Yours faithfully\n(Dimple Bhandia)\nChief General Manager\n1",
+      "page_start": 1,
+      "page_end": 2,
+      "children": [
+        {
+          "type": "subsection",
+          "number": null,
+          "heading": null,
+          "text": null,
+          "page_start": 2,
+          "page_end": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": null,
+      "heading": null,
+      "text": "9TH FLOOR, CENTRAL OFFICE, FORT\nMUMBAI 400 001\nNotification No. FMRD.DIRD. 03/14.03.004/2026-27 dated June 25, 2026\nMaster Direction – Reserve Bank of India (Credit Derivatives) Directions, 2026\nIn exercise of the powers conferred under section 45W of the Reserve Bank of India Act,",
+      "page_start": 2,
+      "page_end": 2,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "1934",
+      "heading": "(02 of 1934)  (hereinafter called the Act) read with section 45U of the Act  and in",
+      "text": "supersession of FMRD.DIRD.11/14.03.004/2021-22 dated February 10, 2022 and A.P.\n(DIR Series) Circular No . 23 dated February 10, 2022 , the Reserve Bank of India\n(hereinafter called the Reserve Bank) hereby issues the following Directions.\nA reference is also invited to the Foreign Exchange Management Act, 1999 (42 of 1999),\nForeign Exchange Management (Debt Instruments) Regulations, 2019 ( Notification No.\nFEMA. 396/2019-RB dated October 17, 2019 ) and Master Direction – Reserve Bank of\nIndia (Non-resident Investment in Debt Instruments) Directions, 2025, dated January 7,\n2025, as amended from time to time.",
+      "page_start": 2,
+      "page_end": 2,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "1",
+      "heading": "Short title, scope, and commencement",
+      "text": "(i) These Directions shall be called the Master Direction –  Reserve Bank of India\n(Credit Derivatives) Directions, 2026.\n(ii) These Directions shall apply to credit derivatives transactions undertaken in Over -\nthe-Counter (OTC) markets and on recognised stock exchanges in India.\n(iii) These Directions shall come into force on June 25, 2026.",
+      "page_start": 2,
+      "page_end": 2,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "2",
+      "heading": "Definitions",
+      "text": "(i) In these Directions, unless the context otherwise requires:\n(a) ‘Auction settlement’ of CDS means a settlement process in which the price of\nthe reference/deliverable obligation at which the settlement will happen is\ndetermined through an auction mechanism.\n(b) ‘Cash settlement’ of CDS means a settlement process in which the protection\nseller pays to the protection buyer, the notional amount of the CDS contract less\nthe expected recovery value of the reference obligation.\n(c) ‘Central counterparty ’ means an entity that interposes itself between\ncounterparties to contracts traded in one or more financial markets, becoming\n2\nthe buyer to every seller and the seller to every buyer and thereby ensuring the\nperformance of open contracts.\n(d) ‘Company’ shall have the same meaning as assigned to it in Section 2(20) of the\nCompanies Act, 2013 (18 of 2013).\n(e) ‘Corporate bonds and debentures ’ mean non-convertible debt securities which\ncreate or acknowledge indebtedness and include debentures, bonds and such\nother securities issued by a body corporate or a trust or any statutory body\nconstituted by virtue of a legislation, whether constituting a charge on the assets\nof the issuer or not, but excludes money market debt instruments, security\nreceipts, securiti sed debt instruments and bonds issued by the Central\nGovernment or a State Government, or such other persons as may be specified\nby the Reserve Bank.\n(f) ‘Credit Default Swap (CDS) ’ means a credit derivative contract in which one\ncounterparty (protection seller) commits to pay to the other counterparty\n(protection buyer) in the case of a credit event with respect to a reference entity\nand in retur n, the protection buyer makes periodic payments (premium) to the\nprotection seller until the maturity of the contract or the credit event, whichever\nis earlier.\n(g) ‘Credit derivative’ means a derivative contract whose value is derived from the\ncredit risk of an underlying debt instrument  or from an index of underlying debt\ninstruments.\n(h) ‘Credit event’ means a pre- defined event in a credit derivative contract, which\ntriggers a settlement under the contract.\n(i) ‘Deliverable obligation’ means a debt instrument issued by the reference entity\nthat the protection buyer can deliver to the protection seller in a physically settled\nCDS contract, in case of occurrence of a credit event.\n(j) ‘Electronic Trading Platform (ETP)’ shall have the same meaning as assigned to\nit in Paragraph 2 (iii) of Master Direction – Reserve Bank of India (Electronic\nTrading Platforms) Directions, 2025 dated January 16, 2025, as amended from\ntime to time.\n(k) ‘Exchange’ shall mean ‘recognised stock exchange’ and shall have the same\nmeaning as assigned to it in Section 2(f) of the Securities Contract Regulation\nAct, 1956 (42 of 1956).\n3\n(l) ‘Future on credit indices’ means a standardised derivative contract, traded on a\nrecognised stock exchange, to buy or sell an index of underlying debt\ninstruments at a specified future date, at a price determined at the time of the\ncontract.\n(m) ‘Government-related entity’ shall have the same meaning as assigned to it in\nParagraph 9 of Indian Accounting Standard (Ind AS) 24: Related Party\nDisclosures.\n(n) ‘Hedging’ means the activity of undertaking a credit derivative transaction to\nreduce credit risk of a particular debt instr ument or a portfolio of debt\ninstruments.\n(o) ‘Infrastructure company ’ means a company engaged primarily in activities\nrelated to specific infrastructure sub-sectors listed under the Harmonized Master\nList of Infrastructure Sub- sectors notified by Department of Economic Affairs,\nMinistry of Finance, Government of India, via gazette notification no.\nF.No.13/6/2009-INF dated April 08, 2016, as amended from time to time.\n(p) ‘Market-maker’ means an entity which provides prices to users and other market-\nmakers.\n(q) ‘Money market debt instruments’ mean commercial papers and non-convertible\ndebentures of original or initial maturity up to one year as defined under the\nMaster Direction – Reserve Bank of India (Commercial  Paper and Non-\nConvertible Debentures of original or initial maturity up to one year) Directions,\n2024, issued vide  Notification No. FMRD.DIRD.09/14.02.001/2023- 24 dated\nJanuary 03, 2024 as amended from time to time and certificates of deposit as\ndefined under the Master Direction –  Reserve Bank of India (Certificate of\nDeposit) Directions, 2021, issued vide  Notification No. FMRD.\nDIRD.03/14.01.003/2021-22 dated June 04, 2021,  as amended from time to\ntime.\n(r) ‘Net worth’ shall have the same meaning as assigned to it in Section 2(57) of the\nCompanies Act, 2013 (18 of 2013).\n(s) ‘Over-the-Counter (OTC) markets ’ mean the markets where transactions are\nundertaken in any manner other than on exchanges and shall include electronic\ntrading platforms (ETPs).\n(t) ‘Person resident outside India’ shall have the same meaning as assigned to it in",
+      "page_start": 2,
+      "page_end": 4,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": null,
+      "heading": null,
+      "text": "4\n(u) ‘Physical settlement’ of CDS means a settlement process in which the protection\nbuyer delivers any of the eligible deliverable obligations to the protection seller\nagainst the receipt of notional amount of the CDS contract.\n(v) ‘Reference asset’ means a debt instrument issued by a reference entity or an\nindex of underlying debt instruments and specified in a total return swap contract.\n(w) ‘Reference entity’ means an entity, against whose credit risk, a credit derivative\ncontract is entered into.\n(x) ‘Reference obligation’ means a debt instrument issued by the reference entity\nand specified in a CDS contract for the purpose of valuation of the contract and\nfor determining the cash settlement value or the deliverable obligation in case of\noccurrence of a credit event.\n(y) ‘Related party’ shall have the same meaning as assigned to it under Paragraph",
+      "page_start": 4,
+      "page_end": 5,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "9",
+      "heading": "of Indian Accounting Standard (Ind AS) 24 – Related Party Disclosures.",
+      "text": "(z) ‘Resident’ shall mean a ‘person resident in India’ and shall have the same\nmeaning as assigned to it in section 2(v) of the Foreign Exchange Management\nAct, 1999 (42 of 1999).\n(aa) ‘Single-name CDS’ means a CDS contract in which the underlying is a single\nreference entity.\n(bb) ‘Substitution event ’ means any event that results in the reference obligation\nbeing replaced by another obligation issued by the reference entity.\n(cc) ‘Succession event’ means any event that results in the reference entity no longer\nbeing the primary obligor for the reference obligation.\n(dd) ‘Total Return Swap (TRS)’ means a credit derivative contract under which one\ncounterparty ( total return payer) commits to transfer the entire economic\nperformance of a reference asset to the other counterparty (total return receiver),\nand, in return,  receives a pre- determined fixed or floating rate linked to a\nbenchmark.\n(ee) ‘User’ means a person that undertakes derivative transactions other than as a\nmarket-maker.\n(ii) Words and expressions, used but not defined in these Directions, shall have the\nsame meaning as assigned to them in the Act or in FEMA, 1999.",
+      "page_start": 5,
+      "page_end": 5,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "3",
+      "heading": "Eligible participants",
+      "text": "(i) The following persons shall be eligible to participate in credit derivatives market:\n5\n(a) Residents; and\n(b) Person resident outside India, to the extent specified in these directions.",
+      "page_start": 5,
+      "page_end": 6,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "4",
+      "heading": "Directions on credit derivatives in the OTC market",
+      "text": null,
+      "page_start": 6,
+      "page_end": 6,
+      "children": [
+        {
+          "type": "subsection",
+          "number": "4.1",
+          "heading": "Permitted products",
+          "text": "Market-makers and users may undertake transactions in CDS and TRS contracts, subject\nto the directions specified hereinafter.",
+          "page_start": 6,
+          "page_end": 6,
+          "children": []
+        },
+        {
+          "type": "subsection",
+          "number": "4.2",
+          "heading": "Market-makers and users",
+          "text": null,
+          "page_start": 6,
+          "page_end": 6,
+          "children": [
+            {
+              "type": "subsection",
+              "number": "4.2.1",
+              "heading": "Market-makers",
+              "text": "(i) The following entities shall be eligible to act as market-makers in credit derivatives:\n(a) Scheduled Commercial Banks, except Small Finance Banks, Payment Banks,\nLocal Area Banks and Regional Rural Banks;\n(b) Standalone Primary Dealers;\n(c) NBFCs – Upper Layer and NBFCs – Middle Layer (including Housing Financial\nCompanies); and\n(d) Export Import Bank of India, National Bank of Agriculture and Rural\nDevelopment, National Housing Bank , Small Industries Development Bank of\nIndia and National Bank for Financing Infrastructure and Development.\n(ii) In case a n NBFC fails to meet the eligibility criteria  for acting as a market -maker, it\nshall cease to act as a market -maker. The NBFC shall continu e to meet all its\nobligations under the existing contracts till the maturity/termination of such contracts.\n(iii) At least one of the parties to a credit derivative transaction shall be a market -maker\nor a central counterparty authorised by the Reserve Bank for the purpose.",
+              "page_start": 6,
+              "page_end": 6,
+              "children": []
+            },
+            {
+              "type": "subsection",
+              "number": "4.2.2",
+              "heading": "User Classification Framework",
+              "text": "(i) Users shall be classified by market-makers either as retail or non-retail for the purpose\nof offering credit derivative contracts.\n(ii) The following users shall be eligible to be classified as non-retail users:\n(a) NBFCs other than market-makers;\n(b) Insurance Companies regulated by Insurance Regulatory and Development\nAuthority of India (IRDAI);\n(c) Pension Funds regulated by Pension Fund Regulatory and Development\nAuthority (PFRDA);\n6\n(d) Mutual Funds regulated by Securities and Exchange Board of India (SEBI);\n(e) Alternative Investment Funds regulated by Securities and Exchange Board of\nIndia (SEBI);\n(f) Resident companies with (a) minimum net worth of ₹500 crore; or (b) minimum\nturnover of ₹1,000 crore, as per the latest audited financial statements;\n(g) Foreign Portfolio Investors (FPIs) registered with SEBI; and\n(h) Any entity otherwise eligible to be a market-maker in terms of Paragraph 4.2.1\nof these Directions.\n(iii) Any user who is not eligible to be classified as a non-retail user shall be classified as\na retail user.\n(iv) Any user who is otherwise eligible to be classified as a non- retail user shall have the\noption to get classified as a retail user.",
+              "page_start": 6,
+              "page_end": 7,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.3",
+          "heading": "Participants in credit derivatives in the OTC market",
+          "text": null,
+          "page_start": 7,
+          "page_end": 7,
+          "children": [
+            {
+              "type": "subsection",
+              "number": "4.3.1",
+              "heading": "Protection buyers and sellers for Credit Default Swaps",
+              "text": "(i) A resident retail user, other than an individual, shall be allowed to buy protection only\nfor the purpose of hedging.\n(ii) A non-retail user shall be allowed to buy protection without any restriction in terms of\npurpose.\n(iii) The following non-retail users shall be eligible to act as protection sellers:\n(a) An Insurance Company regulated by IRDAI;\n(b) A Pension Fund regulated by PFRDA;\n(c) A Mutual Fund regulated by SEBI;\n(d) An Alternative Investment Fund regulated by SEBI; and\n(e) An FPI registered with SEBI.\n(iv) Insurance Companies, Pension Funds, Mutual Funds and Alternat ive Investment\nFunds mentioned under Paragraph 4.3.1(iii) shall be permitted to act as protection\nsellers subject to approval of their respective regulator.\n(v) Participation by FPIs in CDS contracts shall be subject to the following,\n(a) The notional amount of CDS protection sold by all FPIs shall be subject to a limit\nof 5 per cent of the outstanding stock of corporate bonds. Clearing Corporation\nof India Ltd. (CCIL) shall disseminate the utilisation of the  limit based on the\nreporting by the market makers in terms of P aragraph 4.5.5 of these directions\n7\nand reporting by stock exchanges in terms of Paragraph 6.1 (vii) of these\ndirections. FPIs shall not sell any further CDS protection once the limit is utilised.\n(b) Debt instruments received by FPIs as deliverable obligation and debt instruments\npurchased by FPIs for meeting deliverable obligation in physical settlement o f\nCDS contracts shall be reckoned under the investment limits for corporate bonds\nas specified in  in A.P. (DIR Series) Circular No. 05 dated April 6, 2026 , as\namended from time to time.  In case of non-availability of investment limit at the\ntime of physical settlement, such debt instruments shall be adjusted against the\nrevised limit in the subsequent review of investment limit.\n(c) The notional amount of protection sold by FPIs, and the debt instruments\nreceived as deliverable obligation as well as debt instruments purchased for\nmeeting deliverable obligation by FPIs in physical settlement of CDS contracts\nshall not be subject to the minimum residual maturity requirement or issue-wise\nlimit applicable to FPI investment in corporate bonds as specified in Master\nDirection – Reserve Bank of India (Non-resident Investment in Debt Instruments)\nDirections, 2025, dated January 7, 2025, as amended from time to time.\n(d) A market maker shall not offer a CDS contract to an FPI where the reference\nobligation or the index includes a money market debt instrument or a debt\ninstrument with residual maturity less than one year  or a bond with call / put\noptions exercisable within one year from the date of the undertaking the CDS\ncontract.\n(vi)  A market-maker shall not offer CDS contracts to an individual.",
+              "page_start": 7,
+              "page_end": 8,
+              "children": []
+            },
+            {
+              "type": "subsection",
+              "number": "4.3.2",
+              "heading": "Participants in total return swaps",
+              "text": "(i) A market-maker may offer a TRS contract to a resident retail user , other than an\nindividual, only for the purpose of hedging.\n(ii) A market-maker may offer a TRS contract to a resident non-retail user without any\nrestriction in terms of purpose.\n(iii) A market-maker may offer a TRS contract to a person outside India subject to the\nfollowing:\n(a) A market-maker may offer a TRS contract to a person resident outside India,\nincluding an FPI, for the purpose of hedging;\n(b) A market maker may also offer a TRS contract to a person resident outside\nIndia, including an FPI , wherein the person resident outside India is the total\n8\nreturn receiver provide d that the TRS is offered as a fully funded structure in\nwhich the person resident outside India provides to the market -maker in India\nthe full notional amount of the reference asset.\nProvided that no offshore derivative instrument with the TRS contract as\nunderlying shall be written by the person resident outside India.\n(c) A market maker may offer a TRS contract to a person resident outside India,\nincluding an FPI, directly or on a back -to-back basis through overseas entities\n(including overseas branches, IFSC Banking Units, wholly owned subsidiaries\nand joint ventures of market-makers) subject to the following conditions:\ni. The overseas entity is eligible to deal with the product concerned in the\ncapacity of a dealer / market-maker as per the host jurisdiction’s laws and\nregulations;\nii. The wholly owned subsidiary / joint venture of the market -maker\nincorporated in India can undertake such transactions provided the wholly\nowned subsidiary / joint venture is a banking entity; and\niii. The market-maker shall provide information, data or any other particulars\nrequired by the Reserve Bank of India in respect of the aforesaid\ntransactions in the manner and time prescribed.\n(d) The notional amount of the TRS contract offered to a person resident outside\nIndia through a fully  funded structure shall be reckoned under the investment\nlimits for corporate bonds as specified in Master Direction  – Reserve Bank of\nIndia (Non- resident Investment in Debt Instruments) Directions, 2025,  dated\nJanuary 7, 2025, as amended from time to time;\n(e) Where the reference asset specified in a TRS contract includes an unlisted\ncorporate bond or debenture, the same shall comply wit h the end use\nrestrictions set out in Paragraph 4.4 (vi) of the Master Direction – Reserve Bank\nof India (Non-resident Investment in Debt Instruments) Directions, 2025, dated\nJanuary 7, 2025;\n(f) A market maker shall not offer a TRS contract to a person resident outside India\nwhere the reference asset or the index includes a money market debt\ninstrument or a debt instrument with residual maturity less than one year  or a\nbond with call / put options exercisable within one year from the date of the\ncontract; and\n(iv) A market-maker shall not offer a TRS contract to an individual.\n9",
+              "page_start": 8,
+              "page_end": 10,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "subsection",
+          "number": "4.4",
+          "heading": "Reference Entities, Obligations and Assets",
+          "text": "(i) The reference entity in a credit derivative contract shall be a resident entity who is\neligible to issue any of the debt instruments mentioned under Paragraph 4.4 (ii).\n(ii) The following debt instruments issued in India shall be eligible to be a reference\nobligation in a CDS contract or a reference asset in a TRS contract:\n(a) Money market debt instruments;\n(b) Rated INR corporate bonds and debentures; and\n(c) Unrated INR corporate bonds and debentures  issued by the S pecial Purpose\nVehicles set up by infrastructure companies.\n(iii) Bonds with call/put options shall be eligible to be reference obligations /reference\nassets.\n(iv) Asset-backed securities/mortgage-backed securities and structured obligations such\nas credit enhanced/guaranteed bonds, convertible bonds, etc. shall not be permitted\nas reference obligations/reference assets.\n(v) The reference obligation /deliverable obligation /reference asset  shall be in\ndematerialised form.\n(vi) The underlying reference obligation for a CDS  or a reference asset for a TRS  may\nbe an index comprising solely of eligible debt instruments as set out in Paragraph 4.4\n(ii) of these Directions , subject to the condition that the index is published by a\nfinancial benchmark administrator which is duly authorised by the Reserve Bank\nunder the Reserve Bank of India (Financial Benchmark Administrators) Directions,",
+          "page_start": 10,
+          "page_end": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "2023",
+      "heading": "dated December 28, 2023, as amended from time to time, or is duly authorised",
+      "text": "under the Securities and Exchange Board of India (Index Providers) Regulations\ndated March 8, 2024, as amended from time to time.\nNote: An index which is based wholly or partially on money market debt instruments\nshall be published by a financial benchmark administrator which is duly authorised\nby the Reserve Bank under the Reserve Bank of India (Financial Benchmark\nAdministrators) Directions, 2023 dated December 28, 2023, as amended from time\nto time.\n10",
+      "page_start": 10,
+      "page_end": 11,
+      "children": [
+        {
+          "type": "subsection",
+          "number": "4.5",
+          "heading": "Other operational Directions for credit derivatives",
+          "text": null,
+          "page_start": 11,
+          "page_end": 11,
+          "children": [
+            {
+              "type": "subsection",
+              "number": "4.5.1",
+              "heading": "Buying, Unwinding and Settlement",
+              "text": "(i) Market participants shall not enter into CDS or TRS transactions if the reference entity\nis a related party to either counterparty. However, two (or more) government-related\nentities shall not be deemed as related parties for the purpose of these Directions.\n(ii) Unless specifically permitted  in these directions , market participants shall not\nundertake credit derivative transactions involving reference entities /reference\nobligations//reference assets, if there are regulatory restrictions on such participants\nassuming similar exposures in the cash market or in violation of any other regulatory\nrestriction, as may be applicable.\n(iii) Market participants can exit their credit derivative contracts by unwinding the contract\nwith the original counterparty or assigning the contract to any other eligible market\nparticipant through novation 1 subject to the provisions of the circular on Novation of\nOTC Derivative Contracts dated December 9, 2013  issued vide Notification No.\nDBOD.No.BP.BC.76/21.04.157/2013-14. However, provisions under Paragraph  2,\nParagraph 5.1 and Paragraph 5.2 of the above circular shall not apply to credit\nderivative transactions undertaken in terms of these Directions.\n(iv) Market participants shall settle their credit derivative contracts bilaterally or through\nany clearing and settlement arrangement approved by the Reserve Bank.  A credit\nderivative contract undertaken with a non-resident by a market-maker, which is a bank\nhaving an Authorised Dealer Category-I (AD Cat-I) license under FEMA, 1999, or an\nSPD authorize d under section 10(1) of FEMA,1999, can be settled in INR or in a\nforeign currency.\n(v) Credit derivative contracts can be cash settled or physically settled. CDS contracts\ncan also be settled through auction. The procedure for cash settlement and auction\nsettlement of CDS contracts shall be determined by the Credit Derivatives\nDeterminations Committee, as specified under Paragraph 5 of these Directions. TRS\ncontracts undertaken by a person resident outside India, who is not an FPI, shall be\ncash settled.\n1 Novation is the replacement of a contract between two counterparties to an OTC derivative transaction (the\ntransferor, who steps out of the existing contract, and the remaining party) with a new contract between the remaining\nparty and a third party (the transferee). The transferee becomes the new counterparty to the remaining party.\n11\n(vi) Any floating interest rate used in a TRS shall be a benchmark published by a financial\nbenchmark administrator which is duly authorised by the Reserve Bank under the\nReserve Bank of India (Financial Benchmark Administrators) Directions, 2023 dated\nDecember 28, 2023, as amended from time to time.",
+              "page_start": 11,
+              "page_end": 12,
+              "children": []
+            },
+            {
+              "type": "subsection",
+              "number": "4.5.2",
+              "heading": "Credit derivative transactions with users for purposes of hedging",
+              "text": "(i) While offering a credit derivative contract for the purpose of hedging, the market\nmaker shall ensure that the user:\n(a) shall have exposure to the reference asset / any of the eligible reference\nobligations/ any one or more of the debt instruments comprising the index in the\ncase of a credit derivative contract on an index\n(b) shall not buy a credit derivative contract(s) with notional amount higher than the\nface value of the reference obligation / reference asset held by them; and\n(c) shall not buy a credit derivative contract with a tenor later than the maturity of\nthe reference obligation / reference asset held by them or the standard CDS /\nTRS maturity date immediately after the maturity of the reference obligation or\nreference asset.\n(ii) To ensure compliance with the above, market -makers may call for any relevant\ninformation/documents from the user, who, in turn, shall be obliged to provide such\ninformation.\n(iii) Users undertaking credit derivative transactions for the purpose of hedging shall exit\ntheir credit derivative position within one month from the date they cease to have the\nunderlying exposure.",
+              "page_start": 12,
+              "page_end": 12,
+              "children": []
+            },
+            {
+              "type": "subsection",
+              "number": "4.5.3",
+              "heading": "Standardisation",
+              "text": "(i) The settlement basis and market conventions for credit derivative contracts shall be\nspecified by the Fixed Income Money Market and Derivatives Association of India\n(FIMMDA), in consultation with market participants and based on international best\npractices. FIMMDA may also prescribe standard doc umentation procedures for credit\nderivative transactions. Market participants may, alternatively, use a standard master\nagreement for credit derivative contracts.\n(ii) Market participants shall ensure that t he CDS contract represent s a direct claim on\nthe protection seller. The contract shall not have any clause that may:\n12\n(a) allow the protection seller to unilaterally cancel the contract, except in case of a\ndefault by the protection buyer under the terms of the contract;\n(b) prevent the protection seller from making the credit event payment in a timely\nmanner, after occurrence of the credit event and completion of necessary\nconditions and requirements under the terms of contract; or\n(c) provide the protection seller any recourse to the protection buyer for credit event\nlosses.",
+              "page_start": 12,
+              "page_end": 13,
+              "children": []
+            },
+            {
+              "type": "subsection",
+              "number": "4.5.4",
+              "heading": "Customer protection",
+              "text": "(i) Market-makers in OTC markets shall comply with the Master Direction –  Reserve\nBank of India (Market-makers in OTC Derivatives) Directions, 2021 issued vide RBI\nCircular No. FMRD.FMD.07/02.03.247/2021 -22 dated September 16, 2021, as\namended from time to time and the Reserve Bank of India ( Prevention of Market\nAbuse) Directions, 2019 issued vide RBI Circular No.\nFMRD.FMSD.11/11.01.012/2018-19 dated March 15, 2019, as amended from time\nto time.",
+              "page_start": 13,
+              "page_end": 13,
+              "children": []
+            },
+            {
+              "type": "subsection",
+              "number": "4.5.5",
+              "heading": "Reporting",
+              "text": "(i) Market-makers shall report all OTC credit derivative transactions within 30 minutes\nof the transaction, to the trade repository of Clearing Corporation of India Ltd. (CCIL).\n(ii) Market-makers shall report all amendments, unwinding, novation, settlement\ntransactions, and any credit, substitution or succession event to the trade repository\nof CCIL.\n(iii) The reporting formats shall be as indicated by CCIL with the prior approval of the\nReserve Bank.",
+              "page_start": 13,
+              "page_end": 13,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "5",
+      "heading": "Credit Derivatives Determinations Committee",
+      "text": "(i) FIMMDA shall set up a Credit Derivatives Determinations Committee, consisting of\nmarket-makers and users in credit derivatives as voting members. FIMMDA shall\nensure that users are adequately represented in the Committee. The Committee may\nalso include central counterparties as observer members and legal/audit/consultancy\nfirms as consultative members.\n(ii) FIMMDA shall establish rules for governing the activities of the Credit Derivatives\nDeterminations Committee in line with international best practices.\n13\n(iii) The Credit Derivatives  Determinations Committee, when approached by market\nparticipants, shall make factual deter minations regarding key provisions of credit\nderivative contracts including, but not limited to, the occurrence of a credit event,\nsubstitution event, succession event, determining the identity of successor reference\nentity, etc.\n(iv) The Credit Derivatives Determinations Committee shall, in consultation with market\nparticipants, develop a standard procedure for cash and auction settlement of CDS\ncontracts.\n(v) The Credit Derivatives  Determinations Committee, when approached by market\nparticipants, may conduct an auction to determine the reference price for settlement\nof CDS contracts. The Credit Derivatives  Determinations Committee shall put in\nplace procedures/safeguards to ensure that the reference price is determined in a\nfair and transparent manner.\n(vi) The decisions of the Credit Derivatives  Determinations Committee shall be binding\non the market participants.",
+      "page_start": 13,
+      "page_end": 14,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "6",
+      "heading": "Directions for exchange traded credit derivatives",
+      "text": null,
+      "page_start": 14,
+      "page_end": 14,
+      "children": [
+        {
+          "type": "subsection",
+          "number": "6.1",
+          "heading": "Credit default swaps",
+          "text": "(i) Exchanges may offer standardised single- name CDS contracts and CDS contracts\non credit indices with guaranteed settlement.\n(ii) Exchanges shall obtain prior approval of the Reserve Bank for product design,\nchanges in product design, eligible participants and other details of CDS contracts.\nThe operational guidelines on the procedure for execution and settlement of trades\non stock exchanges shall be prescribed by SEBI.\n(iii) The reference entities and reference obligations for exchange- traded CDS shall be\nas specified under Paragraph 4.4 of these Directions.\n(iv) The credit index for an exchange-traded CDS contract shall be an index comprising\nsolely of eligible debt instruments as  set out in para  4.4 (ii) of these Directions,\nsubject to the condition that the index is published by a financial benchmark\nadministrator which is duly authorised by the Reserve Bank under the Reserve Bank\nof India (Financial Benchmark Administrators) Directions, 2023 dated December 28,\n2023, as amended from time to time, or that the index is composed / administered\nas per the directions issued by SEBI from time to time.\n14\nNote: An index which is based wholly or partially on money market debt instruments\nshall be published by a financial benchmark administrator which is duly authorised\nby the Reserve Bank under the Reserve Bank of India (Financial Benchmark\nAdministrators) Directions, 2023 dated December 28, 2023, as amended from time\nto time.\n(v) Participants, who are retail users, as defined under P aragraph 4.2.2 of these\nDirections, shall undertake transactions in exchange- traded CDS only for hedging\nand such users\n(a) shall have exposure to any of the eligible reference obligations  or any one or\nmore of the debt instruments comprising the index in the case of a CDS contract\non an index;\n(b) shall not buy a CDS contract(s) for notional amount higher than the face value\nof the reference obligation held by them; and\n(c) shall not buy a CDS contract with a tenor later than the maturity of the reference\nobligation held by them or the standard CDS maturity date immediately after the\nmaturity of the reference obligation.\n(vi) The determinations made by Credit Derivatives  Determinations Committee shall be\napplicable to exchange-traded CDS contracts.\n(vii) FPIs may transact in exchange- traded CDS as protection sellers and/or protection\nbuyers. Participation by FPIs shall be subject to the provisions of Paragraph 4.3(1)(v)\nof these Directions. Exchanges shall report the gross notional amount of protection\nsold by FPIs to CCIL on a daily basis by the end of the day, or on an intra-day basis\nif required by the Reserve Bank.\n(viii) FPI shall not sell protection through CDS contracts  where reference obligation is a\nmoney market debt instrument , a debt instrument with residual maturity less than\none year, or a bond with call / put options exercisable within one year from the date\nof the contract, or an index referencing money market instruments or debt\ninstruments with residual maturity less than one year or bonds with call / put options\nexercisable within one year from the date of the contract.",
+          "page_start": 14,
+          "page_end": 15,
+          "children": []
+        },
+        {
+          "type": "subsection",
+          "number": "6.2",
+          "heading": "Futures on credit indices",
+          "text": "(i) Exchanges may offer futures contracts on credit indices with guaranteed settlement,\nprovided that:\n15\n(a) The credit index used as underlying for futures contracts shall be composed\nsolely of eligible debt instruments as set out in para 4.4 (ii) of these directions ;\nand\n(b) The composition / administration of the index shall be as per the directions\nissued by SEBI.\nNote: A credit index which is  based wholly or partially on money market debt\ninstruments shall be published by a financial benchmark administrator which is duly\nauthorised by the Reserve Bank under the Reserve Bank of India (Financial\nBenchmark Administrators) Directions, 2023 dated December 28, 2023, as amended\nfrom time to time.\n(ii) Exchanges shall obtain prior approval of the Reserve Bank for product design,\nchanges in product design, eligible participants , and other details of the futures\ncontracts. The operational guidelines on the procedure for execution and settlement\nof trades on stock exchanges shall be prescribed by SEBI.\n(iii) Participation of Foreign Portfolio Investors (FPIs) in futures on credit indices shall be\nsubject to the following:\n(a) The aggregate long position assumed by FPIs in future  contracts on credit\nindices shall be reckoned under the investment limits for corporate debt\nsecurities as specified in Master Direction – Reserve Bank of India (Non-resident\nInvestment in Debt Instruments) Directions, 2025 dated January 07, 20 25, as\namended from time to time;\n(b) The total gross short (sold) position of any FPI shall not exceed its consolidated\nlong position in corporate bonds and debentures and in future contracts on credit\nindices, at any point in time; and\n(c) FPIs shall not participate in future contracts on credit indices where the\nunderlying credit index includes a money market debt instrument or a debt\ninstrument with residual maturity less than one year or a bond with call / put\noptions exercisable within one year from the date of the contract.",
+          "page_start": 15,
+          "page_end": 16,
+          "children": []
+        },
+        {
+          "type": "subsection",
+          "number": "6.3",
+          "heading": "Other Directions",
+          "text": "(i) Exchanges shall ensure that the participants on exchanges are made adequately\naware of the risks associated with credit derivative contracts.\n16\n(ii) Participants shall not undertake credit derivative transactions involving reference\nentities if there are regulatory restrictions on assuming similar exposures in the cash\nmarket or in violation of any other regulatory restriction, as may be applicable.\n(iii) Exchanges shall furnish any information relating to credit derivative transactions to\nthe Reserve Bank or any other agency as may be specified by the Reserve Bank in\nthe manner and format and within the time frame as may be specified by the Reserve\nBank.",
+          "page_start": 16,
+          "page_end": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": "7",
+      "heading": "Valuation methodology",
+      "text": "Market-makers shall put in place robust methodologies for marking to market credit\nderivative contracts. The valuation methodology adopted shall be applied consistently\nand shall be appropriately documented and disclosed.",
+      "page_start": 17,
+      "page_end": 17,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "8",
+      "heading": "Prudential norms, accounting and capital requirements",
+      "text": "(i) Market participants shall follow the applicable prudential norms and capital adequacy\nrequirements for credit derivatives issued by their respective regulators.\n(ii) The accounting of credit derivative  contracts by market participants shall be as per\nnotified and applicable accounting standards read with regulatory\nguidelines/instructions issued by the respective regulators.  In case the notified\napplicable accounting standards or the respective regulator have not prescribed the\naccounting treatment for credit derivative contracts, guidance, if any, issued by the\nInstitute of Chartered Accountants of India shall be followed in this regard.",
+      "page_start": 17,
+      "page_end": 17,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "9",
+      "heading": "Obligation to provide information sought by the Reserve Bank",
+      "text": "The Reserve Bank may call for any information or statement or seek any clarification,\nwhich in the opinion of the Reserve Bank is relevant, from persons or agencies dealing\nin credit derivatives contracts, including eligible participants, and such persons, agencies\nand participants shall furnish such information, statement or clarification in the manner\nand format and within the time frame as may be specified by the Reserve Bank.",
+      "page_start": 17,
+      "page_end": 17,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "10",
+      "heading": "Dissemination of data",
+      "text": "(i) The Reserve Bank, or any other person or agency authorised by the Reserve Bank,\nmay in public interest, publish any anonymised data related to transactions in credit\nderivatives market.\n17\n(ii) CCIL shall publish the notional value of credit derivative contracts outstanding for\neach debt instrument on a daily basis.",
+      "page_start": 17,
+      "page_end": 18,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "11",
+      "heading": "Violation of Directions",
+      "text": "In the event of any person or agency violating any provision of these Directions or the\nprovisions of any other applicable law, the Reserve Bank may, in addition to taking any\npenal or regulatory action in accordance with law, disallow that person or agency from\ndealing in the credit derivatives market for a period not exceeding one month at a time,\nafter providing reasonable opportunity to the person or agency to defend its actions, and\nsuch action will be made public by the Reserve Bank.",
+      "page_start": 18,
+      "page_end": 18,
+      "children": []
+    },
+    {
+      "type": "section",
+      "number": "12",
+      "heading": "These Directions shall apply to all credit derivative transactions entered into from the",
+      "text": "date the Directions come into effect. Existing Directions will continue to be applicable to\nthe credit derivatives transactions undertaken in accordance with the said Directions till\nthe expiry of those contracts.",
+      "page_start": 18,
+      "page_end": 18,
+      "children": []
+    }
+  ]
+}

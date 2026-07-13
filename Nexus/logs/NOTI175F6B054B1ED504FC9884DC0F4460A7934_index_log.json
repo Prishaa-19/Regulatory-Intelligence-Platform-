@@ -1,0 +1,8 @@
+{
+  "document": "NOTI175F6B054B1ED504FC9884DC0F4460A7934",
+  "document_id": "NOTI175F6B054B1ED504FC9884DC0F4460A7934",
+  "backend": "tfidf",
+  "generated_at": "2026-07-12T21:18:59.133455+00:00",
+  "clause_count": 2,
+  "vocabulary_size": 18
+}

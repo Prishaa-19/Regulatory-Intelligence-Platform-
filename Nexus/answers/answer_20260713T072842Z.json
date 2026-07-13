@@ -1,0 +1,108 @@
+{
+  "query": "what is the document about?",
+  "generated_at": "2026-07-13T07:28:42.299952+00:00",
+  "corpus": {
+    "documents_indexed": 1
+  },
+  "answer": "The document is titled the Reserve Bank of India (Commercial Banks - Credit [Directive] and covers credit-card rules, including closure timelines, grievance redressal, fee disclosures, customer disclosures, credit reporting, and interest-rate directions. [1] [2] [4] [5] [6] [3]\n\nUncertainty: Only excerpts are provided; scope beyond credit cards and whether clauses specific to other credit products apply cannot be confirmed from the given excerpts.",
+  "evidence": [
+    {
+      "score": 0.1976,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_1",
+      "clause_no": "1",
+      "title": "These Directions shall be called the Reserve Bank of India ( Commercial Banks - Credit",
+      "page": 2,
+      "concept": "Document Title",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.0745,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_19",
+      "clause_no": "19",
+      "title": "Any request for closure of a credit card shall be honoured within seven working days by",
+      "page": 11,
+      "concept": "Credit Card Closure Process",
+      "canonical_id": "CPT_ACCOUNT_CLOSURE",
+      "canonical_label": "Account Closure",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Customer Protection",
+      "obligation_type": "Notification"
+    },
+    {
+      "score": 0.0681,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_36",
+      "clause_no": "36",
+      "title": "Before reporting default status of a credit cardholder to a Credit Information Company",
+      "page": 18,
+      "concept": "Credit Reporting Procedures",
+      "obligation_type": "Notification"
+    },
+    {
+      "score": 0.0606,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_83",
+      "clause_no": "83",
+      "title": "Card-issuers shall put in place a Grievance Redressal Mechanism within the card issuing",
+      "page": 28,
+      "concept": "Grievance Redressal Publicity",
+      "canonical_id": "CPT_GRIEVANCE_REDRESSAL",
+      "canonical_label": "Grievance Redressal",
+      "mapping_confidence": 0.65,
+      "review_required": true,
+      "concept_parent": "Customer Protection",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.0366,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_91",
+      "clause_no": "91",
+      "title": "Card-issuers shall provide to the cardholder the term -sheet containing the MITC. The",
+      "page": 31,
+      "concept": "Credit Card Fees Disclosure",
+      "obligation_type": "Disclosure"
+    },
+    {
+      "score": 0.0162,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_23",
+      "clause_no": "23",
+      "title": "Further, the card-issuers shall adhere to the following directions relating to interest rates",
+      "page": 13,
+      "concept": "Truth-in-Lending Disclosures",
+      "canonical_id": "CPT_CUSTOMER_DISCLOSURE",
+      "canonical_label": "Customer Disclosure",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Customer Protection",
+      "obligation_type": "Disclosure"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 4 canonical concept(s): Account Closure, Customer Disclosure, Document Metadata, Grievance Redressal.",
+    "Those concepts sit under parent concept(s): Customer Protection.",
+    "4 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.1976,
+    "mean_score": 0.0756,
+    "retrieval_mode": "tfidf",
+    "evidence_pending_review": 4,
+    "notes": [
+      "4 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

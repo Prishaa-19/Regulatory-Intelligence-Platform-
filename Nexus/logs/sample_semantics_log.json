@@ -1,0 +1,19 @@
+{
+  "document": "sample",
+  "started_at": "2026-07-10T06:50:44.308842+00:00",
+  "steps": [
+    {
+      "step": "collect_operative_units",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "step": "semantics_write",
+      "status": "ok",
+      "path": "Nexus\\semantics\\sample_semantics.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-10T06:50:44.312969+00:00",
+  "duration_seconds": 0.16
+}

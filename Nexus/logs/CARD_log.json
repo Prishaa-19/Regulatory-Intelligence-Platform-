@@ -1,0 +1,35 @@
+{
+  "document": "CARD.pdf",
+  "started_at": "2026-07-10T06:25:03.473067+00:00",
+  "steps": [
+    {
+      "step": "acquire",
+      "status": "ok",
+      "path": "Nexus\\input\\CARD.pdf"
+    },
+    {
+      "step": "pdf_load",
+      "status": "ok",
+      "pages": 20
+    },
+    {
+      "step": "markdown_write",
+      "status": "ok",
+      "path": "Nexus\\markdown\\CARD.md"
+    },
+    {
+      "step": "llm_metadata_extraction",
+      "status": "ok",
+      "providers": "nvidia -> azure"
+    },
+    {
+      "step": "metadata_write",
+      "status": "ok",
+      "path": "Nexus\\metadata\\CARD_metadata.json"
+    }
+  ],
+  "warnings": [
+    "Extracted text is unusually short relative to page count — this PDF may be scanned/image-based and require OCR, which this pipeline does not perform."
+  ],
+  "finished_at": "2026-07-10T06:26:16.249742+00:00"
+}

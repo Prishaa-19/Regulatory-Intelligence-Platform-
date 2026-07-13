@@ -1,0 +1,102 @@
+{
+  "query": "What independence requirements apply to Internal Audit?",
+  "generated_at": "2026-07-13T09:14:09.507926+00:00",
+  "corpus": {
+    "documents_indexed": 1
+  },
+  "answer": "Independence requirements for the Internal Audit function are not explicitly stated in the provided clauses. The clauses describe the role of Internal Audit as an independent function providing assurance to the Board and Senior Management on internal controls, risk management, and governance systems, but do not specify independence requirements such as prohibitions on reporting lines, conflicts of interest, or safeguards like those typically found in independence standards (e.g., mandatory reporting to the Board/Audit Committee, prohibitions on auditing functions where the auditor has prior responsibility, or restrictions on relationships with audited entities).\n\nUncertainty: No clauses explicitly define independence obligations, safeguards, or structural requirements for Internal Audit (e.g., oversight by the Board/Audit Committee, prohibitions on conflicts, rotation, or prohibitions on auditing controlled entities).",
+  "evidence": [
+    {
+      "score": 0.3675,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_9__2",
+      "clause_no": "9",
+      "title": "Group: A group of entities which includes 0yS.JI\") UyS wwySJI .9",
+      "page": 5,
+      "concept": "Internal audit function",
+      "obligation_type": "Registration",
+      "text": "10.\nan entity (the 'first entity') and:\na) any Controlling Shareholder of the\nfirst entity;\nany Subsidiary of the first entity or of Ji 0yS.ll c;i\nany Controlling Shareholder of the 0yS.l1\nfirst entity; and\nany Affiliate.\nInternal Audit function: An independent\nfunction that provides independent\nassurance to the Board of directors and\nSenior Management on the quality and\neffectiveness of a Bank's internal control,\nrisk management and governance systems\nand processes, thereby helping the Board\nand Senior Management protect their\norganization and its reputation.\n.10\nINTERNAL CONTROLS, COMPLIANCE AND INTERNAL AUDIT REGULATION 161/2018\n11.\n12.\n13.\n14.\nInternal Control: Consists of five\ninterrelated elements, whose effective\nfunctioning is essential to achieving a\nBank's performance, information, and\ncompliance objectives:\na. management oversight and the control\nculture;\nrisk recognition and assessment;\ncontrol activities and segregation of\nduties;\ninformation and communication; and\nmonitoring activities and correcting\ndeficiencies.\nIslamic Financial Services: Shari'a\ncompliant financial services offered by\nIslamic Banks and Conventional Banks\noffering Islamic banking products (Islamic\nWindows).\nMatter of Significance: A matter, or group\nof matters, that would have a significant\nimpact on the activities or financial position\nof the Bank. Examples include failure to\ncomply with the licensing criteria or\nbreaches of banking or other laws,\nsignificant deficiencies and control\nweaknesses in the Bank's operations or\nfinancial reporting process or other matters\nthat are likely to be of significance to the\nfunction of the Central Bank as regulator.\nSenior Management: The executive\nmanagement of the Bank responsible and\naccountable to the Board for the sound and\nprudent day -to-day management of the\nBank, generally including, but not limited\nto, the chief executive officer, chief\nfinancial officer, chief risk officer, and\nheads of the compliance and internal audit\nfunctions.\nc.s-\nSIP a\n.11\n.12\n.13\n.14\nINTERNAL CONTROLS, COMPLIANCE AND INTERNAL AUDIT REGULATION 161/2018"
+    },
+    {
+      "score": 0.3394,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_11__3",
+      "clause_no": "11",
+      "title": "(11)",
+      "page": 2,
+      "concept": "Document title",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other",
+      "text": "INTERNAL CONTROLS, COMPLIANCE AND INTERNAL AUDIT REGULATION 161/2018"
+    },
+    {
+      "score": 0.3367,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_1",
+      "clause_no": "1",
+      "title": "Ensuring the soundness of Banks; and",
+      "page": 4,
+      "concept": "Supervisory expectations",
+      "obligation_type": "Other",
+      "text": "II. Contributing to financial stability.\nThe accompanying Standards supplement the\nRegulation to elaborate on the supervisory\nexpectations of the Central Bank with respect to\ninternal controls, compliance and internal audit."
+    },
+    {
+      "score": 0.2891,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_15",
+      "clause_no": "15",
+      "title": "Subsidiary: An entity, owned by another",
+      "page": 7,
+      "concept": "Definition - Subsidiary/Affiliate",
+      "canonical_id": "CPT_DEFAULT_DEFINITION",
+      "canonical_label": "Definition of Default",
+      "mapping_confidence": 0.507,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Other",
+      "text": "entity by more than 50% of its capital, or is\nunder full control of that entity regarding the\nappointment of the board of directors.\nARTICLE (2): INTERNAL CONTROL"
+    },
+    {
+      "score": 0.237,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_1__3",
+      "clause_no": "1",
+      "title": "\"'.i:i h•c mus ave comp iance an mterna au I\"' u,o",
+      "page": 11,
+      "concept": null,
+      "text": "functions that ensure Shari'a compliance.\nARTICLE (8): ENFORCEMENT AND"
+    },
+    {
+      "score": 0.222,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_10",
+      "clause_no": "10",
+      "title": "e:iJ (6)",
+      "page": 2,
+      "concept": null,
+      "text": "e:iJ (6)"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 2 canonical concept(s): Definition of Default, Document Metadata.",
+    "Those concepts sit under parent concept(s): Credit Risk.",
+    "2 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.3675,
+    "mean_score": 0.2986,
+    "retrieval_mode": "embedding",
+    "evidence_pending_review": 2,
+    "notes": [
+      "2 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

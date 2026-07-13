@@ -1,0 +1,26 @@
+{
+  "document": "CBUAE_EN_5996_VER1",
+  "document_id": "CBUAE_EN_5996_VER1",
+  "jurisdiction": null,
+  "generated_at": "2026-07-13T07:27:25.925453+00:00",
+  "stats": {
+    "nodes": 230,
+    "edges": 721,
+    "nodes_by_type": {
+      "Document": 1,
+      "Regulator": 1,
+      "Clause": 187,
+      "Domain": 5,
+      "ObligationType": 7,
+      "Concept": 29
+    },
+    "edges_by_type": {
+      "ISSUED_BY": 1,
+      "HAS_CLAUSE": 187,
+      "IN_DOMAIN": 206,
+      "HAS_OBLIGATION": 178,
+      "MAPS_TO_CONCEPT": 125,
+      "CHILD_OF": 24
+    }
+  }
+}

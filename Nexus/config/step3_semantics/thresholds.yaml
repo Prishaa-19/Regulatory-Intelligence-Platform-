@@ -1,0 +1,24 @@
+# Nexus Step 3 — Tuning knobs and confidence policy
+#
+# Operational settings, separate from the ontology (meaning) and the schemas
+# (contract). Developers own this file; changing a threshold does not change
+# what a value means, only how outputs are batched and routed for review.
+
+version: 0.1.0
+
+# LLM batching (mirrors the current constants in interpret_document.py).
+batch:
+  size: 20                # operative units per LLM call
+  max_context_chars: 800  # clause text truncated to this many chars in the prompt
+
+# Confidence bands, consumed by the escalation rules in STANDARD.md section 6.
+# A score >= auto_accept is accepted; between review_floor and auto_accept is
+# queued for review; below review_floor is mandatory review; null is treated
+# as the lowest band.
+confidence:
+  auto_accept: 0.85
+  review_floor: 0.60
+
+# Force review regardless of confidence when the model fell back to an escape
+# hatch on any controlled field.
+escalate_on_escape_hatch: true

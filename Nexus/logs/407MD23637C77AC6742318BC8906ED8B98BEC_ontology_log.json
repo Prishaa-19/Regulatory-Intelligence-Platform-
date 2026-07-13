@@ -1,0 +1,18 @@
+{
+  "document": "407MD23637C77AC6742318BC8906ED8B98BEC",
+  "generated_at": "2026-07-13T05:48:07.371672+00:00",
+  "jurisdiction": "IN_RBI",
+  "catalog_version": "global=0.1.0;IN_RBI=0.1.0",
+  "coverage": {
+    "total": 28,
+    "mapped": 16,
+    "unmapped": 12,
+    "coverage_pct": 57.1,
+    "review_required": 28,
+    "suggested": 0
+  },
+  "skipped_no_concept": 5,
+  "suggestion": null,
+  "artifact_valid": true,
+  "artifact_errors": []
+}

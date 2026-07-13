@@ -1,0 +1,103 @@
+{
+  "query": "What is the objective of this regulation?",
+  "generated_at": "2026-07-13T09:13:07.669805+00:00",
+  "corpus": {
+    "documents_indexed": 1
+  },
+  "answer": "The objective of the regulation is to:\n1. Contribute to financial stability by establishing supervisory expectations for internal controls, compliance and internal audit systems in banks [CBUAE_EN_1953_VER1 clause_no=1 (Other, p.4)].\n2. Ensure the existence of an independent Internal Audit function that provides assurance to the Board and Senior Management on the quality and effectiveness of internal controls, risk management and governance systems, thereby helping protect the bank’s organisation and reputation [CBUAE_EN_1953_VER1 clause_no=9 (Registration, p.5)].\n\nUncertainty: None.",
+  "evidence": [
+    {
+      "score": 0.3914,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_1__5",
+      "clause_no": "1",
+      "title": "This Regulation replaces Article of the",
+      "page": 12,
+      "concept": "Document repeal",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.681,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other",
+      "text": "previous Central Bank Circular No 23/00\ndated 22 July 2000, Required\nAdministrative Structure in Banks.\nARTICLE (11): PUBLICATION AND"
+    },
+    {
+      "score": 0.3773,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_1__6",
+      "clause_no": "1",
+      "title": "This Regulation and the accompanying",
+      "page": 12,
+      "concept": "Effective date and publication",
+      "obligation_type": "Other",
+      "text": "Standards shall be published in the Official\nGazette in both Arabic and English and shall\ncome into effect one month from the date of\npublication.\n'-ifi yJI u,o 3-1\n¥Jill 2000 22 00/23\nKhalifa Mohammed Al Kindi\nChairman of the Board Central Bank of the UAE\n.1\n1"
+    },
+    {
+      "score": 0.3661,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_1",
+      "clause_no": "1",
+      "title": "Ensuring the soundness of Banks; and",
+      "page": 4,
+      "concept": "Supervisory expectations",
+      "obligation_type": "Other",
+      "text": "II. Contributing to financial stability.\nThe accompanying Standards supplement the\nRegulation to elaborate on the supervisory\nexpectations of the Central Bank with respect to\ninternal controls, compliance and internal audit."
+    },
+    {
+      "score": 0.3558,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_11__3",
+      "clause_no": "11",
+      "title": "(11)",
+      "page": 2,
+      "concept": "Document title",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other",
+      "text": "INTERNAL CONTROLS, COMPLIANCE AND INTERNAL AUDIT REGULATION 161/2018"
+    },
+    {
+      "score": 0.3506,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_9__2",
+      "clause_no": "9",
+      "title": "Group: A group of entities which includes 0yS.JI\") UyS wwySJI .9",
+      "page": 5,
+      "concept": "Internal audit function",
+      "obligation_type": "Registration",
+      "text": "10.\nan entity (the 'first entity') and:\na) any Controlling Shareholder of the\nfirst entity;\nany Subsidiary of the first entity or of Ji 0yS.ll c;i\nany Controlling Shareholder of the 0yS.l1\nfirst entity; and\nany Affiliate.\nInternal Audit function: An independent\nfunction that provides independent\nassurance to the Board of directors and\nSenior Management on the quality and\neffectiveness of a Bank's internal control,\nrisk management and governance systems\nand processes, thereby helping the Board\nand Senior Management protect their\norganization and its reputation.\n.10\nINTERNAL CONTROLS, COMPLIANCE AND INTERNAL AUDIT REGULATION 161/2018\n11.\n12.\n13.\n14.\nInternal Control: Consists of five\ninterrelated elements, whose effective\nfunctioning is essential to achieving a\nBank's performance, information, and\ncompliance objectives:\na. management oversight and the control\nculture;\nrisk recognition and assessment;\ncontrol activities and segregation of\nduties;\ninformation and communication; and\nmonitoring activities and correcting\ndeficiencies.\nIslamic Financial Services: Shari'a\ncompliant financial services offered by\nIslamic Banks and Conventional Banks\noffering Islamic banking products (Islamic\nWindows).\nMatter of Significance: A matter, or group\nof matters, that would have a significant\nimpact on the activities or financial position\nof the Bank. Examples include failure to\ncomply with the licensing criteria or\nbreaches of banking or other laws,\nsignificant deficiencies and control\nweaknesses in the Bank's operations or\nfinancial reporting process or other matters\nthat are likely to be of significance to the\nfunction of the Central Bank as regulator.\nSenior Management: The executive\nmanagement of the Bank responsible and\naccountable to the Board for the sound and\nprudent day -to-day management of the\nBank, generally including, but not limited\nto, the chief executive officer, chief\nfinancial officer, chief risk officer, and\nheads of the compliance and internal audit\nfunctions.\nc.s-\nSIP a\n.11\n.12\n.13\n.14\nINTERNAL CONTROLS, COMPLIANCE AND INTERNAL AUDIT REGULATION 161/2018"
+    },
+    {
+      "score": 0.3321,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_1__4",
+      "clause_no": "1",
+      "title": "The Regulatory Development Division of '-ifi yJI A.,HI.! )1 ufo .1",
+      "page": 12,
+      "concept": "Regulatory interpretation",
+      "obligation_type": "Other",
+      "text": "the Central Bank shall be the reference for\ninterpretation of the provisions of this\nRegulation.\nARTICLE (10): CANCELLATION OF"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 1 canonical concept(s): Document Metadata.",
+    "2 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.3914,
+    "mean_score": 0.3622,
+    "retrieval_mode": "embedding",
+    "evidence_pending_review": 2,
+    "notes": [
+      "2 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

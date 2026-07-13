@@ -1,0 +1,27 @@
+{
+  "document": "407MD23637C77AC6742318BC8906ED8B98BEC",
+  "started_at": "2026-07-09T11:46:25.509192+00:00",
+  "steps": [
+    {
+      "step": "collect_operative_units",
+      "status": "ok",
+      "count": 33
+    },
+    {
+      "step": "llm_semantic_classification",
+      "status": "ok",
+      "classified": 33,
+      "total": 33,
+      "failed_batches": 0,
+      "providers": "nvidia -> azure"
+    },
+    {
+      "step": "semantics_write",
+      "status": "ok",
+      "path": "Nexus\\semantics\\407MD23637C77AC6742318BC8906ED8B98BEC_semantics.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-09T11:46:50.851581+00:00",
+  "duration_seconds": 25.34
+}

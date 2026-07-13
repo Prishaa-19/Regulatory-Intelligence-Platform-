@@ -1,0 +1,41 @@
+{
+  "document": "CBUAE_EN_1953_VER1",
+  "started_at": "2026-07-13T10:34:59.049599+00:00",
+  "jurisdiction": null,
+  "ontology_versions": {
+    "global": "0.1.0"
+  },
+  "steps": [
+    {
+      "step": "collect_operative_units",
+      "status": "ok",
+      "count": 19
+    },
+    {
+      "step": "llm_semantic_classification",
+      "status": "ok",
+      "classified": 19,
+      "total": 19,
+      "failed_batches": 0,
+      "providers": "nvidia -> azure",
+      "jurisdiction": null,
+      "ontology_versions": {
+        "global": "0.1.0"
+      }
+    },
+    {
+      "step": "validate_artifact",
+      "status": "ok",
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "step": "semantics_write",
+      "status": "ok",
+      "path": "Nexus\\semantics\\CBUAE_EN_1953_VER1_semantics.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-13T10:35:26.243769+00:00",
+  "duration_seconds": 27.56
+}

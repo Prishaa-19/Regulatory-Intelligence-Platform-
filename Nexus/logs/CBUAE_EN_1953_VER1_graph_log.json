@@ -1,0 +1,26 @@
+{
+  "document": "CBUAE_EN_1953_VER1",
+  "document_id": "CIRCULAR_161_2018",
+  "jurisdiction": null,
+  "generated_at": "2026-07-13T10:35:29.101705+00:00",
+  "stats": {
+    "nodes": 26,
+    "edges": 46,
+    "nodes_by_type": {
+      "Document": 1,
+      "Regulator": 1,
+      "Clause": 17,
+      "Domain": 3,
+      "ObligationType": 1,
+      "Concept": 3
+    },
+    "edges_by_type": {
+      "ISSUED_BY": 1,
+      "HAS_CLAUSE": 17,
+      "IN_DOMAIN": 13,
+      "HAS_OBLIGATION": 11,
+      "MAPS_TO_CONCEPT": 3,
+      "CHILD_OF": 1
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "nexus/step3/classification_response.schema.json",
+  "title": "Nexus Step 3 — LLM classification response",
+  "description": "The array the model must return: one object per operative unit given. Enums are the enforcement copy of ontology.yaml and MUST be kept in sync with it (ideally generated from it). Any response that does not validate against this schema is rejected and the affected units are set to null.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "index",
+      "domain",
+      "concept",
+      "action",
+      "object",
+      "obligation_type",
+      "mandatory_flag",
+      "confidence_score"
+    ],
+    "properties": {
+      "index": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based position of the unit within the batch it was sent in."
+      },
+      "domain": {
+        "type": "string",
+        "enum": [
+          "Foreign Exchange Management (FEMA)",
+          "Anti-Money Laundering / KYC",
+          "Banking Regulation & Supervision",
+          "Financial Markets Regulation",
+          "Payment and Settlement Systems",
+          "Co-operative Banking Supervision",
+          "Consumer Protection",
+          "Prudential Norms / Capital Adequacy",
+          "Digital Lending / Fintech",
+          "Cyber Security & IT Governance",
+          "Corporate Governance",
+          "Other"
+        ]
+      },
+      "concept": {
+        "type": ["string", "null"],
+        "maxLength": 80,
+        "description": "Free-text label, 2-5 words. May be null."
+      },
+      "action": {
+        "type": "string",
+        "enum": [
+          "RETAIN", "REPORT", "DISCLOSE", "MAINTAIN", "VERIFY", "SUBMIT",
+          "NOTIFY", "PROHIBIT", "PERMIT", "RESTRICT", "MONITOR", "REGISTER",
+          "REVIEW", "ESTABLISH", "IMPLEMENT", "OTHER"
+        ]
+      },
+      "object": {
+        "type": ["string", "null"],
+        "maxLength": 80,
+        "description": "Free-text label, 2-5 words. May be null."
+      },
+      "obligation_type": {
+        "type": "string",
+        "enum": [
+          "Record Retention",
+          "Reporting",
+          "Disclosure",
+          "Prohibition",
+          "Permission / Authorization",
+          "Notification",
+          "Registration",
+          "Compliance Monitoring",
+          "Customer Protection / Redressal",
+          "Penalty / Enforcement",
+          "Other"
+        ]
+      },
+      "mandatory_flag": {
+        "type": "string",
+        "enum": ["Mandatory", "Discretionary", "Conditional", "Not Applicable"]
+      },
+      "confidence_score": {
+        "type": ["number", "null"],
+        "minimum": 0.0,
+        "maximum": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Nexus — jurisdiction registry
+#
+# Maps the Step-1 metadata `regulator` value to a jurisdiction pack directory
+# under ontology/jurisdictions/. Step 3, 3.5 and 4 read this to auto-select the
+# right extension for each document; pass --jurisdiction to override.
+
+version: 0.1.0
+
+# Pack applied when the regulator is unknown / metadata is absent. null means
+# global-only (no jurisdiction extension).
+default: null
+
+regulators:
+  RBI: IN_RBI
+  CBUAE: AE_CBUAE

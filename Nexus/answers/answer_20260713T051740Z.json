@@ -1,0 +1,62 @@
+{
+  "query": "assess significant increase in credit risk",
+  "generated_at": "2026-07-13T05:17:40.590037+00:00",
+  "corpus": {
+    "documents_indexed": 1
+  },
+  "answer": null,
+  "evidence": [
+    {
+      "score": 0.3789,
+      "document_id": "e2e_cbuae",
+      "clause_id": "clause_7_1",
+      "clause_no": "7.1",
+      "title": "The LFI must assess and document regularly whether the Credit Risk of a financial",
+      "page": 22,
+      "concept": "Significant Increase in Credit Risk (SICR)",
+      "canonical_id": "CPT_SICR",
+      "canonical_label": "Significant Increase in Credit Risk (SICR)",
+      "mapping_confidence": 1.0,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1821,
+      "document_id": "e2e_cbuae",
+      "clause_id": "clause_2_1",
+      "clause_no": "2.1",
+      "title": "The Board must regularly review, and approve, the Credit Risk management strategy,",
+      "page": 3,
+      "concept": "Credit Risk Framework Approval",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1703,
+      "document_id": "e2e_cbuae",
+      "clause_id": "clause_7_11",
+      "clause_no": "7.11",
+      "title": "For Wholesale Obligors, relevant indicators of a SICR may include, but are not limited to",
+      "page": 23,
+      "concept": "SICR Credit Performance Indicators",
+      "obligation_type": "Compliance Monitoring"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 3 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 1 canonical concept(s): Significant Increase in Credit Risk (SICR).",
+    "Those concepts sit under parent concept(s): Credit Risk.",
+    "1 of 3 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "High",
+    "top_score": 0.3789,
+    "mean_score": 0.2438,
+    "evidence_pending_review": 1,
+    "notes": [
+      "1 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

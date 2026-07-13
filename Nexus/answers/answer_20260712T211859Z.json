@@ -1,0 +1,102 @@
+{
+  "query": "What must banks do when a borrower's credit risk increases significantly?",
+  "generated_at": "2026-07-12T21:18:59.991899+00:00",
+  "corpus": {
+    "documents_indexed": 5
+  },
+  "answer": null,
+  "evidence": [
+    {
+      "score": 0.1999,
+      "document_id": "RBI/DOR/2025-26/155",
+      "clause_id": "clause_3",
+      "clause_no": "3",
+      "title": "These Directions shall be applicable to  Commercial Banks (hereinafter collectively",
+      "page": 2,
+      "concept": "Commercial Banks Definition",
+      "canonical_id": "CPT_DOCUMENT_META",
+      "canonical_label": "Document Metadata",
+      "mapping_confidence": 0.75,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.1354,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_4_8",
+      "clause_no": "4.8",
+      "title": "The Credit Risk Management Function has the responsibility and authority to protect the LFI",
+      "page": 13,
+      "concept": "Credit Risk Policy Ownership",
+      "canonical_id": "CPT_POLICY_FRAMEWORK",
+      "canonical_label": "Policy Framework",
+      "mapping_confidence": 0.75,
+      "review_required": true,
+      "concept_parent": "Governance",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1214,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_7_1",
+      "clause_no": "7.1",
+      "title": "The LFI must assess and document regularly whether the Credit Risk of a financial",
+      "page": 22,
+      "concept": "SICR Identification",
+      "canonical_id": "CPT_SICR",
+      "canonical_label": "Significant Increase in Credit Risk (SICR)",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1168,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_4_6",
+      "clause_no": "4.6",
+      "title": "The Credit Risk Management Function, must not have a decision-making role in the",
+      "page": 12,
+      "concept": "Credit Risk Management Objective",
+      "canonical_id": "CPT_CREDIT_RISK",
+      "canonical_label": "Credit Risk",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.1013,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_2_14",
+      "clause_no": "2.14",
+      "title": "The Senior Management team is responsible and accountable for the implementation of the",
+      "page": 5,
+      "concept": "Senior Management Responsibilities",
+      "canonical_id": "CPT_GOVERNANCE",
+      "canonical_label": "Governance",
+      "mapping_confidence": 0.75,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Compliance Monitoring"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 5 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 5 canonical concept(s): Credit Risk, Document Metadata, Governance, Policy Framework, Significant Increase in Credit Risk (SICR).",
+    "Those concepts sit under parent concept(s): Credit Risk, Governance.",
+    "5 of 5 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.1999,
+    "mean_score": 0.135,
+    "evidence_pending_review": 5,
+    "notes": [
+      "5 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

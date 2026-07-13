@@ -1,0 +1,103 @@
+{
+  "query": "What must the compliance function do?",
+  "generated_at": "2026-07-13T06:41:55.955597+00:00",
+  "corpus": {
+    "documents_indexed": 1
+  },
+  "answer": null,
+  "evidence": [
+    {
+      "score": 0.3775,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_15",
+      "clause_no": "15",
+      "title": "Subsidiary: An entity, owned by another",
+      "page": 7,
+      "concept": "Compliance Function Definition",
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.3527,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_1",
+      "clause_no": "1",
+      "title": "Ensuring the soundness of Banks; and",
+      "page": 4,
+      "concept": "Financial Stability Role",
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.3021,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_9__2",
+      "clause_no": "9",
+      "title": "Group: A group of entities which includes 0yS.JI\") UyS ~ ~I wwySJI u-- ~ ~ :'-'-~ .9",
+      "page": 5,
+      "concept": "Controlling Shareholder Definition",
+      "canonical_id": "CPT_DEFAULT_DEFINITION",
+      "canonical_label": "Definition of Default",
+      "mapping_confidence": 0.507,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.2627,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_11__3",
+      "clause_no": "11",
+      "title": "J:!.+b:iJI.J ~\\ (11) :i.il..t.l\\",
+      "page": 2,
+      "concept": "Regulatory Scope Header",
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.2445,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_9",
+      "clause_no": "9",
+      "title": "dil.1.t.ll (5) :i.il..t.l\\",
+      "page": 2,
+      "concept": "Regulatory Formatting",
+      "canonical_id": "CPT_REGULATORY_REPORTING",
+      "canonical_label": "Regulatory Reporting",
+      "mapping_confidence": 0.565,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.2421,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_10",
+      "clause_no": "10",
+      "title": "<,,,JSyi.ll u~ .J,J..;Li:i.11 e:iJ '-:1..P.-.J (6) :i.iL.t.11",
+      "page": 2,
+      "concept": "Regulatory Formatting",
+      "canonical_id": "CPT_REGULATORY_REPORTING",
+      "canonical_label": "Regulatory Reporting",
+      "mapping_confidence": 0.565,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 2 canonical concept(s): Definition of Default, Regulatory Reporting.",
+    "Those concepts sit under parent concept(s): Credit Risk.",
+    "3 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.3775,
+    "mean_score": 0.2969,
+    "retrieval_mode": "embedding",
+    "evidence_pending_review": 3,
+    "notes": [
+      "3 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

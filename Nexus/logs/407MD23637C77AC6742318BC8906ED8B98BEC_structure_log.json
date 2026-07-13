@@ -1,0 +1,29 @@
+{
+  "document": "407MD23637C77AC6742318BC8906ED8B98BEC",
+  "started_at": "2026-07-09T11:43:49.070031+00:00",
+  "steps": [
+    {
+      "step": "parse_markdown",
+      "status": "ok",
+      "heading_count": 39
+    },
+    {
+      "step": "llm_structure_classification",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "step": "build_tree",
+      "status": "ok",
+      "top_level_nodes": 21
+    },
+    {
+      "step": "structure_write",
+      "status": "ok",
+      "path": "Nexus\\structure\\407MD23637C77AC6742318BC8906ED8B98BEC_structure.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-09T11:43:52.505472+00:00",
+  "duration_seconds": 3.5
+}

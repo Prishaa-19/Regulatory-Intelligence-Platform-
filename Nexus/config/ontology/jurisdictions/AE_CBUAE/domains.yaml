@@ -1,0 +1,12 @@
+# Nexus — UAE / Central Bank of the UAE (AE_CBUAE) domain extension
+#
+# Domains specific to the UAE regulatory context, merged on top of
+# global/domains.yaml by token. Islamic (Shariah-compliant) banking is a
+# first-class supervisory area for CBUAE and has no global equivalent.
+
+version: 0.1.0
+
+domains:
+  - label: Islamic Banking / Shariah Compliance
+    token: ISLAMIC_BANKING
+    description: Shariah governance and Islamic banking supervision (UAE).

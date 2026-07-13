@@ -1,0 +1,26 @@
+{
+  "document": "407MD23637C77AC6742318BC8906ED8B98BEC",
+  "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+  "jurisdiction": "IN_RBI",
+  "generated_at": "2026-07-13T05:52:46.052018+00:00",
+  "stats": {
+    "nodes": 60,
+    "edges": 124,
+    "nodes_by_type": {
+      "Document": 1,
+      "Regulator": 1,
+      "Clause": 33,
+      "Domain": 5,
+      "ObligationType": 8,
+      "Concept": 12
+    },
+    "edges_by_type": {
+      "ISSUED_BY": 1,
+      "HAS_CLAUSE": 33,
+      "IN_DOMAIN": 39,
+      "HAS_OBLIGATION": 28,
+      "MAPS_TO_CONCEPT": 16,
+      "CHILD_OF": 7
+    }
+  }
+}

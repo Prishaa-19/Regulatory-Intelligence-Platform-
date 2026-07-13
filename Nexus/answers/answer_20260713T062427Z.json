@@ -1,0 +1,72 @@
+{
+  "query": "What must the compliance function and internal audit function do?",
+  "generated_at": "2026-07-13T06:24:27.713881+00:00",
+  "corpus": {
+    "documents_indexed": 1
+  },
+  "answer": null,
+  "evidence": [
+    {
+      "score": 0.2831,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_11__3",
+      "clause_no": "11",
+      "title": "J:!.+b:iJI.J ~\\ (11) :i.il..t.l\\",
+      "page": 2,
+      "concept": "Regulatory Scope Header",
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.283,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_9__2",
+      "clause_no": "9",
+      "title": "Group: A group of entities which includes 0yS.JI\") UyS ~ ~I wwySJI u-- ~ ~ :'-'-~ .9",
+      "page": 5,
+      "concept": "Controlling Shareholder Definition",
+      "canonical_id": "CPT_DEFAULT_DEFINITION",
+      "canonical_label": "Definition of Default",
+      "mapping_confidence": 0.507,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.2378,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_15",
+      "clause_no": "15",
+      "title": "Subsidiary: An entity, owned by another",
+      "page": 7,
+      "concept": "Compliance Function Definition",
+      "obligation_type": "Other"
+    },
+    {
+      "score": 0.1727,
+      "document_id": "CBUAE_EN_1953_VER1",
+      "clause_id": "clause_1",
+      "clause_no": "1",
+      "title": "Ensuring the soundness of Banks; and",
+      "page": 4,
+      "concept": "Financial Stability Role",
+      "obligation_type": "Other"
+    }
+  ],
+  "impact_candidates": [],
+  "reasoning_path": [
+    "Retrieved 4 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 1 canonical concept(s): Definition of Default.",
+    "Those concepts sit under parent concept(s): Credit Risk.",
+    "1 of 4 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "Medium",
+    "top_score": 0.2831,
+    "mean_score": 0.2442,
+    "evidence_pending_review": 1,
+    "notes": [
+      "1 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

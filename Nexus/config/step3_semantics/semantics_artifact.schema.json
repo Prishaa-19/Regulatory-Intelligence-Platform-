@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "nexus/step3/semantics_artifact.schema.json",
+  "title": "Nexus Step 3 — semantics artifact",
+  "description": "Shape of Nexus/semantics/<stem>_semantics.json: a deep copy of the Step-2 structure tree with the seven semantic fields added to operative nodes. Operative nodes carry all seven fields (each possibly null); non-operative nodes carry none of them. Enums mirror ontology.yaml.",
+  "type": "object",
+  "required": ["structure"],
+  "properties": {
+    "document_id": { "type": ["string", "null"] },
+    "structure": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/node" }
+    }
+  },
+  "$defs": {
+    "domain": {
+      "type": ["string", "null"],
+      "enum": [
+        "Foreign Exchange Management (FEMA)",
+        "Anti-Money Laundering / KYC",
+        "Banking Regulation & Supervision",
+        "Financial Markets Regulation",
+        "Payment and Settlement Systems",
+        "Co-operative Banking Supervision",
+        "Consumer Protection",
+        "Prudential Norms / Capital Adequacy",
+        "Digital Lending / Fintech",
+        "Cyber Security & IT Governance",
+        "Corporate Governance",
+        "Other",
+        null
+      ]
+    },
+    "action": {
+      "type": ["string", "null"],
+      "enum": [
+        "RETAIN", "REPORT", "DISCLOSE", "MAINTAIN", "VERIFY", "SUBMIT",
+        "NOTIFY", "PROHIBIT", "PERMIT", "RESTRICT", "MONITOR", "REGISTER",
+        "REVIEW", "ESTABLISH", "IMPLEMENT", "OTHER",
+        null
+      ]
+    },
+    "obligation_type": {
+      "type": ["string", "null"],
+      "enum": [
+        "Record Retention", "Reporting", "Disclosure", "Prohibition",
+        "Permission / Authorization", "Notification", "Registration",
+        "Compliance Monitoring", "Customer Protection / Redressal",
+        "Penalty / Enforcement", "Other",
+        null
+      ]
+    },
+    "mandatory_flag": {
+      "type": ["string", "null"],
+      "enum": ["Mandatory", "Discretionary", "Conditional", "Not Applicable", null]
+    },
+    "node": {
+      "type": "object",
+      "required": ["type", "children"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["part", "section", "subsection", "clause", "annex", "table", "footnote"]
+        },
+        "number": { "type": ["string", "null"] },
+        "heading": { "type": ["string", "null"] },
+        "text": { "type": ["string", "null"] },
+        "page_start": { "type": ["integer", "null"] },
+        "page_end": { "type": ["integer", "null"] },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/node" }
+        },
+        "domain": { "$ref": "#/$defs/domain" },
+        "concept": { "type": ["string", "null"] },
+        "action": { "$ref": "#/$defs/action" },
+        "object": { "type": ["string", "null"] },
+        "obligation_type": { "$ref": "#/$defs/obligation_type" },
+        "mandatory_flag": { "$ref": "#/$defs/mandatory_flag" },
+        "confidence_score": {
+          "type": ["number", "null"],
+          "minimum": 0.0,
+          "maximum": 1.0
+        }
+      },
+      "dependentRequired": {
+        "domain": ["concept", "action", "object", "obligation_type", "mandatory_flag", "confidence_score"]
+      }
+    }
+  }
+}

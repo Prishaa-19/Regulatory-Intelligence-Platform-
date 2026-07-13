@@ -1,0 +1,786 @@
+<style>
+  :root {
+    --bg: #f3f6f6;
+    --surface: #ffffff;
+    --surface-2: #ecf0f0;
+    --ink: #15201f;
+    --muted: #53605f;
+    --faint: #869291;
+    --border: #dbe3e2;
+    --border-strong: #c4cfce;
+    --accent: #0d6d75;
+    --accent-2: #0a565c;
+    --accent-wash: #e2f0f0;
+    --good: #1c7a4f;
+    --good-wash: #e3f2ea;
+    --warn: #8f6410;
+    --warn-wash: #f6ecd6;
+    --crit: #ac392c;
+    --crit-wash: #f7e5e2;
+    --mono: ui-monospace, "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
+    --serif: Charter, "Iowan Old Style", "Source Serif Pro", Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    --maxw: 720px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0c1112;
+      --surface: #131b1c;
+      --surface-2: #1a2425;
+      --ink: #e6eceb;
+      --muted: #9ca7a6;
+      --faint: #6a7776;
+      --border: #263130;
+      --border-strong: #35433f;
+      --accent: #40bcc4;
+      --accent-2: #6ad4db;
+      --accent-wash: #123033;
+      --good: #4dba85;
+      --good-wash: #12281f;
+      --warn: #d2a44e;
+      --warn-wash: #2c2513;
+      --crit: #e37665;
+      --crit-wash: #2e1917;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f3f6f6; --surface: #ffffff; --surface-2: #ecf0f0; --ink: #15201f;
+    --muted: #53605f; --faint: #869291; --border: #dbe3e2; --border-strong: #c4cfce;
+    --accent: #0d6d75; --accent-2: #0a565c; --accent-wash: #e2f0f0;
+    --good: #1c7a4f; --good-wash: #e3f2ea; --warn: #8f6410; --warn-wash: #f6ecd6;
+    --crit: #ac392c; --crit-wash: #f7e5e2;
+  }
+  :root[data-theme="dark"] {
+    --bg: #0c1112; --surface: #131b1c; --surface-2: #1a2425; --ink: #e6eceb;
+    --muted: #9ca7a6; --faint: #6a7776; --border: #263130; --border-strong: #35433f;
+    --accent: #40bcc4; --accent-2: #6ad4db; --accent-wash: #123033;
+    --good: #4dba85; --good-wash: #12281f; --warn: #d2a44e; --warn-wash: #2c2513;
+    --crit: #e37665; --crit-wash: #2e1917;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  .page {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 28px 96px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  @media (min-width: 1000px) {
+    .wrap { grid-template-columns: 210px minmax(0, var(--maxw)); gap: 56px; justify-content: center; }
+  }
+
+  /* ---- Header ---- */
+  header.masthead {
+    grid-column: 1 / -1;
+    border-bottom: 1px solid var(--border);
+    padding: 64px 0 34px;
+    margin-bottom: 48px;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-2);
+    margin: 0 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 26px; height: 2px;
+    background: var(--accent);
+    display: inline-block;
+  }
+  h1.title {
+    font-family: var(--sans);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+    text-wrap: balance;
+    font-size: clamp(2rem, 5vw, 3.1rem);
+    margin: 0 0 18px;
+    max-width: 16ch;
+  }
+  .lede {
+    font-size: 1.16rem;
+    color: var(--muted);
+    max-width: 60ch;
+    margin: 0 0 34px;
+    line-height: 1.55;
+  }
+  .metagrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .metagrid > div {
+    background: var(--surface);
+    padding: 14px 16px;
+  }
+  .metagrid dt {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin: 0 0 5px;
+  }
+  .metagrid dd {
+    margin: 0;
+    font-family: var(--sans);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .metagrid dd .draft { color: var(--warn); }
+
+  /* ---- Side nav ---- */
+  nav.toc {
+    display: none;
+  }
+  @media (min-width: 1000px) {
+    nav.toc {
+      display: block;
+      position: sticky;
+      top: 32px;
+      align-self: start;
+      height: max-content;
+      font-family: var(--sans);
+      border-left: 1px solid var(--border);
+      padding: 4px 0;
+    }
+    nav.toc a {
+      display: block;
+      padding: 5px 0 5px 16px;
+      margin-left: -1px;
+      border-left: 2px solid transparent;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 1.35;
+      transition: color .15s, border-color .15s;
+    }
+    nav.toc a:hover { color: var(--accent-2); }
+    nav.toc a .num { font-family: var(--mono); color: var(--faint); font-size: 11px; margin-right: 7px; }
+    nav.toc a:hover { border-left-color: var(--accent); }
+  }
+
+  main { grid-column: auto; min-width: 0; }
+  @media (max-width: 999px) { main { grid-column: 1 / -1; } }
+
+  section { margin: 0 0 64px; scroll-margin-top: 24px; }
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin: 0 0 22px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .sec-head .snum {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-2);
+    letter-spacing: 0.02em;
+    flex-shrink: 0;
+  }
+  h2 {
+    font-family: var(--sans);
+    font-weight: 680;
+    font-size: 1.5rem;
+    letter-spacing: -0.015em;
+    margin: 0;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  h3 {
+    font-family: var(--sans);
+    font-weight: 650;
+    font-size: 1.08rem;
+    letter-spacing: -0.01em;
+    margin: 34px 0 12px;
+    color: var(--ink);
+  }
+  p { margin: 0 0 16px; max-width: 68ch; }
+  strong { font-weight: 700; color: var(--ink); }
+  a { color: var(--accent-2); text-underline-offset: 2px; }
+
+  code, .mono {
+    font-family: var(--mono);
+    font-size: 0.86em;
+  }
+  p code, li code, td code {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.06em 0.4em;
+    color: var(--accent-2);
+    white-space: nowrap;
+  }
+
+  ul.body-list { margin: 0 0 16px; padding-left: 0; list-style: none; max-width: 68ch; }
+  ul.body-list li { position: relative; padding-left: 22px; margin-bottom: 10px; }
+  ul.body-list li::before {
+    content: "";
+    position: absolute; left: 2px; top: 0.66em;
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent);
+  }
+
+  /* ---- Pipeline flow ---- */
+  .flow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 4px 0 8px;
+    align-items: stretch;
+  }
+  .flow-step {
+    flex: 1 1 118px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--accent);
+    border-radius: 7px;
+    padding: 12px 13px 13px;
+    position: relative;
+  }
+  .flow-step.interp { border-top-color: var(--warn); }
+  .flow-step .fs-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-bottom: 4px;
+  }
+  .flow-step .fs-name {
+    font-family: var(--sans);
+    font-weight: 650;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+  .flow-step .fs-q {
+    font-size: 12.5px;
+    line-height: 1.35;
+    color: var(--muted);
+    font-family: var(--sans);
+  }
+  .flow-note {
+    display: flex; gap: 18px; flex-wrap: wrap;
+    font-family: var(--sans); font-size: 12.5px; color: var(--muted);
+    margin-top: 14px;
+  }
+  .flow-note span { display: inline-flex; align-items: center; gap: 7px; }
+  .swatch { width: 22px; height: 3px; border-radius: 2px; display: inline-block; }
+
+  /* ---- Step detail cards ---- */
+  .stepcard {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin-bottom: 16px;
+  }
+  .stepcard-head {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 16px; flex-wrap: wrap;
+  }
+  .stepcard-head .pill {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--accent-2);
+    background: var(--accent-wash);
+    border-radius: 5px;
+    padding: 3px 9px;
+  }
+  .stepcard-head h3 { margin: 0; font-size: 1.16rem; }
+  .stepcard-head .file {
+    font-family: var(--mono); font-size: 12.5px; color: var(--faint);
+    margin-left: auto;
+  }
+  .det {
+    font-family: var(--sans); font-size: 11px; font-weight: 600;
+    letter-spacing: 0.04em; text-transform: uppercase;
+    padding: 3px 8px; border-radius: 20px;
+  }
+  .det.yes { color: var(--good); background: var(--good-wash); }
+  .det.no { color: var(--warn); background: var(--warn-wash); }
+  .io { display: grid; gap: 14px; margin-bottom: 4px; }
+  @media (min-width: 560px) { .io { grid-template-columns: 1fr 1fr; } }
+  .io .io-block h4 {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--faint); margin: 0 0 7px;
+  }
+  .io .io-block ul { margin: 0; padding-left: 0; list-style: none; }
+  .io .io-block li {
+    font-family: var(--mono); font-size: 12.5px; color: var(--muted);
+    line-height: 1.5; margin-bottom: 3px; word-break: break-word;
+  }
+  .io .io-block li b { color: var(--ink); font-weight: 700; }
+  .stepcard .summary {
+    margin: 16px 0 0; padding-top: 15px; border-top: 1px solid var(--border);
+    font-size: 15.5px; line-height: 1.6;
+  }
+  .stepcard .summary p { max-width: none; margin-bottom: 0; }
+
+  /* ---- Precedence ladder ---- */
+  .ladder { display: flex; flex-direction: column; gap: 8px; margin: 4px 0 20px; }
+  .rung {
+    display: flex; align-items: center; gap: 14px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 12px 16px;
+  }
+  .rung .rn { font-family: var(--mono); font-size: 12px; color: var(--faint); width: 16px; flex-shrink: 0; }
+  .rung .rtype {
+    font-family: var(--mono); font-size: 13px; font-weight: 600; color: var(--accent-2);
+    flex-shrink: 0; width: 108px;
+  }
+  .rung .rdesc { font-family: var(--sans); font-size: 13.5px; color: var(--muted); flex: 1; line-height: 1.4; }
+  .rung .rconf {
+    font-family: var(--mono); font-size: 13px; font-weight: 700; color: var(--ink);
+    font-variant-numeric: tabular-nums; flex-shrink: 0;
+  }
+  .rung.unmapped { border-style: dashed; }
+  .rung.unmapped .rtype { color: var(--crit); }
+  .rung.fuzzy { border-color: var(--warn); }
+  .rung.fuzzy .rtype { color: var(--warn); }
+
+  /* ---- Callouts ---- */
+  .callout {
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    background: var(--surface);
+    border-radius: 0 9px 9px 0;
+    padding: 18px 22px;
+    margin: 4px 0 20px;
+  }
+  .callout.crit { border-left-color: var(--crit); background: var(--crit-wash); }
+  .callout.good { border-left-color: var(--good); background: var(--good-wash); }
+  .callout.warn { border-left-color: var(--warn); background: var(--warn-wash); }
+  .callout .co-label {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
+    text-transform: uppercase; margin: 0 0 8px; font-weight: 600;
+  }
+  .callout.crit .co-label { color: var(--crit); }
+  .callout.good .co-label { color: var(--good); }
+  .callout.warn .co-label { color: var(--warn); }
+  .callout p { max-width: none; margin-bottom: 10px; }
+  .callout p:last-child { margin-bottom: 0; }
+
+  /* ---- Coverage table ---- */
+  .tablewrap { overflow-x: auto; margin: 4px 0 8px; border: 1px solid var(--border); border-radius: 9px; }
+  table.cov { width: 100%; border-collapse: collapse; font-family: var(--sans); min-width: 520px; }
+  table.cov th {
+    text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--faint); font-weight: 600; padding: 12px 16px; border-bottom: 1px solid var(--border-strong);
+    background: var(--surface-2);
+  }
+  table.cov td {
+    padding: 13px 16px; border-bottom: 1px solid var(--border); font-size: 14px; vertical-align: middle;
+  }
+  table.cov tr:last-child td { border-bottom: none; }
+  table.cov .doc { font-family: var(--mono); font-size: 12.5px; color: var(--ink); }
+  table.cov .jur {
+    font-family: var(--mono); font-size: 11px; color: var(--accent-2);
+    background: var(--accent-wash); padding: 2px 7px; border-radius: 4px;
+  }
+  table.cov .num { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+  .bar { position: relative; height: 22px; min-width: 120px; }
+  .bar .track { position: absolute; inset: 0; background: var(--surface-2); border-radius: 4px; }
+  .bar .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--accent); }
+  .bar .fill.full { background: var(--good); }
+  .bar .fill.zero { background: var(--crit); min-width: 3px; }
+  .bar .lab {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+    font-family: var(--mono); font-size: 11.5px; font-weight: 700; color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---- Reasons grid ---- */
+  .reasons { display: grid; gap: 12px; margin: 4px 0 20px; }
+  @media (min-width: 620px) { .reasons { grid-template-columns: 1fr 1fr; } }
+  .reason {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 9px;
+    padding: 18px 20px;
+  }
+  .reason .rhead { display: flex; align-items: center; gap: 10px; margin-bottom: 9px; }
+  .reason .ri {
+    font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--accent-2);
+    width: 24px; height: 24px; border-radius: 6px; background: var(--accent-wash);
+    display: grid; place-items: center; flex-shrink: 0;
+  }
+  .reason h4 { font-family: var(--sans); font-size: 15px; font-weight: 650; margin: 0; }
+  .reason p { font-size: 14px; margin: 0; color: var(--muted); max-width: none; line-height: 1.5; }
+  .reason p code { font-size: 0.85em; }
+  .rolesplit {
+    font-family: var(--sans); font-size: 15px; text-align: center; color: var(--ink);
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 9px;
+    padding: 16px; margin-top: 4px;
+  }
+  .rolesplit b { color: var(--accent-2); }
+
+  /* ---- Code / tree block ---- */
+  pre {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 9px;
+    padding: 18px 20px; overflow-x: auto; margin: 4px 0 16px;
+    font-family: var(--mono); font-size: 12.5px; line-height: 1.6; color: var(--muted);
+  }
+  pre .c { color: var(--faint); }
+  pre .h { color: var(--accent-2); font-weight: 600; }
+  pre .f { color: var(--ink); }
+
+  /* ---- Save locations ---- */
+  .saves { display: grid; gap: 10px; margin: 4px 0 16px; }
+  .save {
+    display: flex; align-items: center; gap: 14px;
+    border: 1px solid var(--border); border-radius: 8px; padding: 14px 18px; background: var(--surface);
+  }
+  .save .stag {
+    font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.04em;
+    text-transform: uppercase; color: var(--muted); flex-shrink: 0; width: 92px;
+  }
+  .save .spath { font-family: var(--mono); font-size: 12.5px; color: var(--accent-2); word-break: break-all; }
+
+  /* ---- Blockers ---- */
+  .blockers { display: flex; flex-direction: column; gap: 10px; margin: 4px 0 16px; }
+  .blk {
+    display: flex; gap: 14px; align-items: flex-start;
+    border: 1px solid var(--border); border-radius: 9px; padding: 16px 18px; background: var(--surface);
+    border-left: 4px solid var(--faint);
+  }
+  .blk.b-crit { border-left-color: var(--crit); }
+  .blk.b-warn { border-left-color: var(--warn); }
+  .blk .stripe-lab {
+    font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 3px 8px; border-radius: 5px; flex-shrink: 0; margin-top: 2px;
+  }
+  .blk.b-crit .stripe-lab { color: var(--crit); background: var(--crit-wash); }
+  .blk.b-warn .stripe-lab { color: var(--warn); background: var(--warn-wash); }
+  .blk .btext { font-size: 14.5px; line-height: 1.55; }
+  .blk .btext b { display: block; font-family: var(--sans); font-size: 14px; margin-bottom: 3px; }
+  .blk .btext p { margin: 0; max-width: none; color: var(--muted); font-size: 14px; }
+
+  /* ---- Recommendation ---- */
+  .recs { list-style: none; padding: 0; margin: 4px 0 0; counter-reset: r; display: grid; gap: 10px; }
+  .recs li {
+    counter-increment: r; position: relative; padding: 16px 18px 16px 56px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 9px;
+    font-size: 14.5px; line-height: 1.5; max-width: none;
+  }
+  .recs li::before {
+    content: counter(r); position: absolute; left: 16px; top: 15px;
+    font-family: var(--mono); font-size: 13px; font-weight: 700; color: var(--accent-2);
+    width: 26px; height: 26px; border-radius: 7px; background: var(--accent-wash);
+    display: grid; place-items: center;
+  }
+
+  footer.foot {
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--border);
+    margin-top: 24px; padding-top: 24px;
+    font-family: var(--mono); font-size: 12px; color: var(--faint);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="page">
+  <div class="wrap">
+
+    <header class="masthead">
+      <p class="eyebrow">Internal Review &middot; Engineering &amp; Compliance</p>
+      <h1 class="title">The Nexus Regulatory-Document Pipeline</h1>
+      <p class="lede">How a regulator PDF becomes a queryable, auditable set of clause-level obligations &mdash; and why Step&nbsp;4, the ontology mapper, deliberately does not let the model decide.</p>
+      <dl class="metagrid">
+        <div><dt>Status</dt><dd><span class="draft">Draft for review</span></dd></div>
+        <div><dt>Date</dt><dd>2026-07-13</dd></div>
+        <div><dt>Scope</dt><dd>Steps 1&ndash;6</dd></div>
+        <div><dt>Corpus</dt><dd>5 regulator PDFs</dd></div>
+        <div><dt>Focus</dt><dd>Step 4 &mdash; Ontology</dd></div>
+      </dl>
+    </header>
+
+    <nav class="toc" aria-label="Contents">
+      <a href="#summary"><span class="num">00</span>Summary</a>
+      <a href="#glance"><span class="num">01</span>Pipeline at a glance</a>
+      <a href="#steps"><span class="num">02</span>Step by step</a>
+      <a href="#matcher"><span class="num">03</span>How the matcher works</a>
+      <a href="#limits"><span class="num">04</span>Step 4 limitations</a>
+      <a href="#whynot"><span class="num">05</span>Why not the LLM?</a>
+      <a href="#arch"><span class="num">06</span>Folder architecture</a>
+      <a href="#saved"><span class="num">07</span>Where it's saved</a>
+      <a href="#blockers"><span class="num">08</span>Blockers &amp; risks</a>
+      <a href="#rec"><span class="num">09</span>Recommendation</a>
+    </nav>
+
+    <main>
+
+      <!-- 00 -->
+      <section id="summary">
+        <div class="sec-head"><span class="snum">00</span><h2>Executive summary</h2></div>
+        <p>Nexus turns a regulator PDF into a queryable, auditable set of clause-level regulatory obligations mapped to a controlled banking vocabulary. It is a multi-stage pipeline where <strong>each stage writes its own immutable artifact and never mutates the previous stage's output</strong>.</p>
+        <p>The central design tension &mdash; and the main subject of this review &mdash; is <strong>Step&nbsp;4, ontology mapping</strong>: resolving each clause's free-text concept to a stable canonical concept ID. We deliberately do <em>not</em> let the LLM be the final mapper. This document explains why (auditability, reproducibility, no invented IDs, cost), documents a concrete failure we observed &mdash; a PDF that mapped <strong>100% on one run and 17.3% on a fresh run</strong> &mdash; and states the honest conclusion: the durable path is the semantic <code>--suggest</code> + human-approval loop, not hand-harvested exact strings.</p>
+      </section>
+
+      <!-- 01 -->
+      <section id="glance">
+        <div class="sec-head"><span class="snum">01</span><h2>Pipeline at a glance</h2></div>
+        <p>Nine stages take a PDF to a grounded answer. Only Step&nbsp;3 is fully interpretive; everything else is deterministic or deterministic-with-an-optional-LLM-assist.</p>
+        <div class="flow">
+          <div class="flow-step"><div class="fs-tag">Step 1</div><div class="fs-name">Extract</div><div class="fs-q">What is this document?</div></div>
+          <div class="flow-step"><div class="fs-tag">Step 2</div><div class="fs-name">Structure</div><div class="fs-q">How is it organized?</div></div>
+          <div class="flow-step interp"><div class="fs-tag">Step 3</div><div class="fs-name">Interpret</div><div class="fs-q">What does each clause mean?</div></div>
+          <div class="flow-step"><div class="fs-tag">Step 3.5</div><div class="fs-name">Export</div><div class="fs-q">Flatten to clause records</div></div>
+          <div class="flow-step"><div class="fs-tag">Step 4</div><div class="fs-name">Ontology</div><div class="fs-q">Concept &rarr; canonical ID</div></div>
+          <div class="flow-step"><div class="fs-tag">Step 5A</div><div class="fs-name">Graph</div><div class="fs-q">Knowledge graph</div></div>
+          <div class="flow-step"><div class="fs-tag">Step 5B</div><div class="fs-name">Index</div><div class="fs-q">Retrieval index</div></div>
+          <div class="flow-step"><div class="fs-tag">Step 6</div><div class="fs-name">Answer</div><div class="fs-q">Grounded Q&amp;A</div></div>
+        </div>
+        <div class="flow-note">
+          <span><i class="swatch" style="background:var(--accent)"></i> Deterministic (LLM optional / assist only)</span>
+          <span><i class="swatch" style="background:var(--warn)"></i> Fully interpretive &mdash; every clause via LLM</span>
+        </div>
+        <h3>Shared infrastructure</h3>
+        <ul class="body-list">
+          <li><code>nexus_llm.py</code> &mdash; provider-fallback LLM client (<strong>NVIDIA primary</strong>, Azure/grok fallback).</li>
+          <li><code>nexus_ontology.py</code> &mdash; loads and merges the layered ontology (global + jurisdiction) at runtime.</li>
+        </ul>
+      </section>
+
+      <!-- 02 -->
+      <section id="steps">
+        <div class="sec-head"><span class="snum">02</span><h2>Step by step &mdash; input, output, summary</h2></div>
+
+        <div class="stepcard">
+          <div class="stepcard-head"><span class="pill">Step 1</span><h3>Document Acquisition &amp; Metadata</h3><span class="file">extract_document.py</span></div>
+          <div class="io">
+            <div class="io-block"><h4>Input</h4><ul><li>One regulator <b>PDF</b> <code>--pdf</code></li><li>Optional seeds: source-url, regulator, country, source-type</li></ul></div>
+            <div class="io-block"><h4>Output</h4><ul><li><b>input/</b><span>&lt;stem&gt;.pdf</span> (audit copy)</li><li><b>markdown/</b>&lt;stem&gt;.md</li><li><b>metadata/</b>&lt;stem&gt;_metadata.json</li><li><b>logs/</b>&lt;stem&gt;_log.json</li></ul></div>
+          </div>
+          <div class="summary"><p><span class="det yes">Deterministic text</span> &nbsp; Uses <code>pypdf</code> (no OCR / layout engine, so <code>total_tables</code> is <code>null</code>, not guessed). Deterministic outputs &mdash; text, hashes, page/word/char counts &mdash; never depend on the LLM. Interpreted metadata (id, dates, version, status, keywords&hellip;) is filled by <strong>one LLM call</strong> instructed to return <code>null</code> for anything not explicitly stated. LLM failure leaves those fields null and the run still completes.</p></div>
+        </div>
+
+        <div class="stepcard">
+          <div class="stepcard-head"><span class="pill">Step 2</span><h3>Structural Segmentation</h3><span class="file">structure_document.py</span></div>
+          <div class="io">
+            <div class="io-block"><h4>Input</h4><ul><li><b>markdown/</b>&lt;stem&gt;.md</li><li>+ metadata for the document id</li></ul></div>
+            <div class="io-block"><h4>Output</h4><ul><li><b>structure/</b>&lt;stem&gt;_structure.json</li><li>&nbsp;&nbsp;nested Part&rarr;Section&rarr;Subsection&rarr;Clause tree</li><li><b>logs/</b>&lt;stem&gt;_structure_log.json</li></ul></div>
+          </div>
+          <div class="summary"><p><span class="det yes">Mostly deterministic</span> &nbsp; A deterministic pass classifies headings by numbering convention. Only headings matching <em>no</em> known convention go to <strong>one LLM call</strong> (skippable via <code>--skip-llm</code> &rarr; defaults to <code>clause</code>). A stack-based pass assembles the tree by numbering depth. Known limit: table/footnote boundaries are heuristic &mdash; a node's text runs to the next heading.</p></div>
+        </div>
+
+        <div class="stepcard">
+          <div class="stepcard-head"><span class="pill">Step 3</span><h3>Regulatory Meaning</h3><span class="det no">Fully interpretive</span><span class="file">interpret_document.py</span></div>
+          <div class="io">
+            <div class="io-block"><h4>Input</h4><ul><li><b>structure/</b>&lt;stem&gt;_structure.json</li></ul></div>
+            <div class="io-block"><h4>Output</h4><ul><li><b>semantics/</b>&lt;stem&gt;_semantics.json</li><li>&nbsp;&nbsp;7 tags per node: domain, concept, action, object, obligation_type, mandatory_flag, confidence</li></ul></div>
+          </div>
+          <div class="summary"><p>The only fully interpretive step &mdash; every operative unit goes through the LLM. Controlled fields (domain, action, obligation_type) are constrained to a fixed taxonomy whose enums are <em>stamped into the JSON schema from the merged ontology at load time</em>, so they can't drift. <code>concept</code> and <code>object</code> stay <strong>free text</strong> &mdash; exactly what Step&nbsp;4 must grapple with. <strong>Critical property:</strong> output is non-deterministic &mdash; the corpus produced <strong>298 distinct concept strings for 314 clauses</strong>.</p></div>
+        </div>
+
+        <div class="stepcard">
+          <div class="stepcard-head"><span class="pill">Step 3.5</span><h3>Flat Clause Export</h3><span class="file">export_clauses.py</span></div>
+          <div class="io">
+            <div class="io-block"><h4>Input</h4><ul><li><b>semantics/</b>&lt;stem&gt;_semantics.json</li></ul></div>
+            <div class="io-block"><h4>Output</h4><ul><li><b>clauses/</b>&lt;stem&gt;_clauses.json</li><li>&nbsp;&nbsp;flat records: id, no, title, text, page, semantic{}</li></ul></div>
+          </div>
+          <div class="summary"><p><span class="det yes">Deterministic</span> &nbsp; Flattens the tree; every numbered provision becomes a record, structural wrappers are dropped. Domain labels &rarr; compact tokens (e.g. <code>AML_KYC</code>). pypdf false-positive numbers (bare years like <code>1934</code>) are filtered. Flags "genuine misses" &mdash; clauses with text but no semantics &mdash; as a sign of an LLM outage in Step&nbsp;3.</p></div>
+        </div>
+
+        <div class="stepcard" style="border-color: var(--accent-2); border-width: 1.5px;">
+          <div class="stepcard-head"><span class="pill">Step 4</span><h3>Ontology Object Creation</h3><span class="file">build_ontology.py</span></div>
+          <div class="io">
+            <div class="io-block"><h4>Input</h4><ul><li><b>clauses/</b>&lt;stem&gt;_clauses.json</li></ul></div>
+            <div class="io-block"><h4>Output</h4><ul><li><b>ontology/</b>&lt;stem&gt;_ontology.json</li><li>&nbsp;&nbsp;one ontology object per clause + coverage</li><li><b>logs/</b>&lt;stem&gt;_ontology_log.json</li></ul></div>
+          </div>
+          <div class="summary"><p>Maps each clause's <strong>free-text concept</strong> onto a controlled canonical concept (stable <code>CPT_&lt;SLUG&gt;</code> ID). <strong>The one rule that makes this trustworthy: the matcher never invents a canonical ID</strong> &mdash; it only assigns IDs already in the human-owned catalog. Anything it can't match is <code>unmapped</code> and <code>review_required: true</code>. Detail follows in &sect;03&ndash;&sect;05.</p></div>
+        </div>
+
+        <div class="stepcard">
+          <div class="stepcard-head"><span class="pill">Step 5A / 5B</span><h3>Knowledge Graph &amp; Retrieval Index</h3><span class="file">build_graph.py &middot; build_index.py</span></div>
+          <div class="io">
+            <div class="io-block"><h4>5A &rarr; graph/</h4><ul><li>Node-link graph: Document / Regulator / Domain / Concept / ObligationType / Clause</li><li>Global node IDs &rarr; per-doc graphs union into a corpus graph; every edge carries provenance</li></ul></div>
+            <div class="io-block"><h4>5B &rarr; index/</h4><ul><li>TF-IDF index, no new deps, pluggable Backend for real embeddings later</li><li>Stores raw <code>tf</code> for a shared-corpus idf; <code>--query</code> runs live top-k</li></ul></div>
+          </div>
+        </div>
+
+        <div class="stepcard">
+          <div class="stepcard-head"><span class="pill">Step 6</span><h3>Grounded Q&amp;A</h3><span class="file">answer_query.py</span></div>
+          <div class="io">
+            <div class="io-block"><h4>Input</h4><ul><li>A natural-language query + 5A graph + 5B index</li></ul></div>
+            <div class="io-block"><h4>Output</h4><ul><li><b>answers/</b>answer_&lt;ts&gt;.json</li><li>&nbsp;&nbsp;answer + evidence + reasoning_path + confidence</li></ul></div>
+          </div>
+          <div class="summary"><p>Retrieves top-k across the corpus using a <strong>shared corpus idf</strong> (critical fix: per-doc idf made cross-document ranking invalid), walks the graph for concept/hierarchy/obligation and cross-doc "impact candidates" (same concept, other regulators), then optional LLM synthesis with a <strong>citation-grounding post-check</strong>. <code>--no-llm</code> degrades to structured evidence.</p></div>
+        </div>
+      </section>
+
+      <!-- 03 -->
+      <section id="matcher">
+        <div class="sec-head"><span class="snum">03</span><h2>Step 4 &mdash; how the matcher works</h2></div>
+        <p>For each clause concept, in strict precedence order &mdash; <strong>first match wins</strong>:</p>
+        <div class="ladder">
+          <div class="rung"><span class="rn">1</span><span class="rtype">exact_label</span><span class="rdesc">normalized concept == a canonical label</span><span class="rconf">1.00</span></div>
+          <div class="rung"><span class="rn">2</span><span class="rtype">synonym</span><span class="rdesc">normalized concept == a listed synonym</span><span class="rconf">0.95</span></div>
+          <div class="rung"><span class="rn">3</span><span class="rtype">normalized</span><span class="rdesc">matches after casefold / whitespace / trailing-punct strip</span><span class="rconf">0.85</span></div>
+          <div class="rung fuzzy"><span class="rn">4</span><span class="rtype">fuzzy</span><span class="rdesc">idf-weighted token cosine over catalog surface forms + light stemming</span><span class="rconf">&le;0.85</span></div>
+          <div class="rung unmapped"><span class="rn">5</span><span class="rtype">unmapped</span><span class="rdesc">no match &rarr; canonical_id null, review_required true</span><span class="rconf">0.00</span></div>
+        </div>
+        <p>The <strong>fuzzy</strong> tier is tried only after the exact tiers miss. Generic tokens (<code>credit</code>, <code>risk</code>, <code>management</code>) are down-weighted; distinctive tokens (<code>collateral</code>, <code>staging</code>, <code>sicr</code>) carry the signal. A fuzzy match always scores below <code>auto_accept</code> (0.90), so it is <strong>always routed to human review &mdash; never silently trusted</strong>.</p>
+        <div class="callout">
+          <p class="co-label">Current review state</p>
+          <p>Everything is <code>review_required: true</code> regardless of confidence, because <code>matched_concept_is_draft: true</code> and every catalog concept is <code>status: draft</code>. That is intentional &mdash; see &sect;08. Config lives in <code>Nexus/config/step4_ontology/matching_rules.yaml</code>.</p>
+        </div>
+      </section>
+
+      <!-- 04 -->
+      <section id="limits">
+        <div class="sec-head"><span class="snum">04</span><h2>Step 4 limitations &mdash; what we observed</h2></div>
+
+        <h3>The 100% &rarr; 17.3% collapse</h3>
+        <div class="callout crit">
+          <p class="co-label">Core finding</p>
+          <p>The same PDF that mapped <strong>100%</strong> earlier mapped only <strong>17.3%</strong> on a fresh run.</p>
+          <p><strong>Cause:</strong> the harvested synonyms were the exact free-text strings from the <em>first</em> Step-3 run. A <em>second</em> LLM run phrases concepts differently &mdash; it produced <code>"Credit Risk Framework Approval"</code> and <code>"SICR Credit Performance Indicators"</code> where the catalog had <code>"Credit Risk Framework"</code> and <code>"SICR Indicators"</code>. Exact/synonym string-matching misses the variants.</p>
+          <p><strong>What it means:</strong> the earlier "100% coverage" was real but <strong>overfit to one run</strong>. Exact-synonym harvesting does not generalize across re-runs, because Step&nbsp;3's output is non-deterministic. Hand-harvesting exact strings can never be the whole answer.</p>
+        </div>
+
+        <h3>The mitigation &mdash; the fuzzy tier</h3>
+        <div class="callout good">
+          <p class="co-label">What it recovered</p>
+          <p>A deterministic fuzzy fallback (idf-weighted token cosine + light stemming) absorbs phrasing variants without an LLM at run time. Fresh-run coverage <strong>17% &rarr; 73%</strong>, with the curated CBUAE run holding at 100% (no regression). RBI docs improved 26% &rarr; 56% and 0% &rarr; 57%. Fuzzy precision is ~75&ndash;80%; because fuzzy matches are always review-flagged, wrong ones are <strong>review rejections, not silent data errors</strong>.</p>
+        </div>
+
+        <h3>The honest conclusion</h3>
+        <p>The fuzzy tier <strong>helps</strong>, but the durable path for Step&nbsp;4 is the <strong><code>--suggest</code> (semantic) + human-approval loop</strong>, not hand-harvested exact strings. Exact synonyms are a fast cache for phrasings a human has already approved; they cannot be the whole answer because the upstream (Step&nbsp;3) is not deterministic.</p>
+
+        <h3>Coverage snapshot &mdash; on-disk logs, 2026-07-13</h3>
+        <div class="tablewrap">
+          <table class="cov">
+            <thead><tr><th>Document</th><th>Jurisdiction</th><th class="num">Clauses</th><th class="num">Mapped</th><th style="width:190px;">Coverage</th></tr></thead>
+            <tbody>
+              <tr><td class="doc">CBUAE_EN_5996_VER1 <span style="color:var(--faint)">(curated)</span></td><td><span class="jur">AE_CBUAE</span></td><td class="num">177</td><td class="num">177</td><td><div class="bar"><div class="track"></div><div class="fill full" style="width:100%"></div><span class="lab">100%</span></div></td></tr>
+              <tr><td class="doc">155MD</td><td><span class="jur">IN_RBI</span></td><td class="num">93</td><td class="num">52</td><td><div class="bar"><div class="track"></div><div class="fill" style="width:55.9%"></div><span class="lab">55.9%</span></div></td></tr>
+              <tr><td class="doc">407MD&hellip;</td><td><span class="jur">IN_RBI</span></td><td class="num">28</td><td class="num">16</td><td><div class="bar"><div class="track"></div><div class="fill" style="width:57.1%"></div><span class="lab">57.1%</span></div></td></tr>
+              <tr><td class="doc">NOTI175&hellip;</td><td><span class="jur">IN_RBI</span></td><td class="num">1</td><td class="num">0</td><td><div class="bar"><div class="track"></div><div class="fill zero" style="width:0"></div><span class="lab">0.0%</span></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:14.5px;color:var(--muted);">CBUAE's catalog is mature (39 concepts &mdash; credit-risk + IFRS-9/ECL family); RBI still needs its own concepts fleshed out in the <code>IN_RBI</code> pack.</p>
+      </section>
+
+      <!-- 05 -->
+      <section id="whynot">
+        <div class="sec-head"><span class="snum">05</span><h2>Why isn't the LLM the sole / default mapper?</h2></div>
+        <p>The LLM <em>is</em> very much in the loop &mdash; in <code>--suggest</code> (proposing catalog IDs) and upstream in Step&nbsp;3. The question is why it isn't the <em>final</em> mapper. Four reasons, all rooted in this being a <strong>regulatory / compliance</strong> system:</p>
+        <div class="reasons">
+          <div class="reason"><div class="rhead"><span class="ri">1</span><h4>Auditability</h4></div><p>An auditor asks "why is this clause mapped to Credit Risk?" The matcher answers: "exact/synonym match to a human-approved catalog entry." An LLM answers: "the model decided." Only the first is defensible in a compliance review.</p></div>
+          <div class="reason"><div class="rhead"><span class="ri">2</span><h4>Reproducibility</h4></div><p>We saw it live: the same PDF through the LLM twice gave different concepts, crashing coverage 100% &rarr; 17%. If the LLM were the final mapper, the obligation register would silently change on every re-run &mdash; unacceptable for a compliance record.</p></div>
+          <div class="reason"><div class="rhead"><span class="ri">3</span><h4>No invented IDs</h4></div><p>The matcher can only assign IDs that exist in the approved catalog &mdash; it <em>physically cannot hallucinate</em> a concept. The <code>--suggest</code> LLM is likewise constrained to real catalog IDs; anything else it returns is discarded.</p></div>
+          <div class="reason"><div class="rhead"><span class="ri">4</span><h4>Cost &amp; latency</h4></div><p>The matcher is instant and free. An LLM call per clause per run is neither &mdash; Step&nbsp;3 alone already takes ~2&nbsp;min.</p></div>
+        </div>
+        <div class="rolesplit">The role split: the LLM <b>proposes</b> &middot; a human <b>approves</b> &middot; the deterministic matcher <b>decides</b> at run time, using only approved material.</div>
+      </section>
+
+      <!-- 06 -->
+      <section id="arch">
+        <div class="sec-head"><span class="snum">06</span><h2>Folder architecture</h2></div>
+<pre><span class="f">gdelt-news-monitor/</span>
+├── extract_document.py        <span class="c"># Step 1</span>
+├── structure_document.py      <span class="c"># Step 2</span>
+├── interpret_document.py      <span class="c"># Step 3</span>
+├── export_clauses.py          <span class="c"># Step 3.5</span>
+├── build_ontology.py          <span class="c"># Step 4   &larr; focus</span>
+├── build_graph.py             <span class="c"># Step 5A</span>
+├── build_index.py             <span class="c"># Step 5B</span>
+├── answer_query.py            <span class="c"># Step 6</span>
+├── nexus_llm.py               <span class="c"># shared LLM client (NVIDIA primary)</span>
+├── nexus_ontology.py          <span class="c"># shared layered-ontology loader</span>
+└── <span class="h">Nexus/</span>
+    ├── input/  markdown/  metadata/     <span class="c"># Steps 1</span>
+    ├── structure/  semantics/  clauses/ <span class="c"># Steps 2, 3, 3.5</span>
+    ├── ontology/              <span class="c"># Step 4 output</span>
+    ├── graph/  index/  answers/         <span class="c"># Steps 5&ndash;6</span>
+    ├── logs/  docs/
+    └── <span class="h">config/</span>
+        ├── ontology/
+        │   ├── global/                  <span class="c"># jurisdiction-neutral core</span>
+        │   │   ├── taxonomies.yaml       <span class="c"># obligation/action/modality + escape hatch</span>
+        │   │   ├── domains.yaml
+        │   │   └── <span class="h">concepts.yaml</span>          <span class="c"># global canonical catalog</span>
+        │   └── jurisdictions/
+        │       ├── registry.yaml         <span class="c"># RBI&rarr;IN_RBI, CBUAE&rarr;AE_CBUAE</span>
+        │       ├── <span class="h">AE_CBUAE/concepts.yaml</span>
+        │       └── IN_RBI/concepts.yaml
+        ├── step3_semantics/   <span class="c"># thresholds + schemas + STANDARD.md</span>
+        └── step4_ontology/    <span class="c"># matching_rules.yaml + schema + STANDARD.md</span></pre>
+        <p><strong>Layered ontology principle:</strong> one codebase, many regulators. A jurisdiction-neutral <em>global</em> layer plus a per-regulator extension, merged at runtime by <code>nexus_ontology</code> (an extension entry with the same key overrides the global one). Jurisdiction auto-detects from the document's Step-1 <code>regulator</code> metadata via <code>registry.yaml</code>, or is forced with <code>--jurisdiction</code>.</p>
+      </section>
+
+      <!-- 07 -->
+      <section id="saved">
+        <div class="sec-head"><span class="snum">07</span><h2>Where the ontology is saved</h2></div>
+        <p>The durable, cross-document asset is the canonical concept catalog:</p>
+        <div class="saves">
+          <div class="save"><span class="stag">Global</span><span class="spath">Nexus/config/ontology/global/concepts.yaml</span></div>
+          <div class="save"><span class="stag">CBUAE ext.</span><span class="spath">Nexus/config/ontology/jurisdictions/AE_CBUAE/concepts.yaml</span></div>
+          <div class="save"><span class="stag">RBI ext.</span><span class="spath">Nexus/config/ontology/jurisdictions/IN_RBI/concepts.yaml &nbsp;(thin)</span></div>
+        </div>
+        <p>Each entry: <code>canonical_id</code> (<code>CPT_&lt;SLUG&gt;</code>, stable forever), <code>label</code>, <code>definition</code>, <code>domain</code>, <code>parent</code> (hierarchy), <code>synonyms</code>, <code>status</code> (<code>approved</code>&nbsp;|&nbsp;<code>draft</code>). <strong>Everything is currently <code>status: draft</code></strong> &mdash; DRAFT until a compliance expert signs off. The per-document <code>Nexus/ontology/&lt;stem&gt;_ontology.json</code> files are just the <em>link</em> from a document's clauses into that catalog; the catalog is the thing that must be curated and version-controlled.</p>
+      </section>
+
+      <!-- 08 -->
+      <section id="blockers">
+        <div class="sec-head"><span class="snum">08</span><h2>Blockers &amp; potential issues</h2></div>
+        <div class="blockers">
+          <div class="blk b-crit"><span class="stripe-lab">Blocker</span><div class="btext"><b>Human sign-off is the real completion gate &mdash; not code.</b><p>Every concept is <code>status: draft</code>, and <code>matched_concept_is_draft: true</code> forces 100% of mappings into review. No mapping is authoritative until a compliance expert promotes concepts draft &rarr; approved. Nothing downstream is a compliance record until it clears.</p></div></div>
+          <div class="blk b-crit"><span class="stripe-lab">Blocker</span><div class="btext"><b>RBI catalog is immature.</b><p>RBI docs sit at ~56&ndash;57% coverage (one at 0%). They need their own concepts + a fleshed-out <code>IN_RBI</code> pack, harvested via the <code>--suggest</code> + approval loop.</p></div></div>
+          <div class="blk b-warn"><span class="stripe-lab">Risk</span><div class="btext"><b>Upstream non-determinism poisons any exact-string cache.</b><p>Because Step&nbsp;3 is non-deterministic, any Step-4 layer built on exact free-text strings silently decays on re-runs (the 100%&rarr;17% event). Treat single-run coverage as point-in-time, not stable.</p></div></div>
+          <div class="blk b-warn"><span class="stripe-lab">Risk</span><div class="btext"><b>Fuzzy precision ~75&ndash;80%.</b><p>~1 in 4&ndash;5 fuzzy matches is wrong. Contained (always review-flagged, so wrong ones are rejected) &mdash; but fuzzy coverage is not the same as trustworthy coverage. Don't report fuzzy-inflated coverage as if auto-accepted.</p></div></div>
+          <div class="blk b-warn"><span class="stripe-lab">Risk</span><div class="btext"><b>LLM provider fragility.</b><p>Routes through <code>nexus_llm.call_chat</code> with NVIDIA primary because Azure/grok returned empty HTTP 200s in streaks. If Step&nbsp;3 or <code>--suggest</code> output is null, run <code>python test_llm.py</code> first to confirm provider health before assuming a code fault.</p></div></div>
+          <div class="blk b-warn"><span class="stripe-lab">Risk</span><div class="btext"><b>No OCR / no table structure.</b><p>pypdf means scanned PDFs yield little text (a warning is logged) and table boundaries are heuristic. Clause text can overshoot a table's extent, polluting the Step-3 concept and thus its Step-4 mapping.</p></div></div>
+          <div class="blk"><span class="stripe-lab" style="color:var(--muted);background:var(--surface-2);">Note</span><div class="btext"><b>Coverage denominator excludes header-only clauses.</b><p>Step&nbsp;4 skips clauses with no concept, so <code>coverage_pct</code> reflects only classified provisions. Good for signal, but cross-document comparisons must account for it.</p></div></div>
+        </div>
+      </section>
+
+      <!-- 09 -->
+      <section id="rec">
+        <div class="sec-head"><span class="snum">09</span><h2>Recommendation</h2></div>
+        <ol class="recs">
+          <li>Adopt the <strong><code>--suggest</code> + human-approval loop</strong> as the official mechanism for growing coverage; treat hand-harvested exact synonyms as a convenience cache only, never as the strategy.</li>
+          <li>Keep the fuzzy tier (it recovers most re-run drift) but <strong>never</strong> raise its <code>max_confidence</code> above <code>auto_accept</code> &mdash; fuzzy must stay review-gated.</li>
+          <li>Prioritize a <strong>compliance-expert review pass</strong> to promote the global + CBUAE catalogs from <code>draft</code> &rarr; <code>approved</code>. Until then, no output is a compliance record.</li>
+          <li>Build out the <code>IN_RBI</code> pack next, using the same loop.</li>
+        </ol>
+      </section>
+
+      <footer class="foot">
+        <span>Nexus Pipeline &middot; Internal Review</span>
+        <span>Steps 1&ndash;6 &middot; 2026-07-13 &middot; Draft</span>
+      </footer>
+
+    </main>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+{
+  "document": "sample",
+  "document_id": "RBI/2026-27/29",
+  "jurisdiction": null,
+  "generated_at": "2026-07-12T21:12:50.981526+00:00",
+  "stats": {
+    "nodes": 2,
+    "edges": 1,
+    "nodes_by_type": {
+      "Document": 1,
+      "Regulator": 1
+    },
+    "edges_by_type": {
+      "ISSUED_BY": 1
+    }
+  }
+}

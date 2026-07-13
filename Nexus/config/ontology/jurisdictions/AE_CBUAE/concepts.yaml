@@ -1,0 +1,20 @@
+# Nexus - UAE / CBUAE (AE_CBUAE) concept extension
+# Merged on top of global/concepts.yaml by canonical_id.
+
+version: 0.2.0
+status: draft
+
+concepts:
+  - canonical_id: CPT_SHARIAH_COMPLIANCE
+    label: Shariah Compliance
+    definition: Compliance with Islamic Shariah governance requirements.
+    domain: Islamic Banking / Shariah Compliance
+    parent: null
+    status: draft
+    synonyms:
+      - Shariah Compliance
+      - Sharia Governance
+      - Islamic Banking Compliance
+      - "Shari'ah-Compliant Restructuring"
+      - Shari�ah Compliance
+      - Shari’ah Compliance

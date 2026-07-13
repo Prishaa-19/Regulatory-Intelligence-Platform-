@@ -1,0 +1,66 @@
+# Nexus — GLOBAL regulatory primitives (jurisdiction-neutral)
+#
+# obligation_type, action and mandatory_flag mean the same thing under every
+# regulator, so they live only in the global layer and are never overridden by
+# a jurisdiction. Domains and concepts, which DO vary by jurisdiction, live in
+# domains.yaml / concepts.yaml and their per-jurisdiction extensions.
+
+version: 0.1.0
+
+escape_hatch:
+  domain: Other
+  action: OTHER
+  obligation_type: Other
+  mandatory_flag: Not Applicable
+
+obligation_type:
+  - label: Record Retention
+    description: Keep or preserve records for a stated period.
+  - label: Reporting
+    description: Submit periodic or event-based reports to the regulator.
+  - label: Disclosure
+    description: Make information available to customers or the public.
+  - label: Prohibition
+    description: A forbidden act.
+  - label: Permission / Authorization
+    description: An act allowed only with approval/authorization.
+  - label: Notification
+    description: Inform a party of an event or change.
+  - label: Registration
+    description: Register or enrol with an authority.
+  - label: Compliance Monitoring
+    description: Establish, review or monitor a control or policy.
+  - label: Customer Protection / Redressal
+    description: Customer-facing safeguards and grievance handling.
+  - label: Penalty / Enforcement
+    description: Consequences, penalties or enforcement actions.
+  - label: Other
+    description: No listed obligation type clearly fits.
+
+action:
+  - RETAIN
+  - REPORT
+  - DISCLOSE
+  - MAINTAIN
+  - VERIFY
+  - SUBMIT
+  - NOTIFY
+  - PROHIBIT
+  - PERMIT
+  - RESTRICT
+  - MONITOR
+  - REGISTER
+  - REVIEW
+  - ESTABLISH
+  - IMPLEMENT
+  - OTHER
+
+mandatory_flag:
+  - label: Mandatory
+    description: Binding requirement ("shall", "must").
+  - label: Discretionary
+    description: Permissive ("may", "at its discretion").
+  - label: Conditional
+    description: Applies only if a stated condition holds.
+  - label: Not Applicable
+    description: Definitional/explanatory; imposes no obligation.

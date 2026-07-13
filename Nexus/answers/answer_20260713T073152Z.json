@@ -1,0 +1,129 @@
+{
+  "query": "What must LFI do when credit risk increases?",
+  "generated_at": "2026-07-13T07:31:52.023344+00:00",
+  "corpus": {
+    "documents_indexed": 6
+  },
+  "answer": "When credit risk increases, LFI must:\n\n1. Implement adequate methodologies, models and analytical tools to measure the credit risk associated with the LFI’s credit exposures [5 <CBUAE_EN_5996_VER1> 11.8].\n2. Assess and document regularly whether the Credit Risk of a financial instrument has increased significantly [4 <CBUAE_EN_5996_VER1> 7.1].\n\nUncertainty: None.",
+  "evidence": [
+    {
+      "score": 0.6031,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_2_2",
+      "clause_no": "2.2",
+      "title": "The Board must oversee and ensure that Senior Management is fully capable of managing",
+      "page": 3,
+      "concept": "Risk Appetite Oversight",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.5992,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_11_10",
+      "clause_no": "11.10",
+      "title": "Risk mitigation: Upon the review of the performance of individual credit instruments and",
+      "page": 41,
+      "concept": "Risk Mitigation Actions",
+      "canonical_id": "CPT_CREDIT_RISK_MONITORING",
+      "canonical_label": "Credit Risk Monitoring",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.5908,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_3_9",
+      "clause_no": "3.9",
+      "title": "Risk Limits: LFIs must implement prudent and appropriate credit limits based on adequate",
+      "page": 8,
+      "concept": "Risk Limits",
+      "canonical_id": "CPT_CREDIT_RISK_APPETITE",
+      "canonical_label": "Credit Risk Appetite and Limits",
+      "mapping_confidence": 0.85,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.5859,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_7_1",
+      "clause_no": "7.1",
+      "title": "The LFI must assess and document regularly whether the Credit Risk of a financial",
+      "page": 22,
+      "concept": "Significant Increase in Credit Risk",
+      "canonical_id": "CPT_SICR",
+      "canonical_label": "Significant Increase in Credit Risk (SICR)",
+      "mapping_confidence": 0.85,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.5824,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_11_8",
+      "clause_no": "11.8",
+      "title": "Analytics: LFI must implement adequate methodologies, models and analytical tools to",
+      "page": 41,
+      "concept": "Credit Risk Measurement",
+      "canonical_id": "CPT_CREDIT_RISK_MODEL",
+      "canonical_label": "Credit Risk Measurement and Models",
+      "mapping_confidence": 0.725,
+      "review_required": true,
+      "concept_parent": "Credit Risk",
+      "obligation_type": "Compliance Monitoring"
+    },
+    {
+      "score": 0.581,
+      "document_id": "CBUAE_EN_5996_VER1",
+      "clause_id": "clause_2_1",
+      "clause_no": "2.1",
+      "title": "The Board must regularly review, and approve, the Credit Risk management strategy,",
+      "page": 3,
+      "concept": "Credit Risk Management Framework",
+      "canonical_id": "CPT_CREDIT_RISK",
+      "canonical_label": "Credit Risk",
+      "mapping_confidence": 0.95,
+      "review_required": true,
+      "concept_parent": null,
+      "obligation_type": "Other"
+    }
+  ],
+  "impact_candidates": [
+    {
+      "concept": "Credit Risk",
+      "canonical_id": "CPT_CREDIT_RISK",
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_no": "6.2",
+      "page": 15
+    },
+    {
+      "concept": "Credit Risk",
+      "canonical_id": "CPT_CREDIT_RISK",
+      "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+      "clause_no": "6.3",
+      "page": 16
+    }
+  ],
+  "reasoning_path": [
+    "Retrieved 6 clause(s) by semantic similarity across the indexed corpus.",
+    "Evidence maps to 5 canonical concept(s): Credit Risk, Credit Risk Appetite and Limits, Credit Risk Measurement and Models, Credit Risk Monitoring, Significant Increase in Credit Risk (SICR).",
+    "Those concepts sit under parent concept(s): Credit Risk.",
+    "Found 2 related clause(s) in other documents sharing these concepts (cross-reference candidates).",
+    "5 of 6 evidence clause(s) rely on a concept mapping still pending compliance review."
+  ],
+  "confidence": {
+    "retrieval_band": "High",
+    "top_score": 0.6031,
+    "mean_score": 0.5904,
+    "retrieval_mode": "embedding",
+    "evidence_pending_review": 5,
+    "notes": [
+      "5 evidence clause(s) use draft concept mappings not yet compliance-approved."
+    ]
+  },
+  "ungrounded_citations": []
+}

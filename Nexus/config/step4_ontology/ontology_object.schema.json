@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "nexus/step4/ontology_object.schema.json",
+  "title": "Nexus Step 4 — ontology artifact",
+  "description": "Shape of Nexus/ontology/<stem>_ontology.json: one ontology object per clause plus a coverage summary. Every canonical_id must come from concepts.yaml; unmapped clauses carry canonical_id null and review_required true.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["document_id", "concept_catalog_version", "generated_at", "coverage", "objects"],
+  "properties": {
+    "document_id": { "type": ["string", "null"] },
+    "concept_catalog_version": { "type": "string" },
+    "generated_at": { "type": "string" },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "mapped", "unmapped", "coverage_pct", "review_required", "suggested"],
+      "properties": {
+        "total": { "type": "integer", "minimum": 0 },
+        "mapped": { "type": "integer", "minimum": 0 },
+        "unmapped": { "type": "integer", "minimum": 0 },
+        "coverage_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "review_required": { "type": "integer", "minimum": 0 },
+        "suggested": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clause_id", "clause_no", "source_concept", "canonical_id",
+          "canonical_label", "domain", "action", "obligation_type",
+          "mandatory_flag", "match_type", "match_confidence", "review_required",
+          "suggested_canonical_id", "suggested_label", "suggestion_confidence"
+        ],
+        "properties": {
+          "clause_id": { "type": "string" },
+          "clause_no": { "type": ["string", "null"] },
+          "source_concept": { "type": ["string", "null"] },
+          "canonical_id": {
+            "type": ["string", "null"],
+            "pattern": "^CPT_[A-Z0-9_]+$"
+          },
+          "canonical_label": { "type": ["string", "null"] },
+          "domain": { "type": ["string", "null"] },
+          "action": { "type": ["string", "null"] },
+          "obligation_type": { "type": ["string", "null"] },
+          "mandatory_flag": { "type": ["string", "null"] },
+          "match_type": {
+            "type": "string",
+            "enum": ["exact_label", "synonym", "normalized", "fuzzy", "unmapped"]
+          },
+          "match_confidence": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+          "review_required": { "type": "boolean" },
+          "suggested_canonical_id": {
+            "type": ["string", "null"],
+            "pattern": "^CPT_[A-Z0-9_]+$",
+            "description": "LLM-proposed canonical_id for an unmapped concept. NEVER an approved mapping; canonical_id stays null and review_required stays true."
+          },
+          "suggested_label": { "type": ["string", "null"] },
+          "suggestion_confidence": { "type": ["number", "null"], "minimum": 0.0, "maximum": 1.0 }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "match_type": { "const": "unmapped" } } },
+            "then": {
+              "properties": {
+                "canonical_id": { "type": "null" },
+                "review_required": { "const": true }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

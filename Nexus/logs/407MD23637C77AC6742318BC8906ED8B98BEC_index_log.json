@@ -1,0 +1,8 @@
+{
+  "document": "407MD23637C77AC6742318BC8906ED8B98BEC",
+  "document_id": "407MD23637C77AC6742318BC8906ED8B98BEC",
+  "backend": "tfidf",
+  "generated_at": "2026-07-12T21:18:58.975360+00:00",
+  "clause_count": 33,
+  "vocabulary_size": 827
+}

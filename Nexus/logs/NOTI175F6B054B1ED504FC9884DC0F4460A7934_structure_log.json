@@ -1,0 +1,29 @@
+{
+  "document": "NOTI175F6B054B1ED504FC9884DC0F4460A7934",
+  "started_at": "2026-07-09T11:33:03.741750+00:00",
+  "steps": [
+    {
+      "step": "parse_markdown",
+      "status": "ok",
+      "heading_count": 5
+    },
+    {
+      "step": "llm_structure_classification",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "step": "build_tree",
+      "status": "ok",
+      "top_level_nodes": 2
+    },
+    {
+      "step": "structure_write",
+      "status": "ok",
+      "path": "Nexus\\structure\\NOTI175F6B054B1ED504FC9884DC0F4460A7934_structure.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-09T11:33:05.931630+00:00",
+  "duration_seconds": 2.25
+}

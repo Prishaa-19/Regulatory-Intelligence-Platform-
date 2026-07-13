@@ -1,0 +1,32 @@
+{
+  "document_id": null,
+  "concept_catalog_version": "global=0.1.0;IN_RBI=0.1.0",
+  "generated_at": "2026-07-12T20:55:31.577763+00:00",
+  "coverage": {
+    "total": 1,
+    "mapped": 0,
+    "unmapped": 1,
+    "coverage_pct": 0.0,
+    "review_required": 1,
+    "suggested": 0
+  },
+  "objects": [
+    {
+      "clause_id": "clause_2",
+      "clause_no": "2",
+      "source_concept": "Annulment of Inoperative Circulars",
+      "canonical_id": null,
+      "canonical_label": null,
+      "domain": "Foreign Exchange Management (FEMA)",
+      "action": "PROHIBIT",
+      "obligation_type": "Prohibition",
+      "mandatory_flag": "Mandatory",
+      "match_type": "unmapped",
+      "match_confidence": 0.0,
+      "review_required": true,
+      "suggested_canonical_id": null,
+      "suggested_label": null,
+      "suggestion_confidence": null
+    }
+  ]
+}

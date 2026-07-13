@@ -1,0 +1,33 @@
+{
+  "document": "155MD.pdf",
+  "started_at": "2026-07-10T06:54:35.709178+00:00",
+  "steps": [
+    {
+      "step": "acquire",
+      "status": "ok",
+      "path": "Nexus\\input\\155MD.pdf"
+    },
+    {
+      "step": "pdf_load",
+      "status": "ok",
+      "pages": 35
+    },
+    {
+      "step": "markdown_write",
+      "status": "ok",
+      "path": "Nexus\\markdown\\155MD.md"
+    },
+    {
+      "step": "llm_metadata_extraction",
+      "status": "ok",
+      "providers": "nvidia -> azure"
+    },
+    {
+      "step": "metadata_write",
+      "status": "ok",
+      "path": "Nexus\\metadata\\155MD_metadata.json"
+    }
+  ],
+  "warnings": [],
+  "finished_at": "2026-07-10T06:54:46.634838+00:00"
+}
